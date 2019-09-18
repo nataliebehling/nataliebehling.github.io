@@ -1,0 +1,27 @@
+#pro-one {
+    position: relative;
+}
+
+#green-froggie {
+    position: absolute;
+    left: 12.7%;
+}
+
+#rel-lily-pad {
+    position: relative;
+    top: 380px;
+    left: 11.3%;
+}
+
+#gold-froggie {
+    position: fixed;
+    right: 0%;
+    left: unset;
+    top: 420px;
+    z-index: 99;
+    /* Learned that z-index orders what content comes to the front and what content goes behind --> higher the #, higher order it is relative to other elements on screen */
+}
+
+#red-froggie {
+    position: static;
+}
