@@ -1,0 +1,167 @@
+body {
+    padding: 0;
+    /* growing an object, how tall or wide it is*/
+    margin: 0;
+    background-color: #FDF9EF;
+}
+
+.container {
+    width: 1024px;
+    height: 768px;
+    background-color: #6862F4;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav {
+    display: flex;
+    width: 1024px;
+    height: 100px;
+    background-color: #C8C4F7;
+}
+
+#button1,
+#button2,
+#button3 {
+    margin-left: 40px;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
+.family {
+    float: left;
+    width: 644px;
+    height: 768px;
+    background-color: #E6C7EB;
+}
+
+.compare {
+    margin-top: 100px;
+    display: flex;
+    position: relative;
+}
+
+.compare h1#mrq,
+.compare h1#mrsq{
+    background-color: #AC8AFA;
+    color: #AC8aFa;
+    height: 400px;
+    width: 200px;
+}
+
+#mrq {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+#mrsq {
+    background-color: #F29A9A;
+    color: #F29A9A;
+}
+
+.compare h2#mrheading,
+.compare h2#mrsheading{
+    background-color: #AC8AFA;
+    height: 40px;
+    color: #AC8AFA
+}
+
+.compare h2#mrsheading{
+    background-color: #F29A9A;
+    color: #F29A9A;
+}
+
+.compare p#mrpara,
+.compare p#mrspara{
+    background-color: #AC8AFA;
+    height: 100px;
+    width: 120px;
+}
+
+.compare p#mrspara{
+    background-color: #F29A9A;
+}
+
+
+.alpha#mrone,
+.alpha#mrtwo,
+.alpha#mrsone,
+.alpha#mrstwo{
+
+    text-align: center;
+    background-color: #AC8AFA;
+    height: 40px;
+    margin: auto;
+    color: #AC8AFA;
+    
+}
+
+.alpha#mrsone,
+.alpha#mrstwo {
+
+    background-color: #F29A9A;
+    color: #F29A9A;
+    
+    
+/*    NEED TO CHANGE ALPHABET TO INLINE? */
+        
+
+}
+
+.alpha#mrstwo {
+    text-align: center;
+    background-color: #F29A9A;
+    height: 40px;
+    
+}
+
+.alpha#mrone {
+    margin-top: 35px;;
+
+}
+
+
+.info {
+    float: right;
+    width: 380px;
+    height: 768px;
+    background-color: #C7DAEB;
+}
+
+.hheader {
+    width: 380px;
+    ;
+    height: 100px;
+    background-color: #D5FDC0;
+}
+
+.history {
+    width: 380px;
+    ;
+    height: 300px;
+    background-color: #F4DE82;
+}
+
+
+.me {
+    margin-top: 20px;
+    display: flex;
+    font-size: 10px;
+    background-color: #A5EFE6;
+    
+}
+
+.me .picofme {
+    height: 100px;
+    width: 125px;
+    ;
+    background-color: pink
+}
+
+.sources{
+    background-color: #5F647C;
+    color: #5F647C;
+    height: 160px;
+}

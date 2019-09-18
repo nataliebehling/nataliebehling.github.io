@@ -1,0 +1,311 @@
+body {
+    background-color: #000000;
+    margin: 0;
+}
+
+.container {
+    background-color: #FDF9EF;
+    width: 1024px;
+    height: 768px;
+    margin: auto;
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* Nav div.nav CSS */
+.nav {
+    height: 60px;
+    display: flex;
+    background: #2B2B2B
+}
+
+/* Making the columns*/
+
+.info {
+    float: right;
+    width: 330px;
+    padding: 38px;
+    padding-right: 33px;
+    background: #F4EBD9;
+}
+
+.family {
+    float: left;
+    width: 657px;
+    align-content: center;
+    position: absolute;
+    top: 20px;
+    left: 14px;
+
+}
+
+/* Left Column graphic stuff */
+
+.family {
+    position: relative;
+}
+
+.compare {
+    display: flex;
+    position: relative;
+}
+
+#mrq,
+#mrsq {
+    margin-top: 260px;
+}
+
+.compare h1#mrq {
+    color: #2B2B2B;
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 357px;
+    position: absolute;
+    top: -270px;
+    left: 180px;
+}
+
+.compare h1#mrsq {
+    color: #932C41;
+    font-family: mrs-eaves, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 357px;
+    position: absolute;
+    top: -270px;
+    left: 150px;
+
+}
+
+
+.compare #mrpara {
+    margin:5px;
+    font-size: 12px;
+    font-weight: 100px;
+    width: 112px;
+    text-align: right;
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.compare #mrspara {
+    margin-top:5px;
+    font-size: 11.7px;
+    width: 112px;
+    text-align: left;
+}
+
+.mrs-header-para {
+    position: absolute;
+    top: 100px;
+    left: 460px;
+}
+
+.mr-header-para {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+}
+
+.mrs-header-para h2{
+    margin:5px;
+    margin: 0px;
+    font-family: mrs-eaves, serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:30px;
+}
+
+.mr-header-para h2{
+    margin: 5px;
+    margin-bottom:0px;
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:33px;
+    text-align: right;
+
+}
+
+.family h3.alpha {
+    padding-top: 0px;
+    font-size: 36px;
+    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+}
+
+
+.family h3.alpha#mrone {
+    margin-top: 30px;
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 38px;
+    letter-spacing: 4px;
+    position: absolute;
+    top: 400px;
+    left: 155px;
+}
+
+.family h3.alpha#mrsone {
+    font-family: mrs-eaves, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #932C41;
+    letter-spacing: 1.2px;
+    position: absolute;
+    top: 470px;
+    left: 155px;
+}
+
+.family h3.alpha#mrtwo {
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 38px;
+    letter-spacing: .7px;
+    position: absolute;
+    top: 510px;
+    left: 155px;
+}
+
+.family h3.alpha#mrstwo {
+    font-family: mrs-eaves, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #932C41;
+    position: absolute;
+    top: 553px;
+    left: 155px;
+
+}
+
+/* Right column div.info CSS */
+
+.header {
+    margin-bottom: -30px;
+    margin-top: -20px;
+    font-size: 25px;
+    font-style: italic;
+    color: #932C41;
+
+}
+
+.subhead {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-family: mrs-eaves, serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.history {
+    font-size: 14px;
+    font-family: mrs-eaves, serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.me {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+#pic-of-me {
+    width: 95px;
+    height: 95px;
+    border: 4px solid #932C41;
+}
+
+#me-info {
+    margin-left: 10px;
+    width: 250px;
+}
+
+#me-info h3{
+    color: #932C41;
+    margin: 0;
+}
+
+#me-info p{
+    margin-top:9px;
+    font-family: mrs-eaves, serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 11px;
+}
+
+.sources h4{
+    color: #932C41;
+    margin: 0;
+    font-size: 18.72px;
+}
+
+.sources p{
+    font-family: mrs-eaves, serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 12px;
+}
+
+
+/* Fonts
+
+MR EAVES
+
+font-family: mr-eaves-sans, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: mr-eaves-sans, sans-serif;
+font-weight: 400;
+font-style: italic;
+
+font-family: mr-eaves-sans, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+font-family: mr-eaves-sans, sans-serif;
+font-weight: 700;
+font-style: italic;
+
+MRS EAVES
+
+font-family: mrs-eaves, serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: mrs-eaves, serif;
+font-weight: 700;
+font-style: italic;
+
+font-family: mrs-eaves, serif;
+font-weight: 700;
+font-style: normal;
+
+font-family: mrs-eaves, serif;
+font-weight: 400;
+font-style: italic;
+*/
+
+/* Hexadecimal swatches 
+
+Navigation: #2B2B2B;
+Left column w Qs: #FDF9EF;
+Right column w info: #F4EBD9;
+Red accent: #932C41;
+Website's black: #2B2B2B;
+
+
+
+
+
+*/

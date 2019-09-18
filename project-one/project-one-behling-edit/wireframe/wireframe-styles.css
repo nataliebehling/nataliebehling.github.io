@@ -1,0 +1,185 @@
+body {
+    padding: 0;
+    /* growing an object, how tall or wide it is*/
+    margin: 0;
+    background-color: #FDF9EF;
+}
+
+.container {
+    width: 1024px;
+    height: 768px;
+    background-color: #6862F4;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav {
+    display: flex;
+    width: 1024px;
+    height: 100px;
+    background-color: #C8C4F7;
+}
+
+#button1,
+#button2,
+#button3 {
+    margin-left: 40px;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
+.family {
+    float: left;
+    width: 644px;
+    background-color: #E6C7EB;
+}
+
+.compare {
+    margin-top: 75px;
+    display: flex;
+    position: relative;
+}
+
+.compare h1#mrq,
+.compare h1#mrsq{
+    background-color: #AC8AFA;
+    color: #AC8aFa;
+    height: 350px;
+    width: 200px;
+}
+.compare h1#mrq{
+    position: relative;
+    top:0;
+    left: 50px;
+    
+}
+
+.compare h1#mrsq {
+    background-color: #F29A9A;
+    color: #F29A9A;
+    position: relative;
+    top:0;
+    left: -70px;
+}
+
+.compare h2#mrheading,
+.compare h2#mrsheading{
+    background-color: #AC8AFA;
+    height: 40px;
+    color: #AC8AFA
+}
+
+.compare h2#mrsheading{
+    background-color: #F29A9A;
+    color: #F29A9A;
+}
+
+.compare p#mrpara,
+.compare p#mrspara{
+    background-color: #AC8AFA;
+    height: 100px;
+    width: 123px;
+}
+
+.compare p#mrspara{
+    background-color: #F29A9A;
+}
+
+.compare .mrq-heading-para{
+    position: relative;
+    top:0;
+    left: 30px;
+}
+
+.compare .mrsq-heading-para{
+    position: relative;
+    top:0;
+    left: -30px;
+}
+
+.alpha#mrone,
+.alpha#mrtwo,
+.alpha#mrsone,
+.alpha#mrstwo{
+
+    text-align: center;
+    height: 40px;
+    margin: -11px;
+    color: #AC8AFA;
+    
+}
+
+.alpha#mrsone,
+.alpha#mrstwo {
+
+    color: #F29A9A;
+    
+    
+/*    NEED TO CHANGE ALPHABET TO INLINE? */
+        
+
+}
+
+.alpha#mrstwo {
+    text-align: center;
+    height: 40px;
+    margin-bottom: 54px
+}
+
+.alpha#mrone {
+    margin-top: 20px;;
+
+}
+
+.inline-mrq{
+    background-color: #AC8AFA;
+    font-size: 25px;
+}
+
+.inline-mrsq{
+    background-color: #F29A9A;
+    font-size: 25px;
+}
+
+
+.info {
+    float: right;
+    width: 380px;
+    background-color: #C7DAEB;
+}
+
+.hheader {
+    width: 380px;
+    ;
+    height: 100px;
+    background-color: #D5FDC0;
+}
+
+.history {
+    width: 380px;
+    height: 232px;
+    background-color: #F4DE82;
+}
+
+
+.me {
+    margin-top: 20px;
+    display: flex;
+    font-size: 10px;
+    background-color: #A5EFE6;
+    
+}
+
+.me .picofme {
+    height: 100px;
+    width: 125px;
+    ;
+    background-color: pink
+}
+
+.sources{
+    background-color: #5F647C;
+    color: #5F647C;
+    height: 160px;
+}
