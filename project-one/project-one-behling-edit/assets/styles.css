@@ -19,6 +19,55 @@ body {
     height: 60px;
     display: flex;
     background: #2B2B2B
+
+}
+
+#mr-button{
+    height: 60px;
+    margin-left: 40px;
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    color:#FFFEFA;
+    background-color: #2b2b2b;
+    border: none;
+}
+
+#mr-button:hover{
+    color:#AC5B6C;
+}
+
+#mrs-button{
+    height:60px;
+    margin-left:30px;
+    font-family: mrs-eaves, serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:30px;
+    color:#FFFEFA;
+    background-color: #2b2b2b;
+    border: none;
+}
+
+#mrs-button:hover{
+    color:#AC5B6C;
+}
+
+#family-button{
+    height:60px;
+    margin-left: 30px;
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    color:#FFFEFA;
+    background-color: #2b2b2b;
+    border: none;
+}
+
+#family-button:hover{
+    color:#AC5B6C;
 }
 
 /* Making the columns*/
@@ -102,7 +151,7 @@ body {
 
 .mrs-header-para {
     position: absolute;
-    top: 100px;
+    top: 106px;
     left: 460px;
 }
 
