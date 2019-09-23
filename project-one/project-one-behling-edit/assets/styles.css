@@ -87,7 +87,7 @@ body {
     width: 657px;
     align-content: center;
     position: absolute;
-    top: 20px;
+    top: 12px;
     left: 14px;
 
 }
@@ -188,6 +188,7 @@ body {
 }
 
 .family h3.alpha {
+    position: absolute;
     padding-top: 0px;
     font-size: 36px;
     text-align: center;
@@ -204,7 +205,7 @@ body {
     font-size: 38px;
     letter-spacing: 4px;
     position: absolute;
-    top: 400px;
+    top: 402px;
     left: 155px;
 }
 
@@ -226,7 +227,7 @@ body {
     font-size: 38px;
     letter-spacing: .7px;
     position: absolute;
-    top: 510px;
+    top: 507px;
     left: 155px;
 }
 
@@ -236,7 +237,7 @@ body {
     font-style: normal;
     color: #932C41;
     position: absolute;
-    top: 553px;
+    top: 549px;
     left: 155px;
 
 }
