@@ -76,7 +76,9 @@ body {
     float: right;
     width: 330px;
     padding: 38px;
+    padding-top: 25px;
     padding-right: 33px;
+    padding-bottom: 28px;
     background: #F4EBD9;
 }
 
@@ -130,7 +132,7 @@ body {
 }
 
 
-.compare #mrpara {
+#mrpara {
     margin:5px;
     font-size: 12px;
     font-weight: 100px;
@@ -144,9 +146,13 @@ body {
 
 .compare #mrspara {
     margin-top:5px;
-    font-size: 11.7px;
+    font-size: 11px;
     width: 112px;
     text-align: left;
+    font-family: mrs-eaves, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
 }
 
 .mrs-header-para {
@@ -255,7 +261,7 @@ body {
 }
 
 .history {
-    font-size: 14px;
+    font-size: 14.2px;
     font-family: mrs-eaves, serif;
     font-weight: 200;
     font-style: normal;
@@ -269,8 +275,9 @@ body {
 }
 
 #pic-of-me {
-    width: 95px;
-    height: 95px;
+    width: 99px;
+    height: 99px;
+    margin-right: 7px;;
     border: 4px solid #932C41;
 }
 
@@ -281,7 +288,7 @@ body {
 
 #me-info h3{
     color: #932C41;
-    margin: 0;
+    margin: 0px;
 }
 
 #me-info p{
@@ -289,7 +296,7 @@ body {
     font-family: mrs-eaves, serif;
     font-weight: 200;
     font-style: normal;
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .sources h4{
