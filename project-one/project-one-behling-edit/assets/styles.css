@@ -76,9 +76,9 @@ body {
     float: right;
     width: 330px;
     padding: 38px;
-    padding-top: 25px;
+    padding-top: 18px;
     padding-right: 33px;
-    padding-bottom: 28px;
+    padding-bottom: 18px;
     background: #F4EBD9;
 }
 
@@ -87,7 +87,7 @@ body {
     width: 657px;
     align-content: center;
     position: absolute;
-    top: 12px;
+    top: 20px;
     left: 14px;
 
 }
@@ -245,24 +245,24 @@ body {
 /* Right column div.info CSS */
 
 .header {
-    margin-bottom: -30px;
     margin-top: -20px;
-    font-size: 25px;
+    margin-bottom: -40px;
+    font-size: 30px;
     font-style: italic;
     color: #932C41;
 
 }
 
 .subhead {
-    margin-top: 0px;
-    margin-bottom: 15px;
+    margin-top: -30px;
+    margin-bottom: 20px;
     font-family: mrs-eaves, serif;
     font-weight: 700;
     font-style: italic;
 }
 
 .history {
-    font-size: 14.2px;
+    font-size: 14.5px;
     font-family: mrs-eaves, serif;
     font-weight: 200;
     font-style: normal;
@@ -270,7 +270,7 @@ body {
 
 .me {
     display: flex;
-    margin-top: 20px;
+    margin-top: 25px;
     margin-bottom: 10px;
 
 }
