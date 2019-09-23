@@ -15,7 +15,7 @@ body {
 
 
 /* Nav div.nav CSS */
-.nav {
+nav {
     height: 60px;
     display: flex;
     background: #2B2B2B
@@ -159,12 +159,14 @@ body {
     position: absolute;
     top: 106px;
     left: 460px;
+    visibility: hidden;
 }
 
 .mr-header-para {
     position: absolute;
     top: 100px;
     left: 20px;
+    visibility: hidden;
 }
 
 .mrs-header-para h2{
@@ -185,6 +187,22 @@ body {
     font-size:33px;
     text-align: right;
 
+}
+
+.mr-content.invisible{
+    visibility: hidden;
+}
+
+.mrs-content.invisible{
+    visibility: hidden;
+}
+
+.mr-content{
+    visibility: visible;
+}
+
+.mrs-content{
+    visibility: visible;
 }
 
 .family h3.alpha {

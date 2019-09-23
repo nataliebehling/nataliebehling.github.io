@@ -5,43 +5,49 @@
     <title>The Eaves Family: A Licko Love Story</title>
     <link rel="stylesheet" href="https://use.typekit.net/stu6myn.css">
     <link rel='stylesheet' href='assets/styles.css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- custom jquery code created to add and remove the class of visible depending on which button the user clicks. -->
+    <script type="text/javascript" src="assets/fadein-out.jquery.js"></script>
 </head>
 
 <body>
     <div class='container'>
-        <div class=nav>
+        <nav>
             <div id='buttons'>
-                <button id='mr-button' class='buttons'>Mr</button><button id=mrs-button class='buttons'>Mrs</button>
-                <button id='family-button' class='buttons'>Family</button>
+                <button id='mr-button'>Mr</button><button id='mrs-button'>Mrs</button>
+                <button id='family-button'>Family</button>
             </div>
             <!-- These buttons will toggle the Q and alphabets below either on or off -->
             <!-- Can talk to you later about it, but want to see if it's possible to make a slidebar for each that changes their opacity-->
-        </div>
+        </nav>
         <div class='all'>
             <div class='family'>
                 <div class='compare'>
-                    <div class='mr-header-para'>
+                    <div class='mr-content invisible'>
+                        
+            <!-- need to add classes mr-content and mrs-content, DONT FORGET A -->
+                        
                         <h2>Mr</h2>
                         <p id='mrpara'>Mr Eaves was a simple, yet sophisticated man. While consistent and controlled in thickness and shape, his iconic handlebar mustache made him stand out in a crowd.</p>
                     </div>
-                    <h1 id='mrq'>Q</h1>
+                    <h1 id='mrq' class='mr-content invisible'>Q</h1>
                     <!--Q in Mrs Eaves typeface-->
-                    <h1 id='mrsq'>Q</h1>
+                    <h1 id='mrsq' class='mrs-content invisible'>Q</h1>
                     <!--Q in Mr Eaves typeface-->
-                    <div class='mrs-header-para'>
+                    <div class='mrs-content invisible'>
                         <h2>Mrs</h2>
                         <p id='mrspara'>Mrs Eaves was a mystifying and magnificent matriarch. Adorned with curious contrasts and star-studded serifs, you could always find Mrs Eaves with a silky scarf around her neck. </p>
                     </div>
                 </div>
                 <!-- end of div.compare -->
 
-                <h3 class='alpha' id='mrone'>ABCDEFGHIJKLM</h3>
+                <h3 class='alpha mr-content invisible' id='mrone'>ABCDEFGHIJKLM</h3>
                 <!-- First half of alphabet in Mrs Eaves -->
-                <h3 class='alpha' id='mrsone'>ABCDEFGHIJKLM</h3>
+                <h3 class='alpha mrs-content invisible' id='mrsone'>ABCDEFGHIJKLM</h3>
                 <!-- First half of alphabet in Mr Eaves -->
-                <h3 class='alpha' id='mrtwo'>NOPQRSTUVWXYZ</h3>
+                <h3 class='alpha mr-content invisible' id='mrtwo'>NOPQRSTUVWXYZ</h3>
                 <!-- Second half of alphabet in Mrs Eaves -->
-                <h3 class='alpha' id='mrstwo'>NOPQRSTUVWXYZ</h3>
+                <h3 class='alpha mrs-content invisible' id='mrstwo'>NOPQRSTUVWXYZ</h3>
                 <!-- Second half of alphabet in Mr Eaves -->
             </div>
             <!--ends div.family -->
