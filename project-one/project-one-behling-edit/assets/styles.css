@@ -102,21 +102,29 @@ nav {
     position: relative;
 }
 
-.mr-content {
-    visibility: visible;
-}
-
+.mr-content,
 .mrs-content {
     visibility: visible;
+    opacity: 1;
+    transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    /* Helps make sure transition works in Mozilla */
+    -webkit-transition: opacity .5s ease-in-out;
+    /* Helps make sure transition works in Chrome, Safari, etc.*/
 }
 
-.mr-content.invisible {
-    visibility: hidden;
-}
-
+.mr-content.invisible,
 .mrs-content.invisible {
-    visibility: hidden;
+/*    visibility: hidden;*/
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    /* Helps make sure transition works in Mozilla */
+    -webkit-transition: opacity .5s ease-in-out;
+    /* Helps make sure transition works in Chrome, Safari, etc.*/
+
 }
+
 
 #mrq,
 #mrsq {
@@ -159,7 +167,7 @@ nav {
 
 }
 
-.compare #mrspara {
+#mrspara {
     margin-top: 5px;
     font-size: 11px;
     width: 103px;
@@ -174,6 +182,7 @@ nav {
     position: absolute;
     top: 106px;
     left: 462px;
+    color: #932C41;
 }
 
 .mr-header-para {
@@ -224,6 +233,12 @@ nav {
     left: 155px;
 }
 
+family h3.alpha.movemr#mrone{
+    top: 430px;
+    transition: top .5s ease-in-out;
+    -webkit-transition: top .5s ease-in-out;
+}
+
 .family h3.alpha#mrsone {
     font-family: mrs-eaves, serif;
     font-weight: 400;
@@ -233,6 +248,12 @@ nav {
     position: absolute;
     top: 470px;
     left: 155px;
+}
+
+.family h3.alpha.movemrs#mrsone {
+    top: 425px;
+    transition: top .5s ease-in-out;
+    -webkit-transition: top .5s ease-in-out;
 }
 
 .family h3.alpha#mrtwo {
@@ -246,6 +267,12 @@ nav {
     left: 155px;
 }
 
+family h3.alpha.movemr#mrtwo{
+    top: 470px;
+    transition: top .5s ease-in-out;
+    -webkit-transition: top .5s ease-in-out;
+}
+
 .family h3.alpha#mrstwo {
     font-family: mrs-eaves, serif;
     font-weight: 400;
@@ -254,7 +281,12 @@ nav {
     position: absolute;
     top: 549px;
     left: 155px;
+}
 
+.family h3.alpha.movemrs#mrstwo {
+    top: 470px;
+    transition: top .5s ease-in-out;
+    -webkit-transition: top .5s ease-in-out;
 }
 
 /* Right column div.info CSS */
