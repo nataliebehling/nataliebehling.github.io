@@ -106,10 +106,10 @@ nav {
 .mrs-content {
     visibility: visible;
     opacity: 1;
-    transition: opacity .30s ease-in-out;
-    -moz-transition: opacity .30s ease-in-out;
+    transition: opacity .45s ease-in-out;
+    -moz-transition: opacity .45s ease-in-out;
     /* Helps make sure transition works in Mozilla */
-    -webkit-transition: opacity .30s ease-in-out;
+    -webkit-transition: opacity .45s ease-in-out;
     /* Helps make sure transition works in Chrome, Safari, etc.*/
 }
 
@@ -117,10 +117,10 @@ nav {
 .mrs-content.invisible {
 /*    visibility: hidden;*/
     opacity: 0;
-    transition: opacity .30s ease-in-out;
-    -moz-transition: opacity .30s ease-in-out;
+    transition: opacity .45s ease-in-out;
+    -moz-transition: opacity .45s ease-in-out;
     /* Helps make sure transition works in Mozilla */
-    -webkit-transition: opacity .30s ease-in-out;
+    -webkit-transition: opacity .45s ease-in-out;
     /* Helps make sure transition works in Chrome, Safari, etc.*/
 
 }
@@ -231,14 +231,14 @@ nav {
     position: absolute;
     top: 402px;
     left: 155px;
-    transition: top .30s ease-in-out;
-    -webkit-transition: top .30s ease-in-out;
+    transition: top .45s ease-in-out;
+    -webkit-transition: top .45s ease-in-out;
 }
 
 .family h3.alpha.movemr#mrone{
     top: 385px;
-    transition: top .30s ease-in-out;
-    -webkit-transition: top .30s ease-in-out;
+    transition: top .45s ease-in-out;
+    -webkit-transition: top .45s ease-in-out;
 }
 
 .family h3.alpha#mrsone {
@@ -250,14 +250,14 @@ nav {
     position: absolute;
     top: 470px;
     left: 155px;
-    transition: top .30s ease-in-out;
-    -webkit-transition: top .30s ease-in-out;
+    transition: top .45s ease-in-out;
+    -webkit-transition: top .45s ease-in-out;
 }
 
 .family h3.alpha.movemrs#mrsone{
     top: 418px;
-    transition: top .30s ease-in-out;
-    -webkit-transition: top .30s ease-in-out;
+    transition: top .45s ease-in-out;
+    -webkit-transition: top .45s ease-in-out;
 }
 
 .family h3.alpha#mrtwo {
@@ -269,14 +269,14 @@ nav {
     position: absolute;
     top: 507px;
     left: 155px;
-    transition: top .30s ease-in-out;
-    -webkit-transition: top .30s ease-in-out;
+    transition: top .45s ease-in-out;
+    -webkit-transition: top .45s ease-in-out;
 }
 
 .family h3.alpha.movemr#mrtwo{
     top: 455px;
-    transition: top .30s ease-in-out;
-    -webkit-transition: top .30s ease-in-out;
+    transition: top .45s ease-in-out;
+    -webkit-transition: top .45s ease-in-out;
 }
 
 .family h3.alpha#mrstwo {
@@ -287,14 +287,14 @@ nav {
     position: absolute;
     top: 549px;
     left: 155px;
-    transition: top .30s ease-in-out;
-    -webkit-transition: top .30s ease-in-out;
+    transition: top .45s ease-in-out;
+    -webkit-transition: top .45s ease-in-out;
 }
 
 .family h3.alpha.movemrs#mrstwo {
     top: 457px;
-    transition: top .30s ease-in-out;
-    -webkit-transition: top .30s ease-in-out;
+    transition: top .45s ease-in-out;
+    -webkit-transition: top .45s ease-in-out;
 }
 
 /* Right column div.info CSS */
