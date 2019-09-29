@@ -1,5 +1,5 @@
 body {
-    background-color: #000000;
+    background-color: #736e63;
     margin: 0;
 }
 
@@ -7,10 +7,12 @@ body {
     background-color: #FDF9EF;
     width: 1024px;
     height: 768px;
-    margin: auto;
+    margin: auto auto;
+    margin-top:50px;
     font-family: mr-eaves-sans, sans-serif;
     font-weight: 400;
     font-style: normal;
+    
 }
 
 
@@ -164,6 +166,7 @@ nav {
     font-family: mr-eaves-sans, sans-serif;
     font-weight: 400;
     font-style: normal;
+  
 
 }
 
