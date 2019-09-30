@@ -1,23 +1,40 @@
 body {
-    background-color: #eeeeee;
+    background-color: #FEF8EF;
     font-family: realist, sans-serif;
     font-weight: 200;
     font-style: normal;
+    text-align: center;
+    margin-top:100px;
 }
 
 h1{ 
-    color: #1c374d;
+    color: #92312E;
     font-family: realist, sans-serif;
     font-weight: 700;
     font-style: normal;
+    font-size: 39px;
     
 }
 
 h2{
-    color: #396487;
+    color: #5E211F;
     font-family: realistnarrow, sans-serif;
     font-weight: 600;
     font-style: italic;
 
 
+}
+
+a{
+    background-color: antiquewhite;
+    color: #5E211F;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: realistnarrow, sans-serif;
+}
+
+a:hover{
+    color:darksalmon
 }
