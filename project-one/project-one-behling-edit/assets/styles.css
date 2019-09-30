@@ -43,8 +43,7 @@ nav {
 
 #mrbutton {
     height: 40px;
-    width: 100px;
-    margin-left: 30px;
+    margin-left: 40px;
     font-family: mr-eaves-sans, sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -63,7 +62,6 @@ nav {
 
 #mrsbutton {
     height: 40px;
-    width: 100px;
     margin-left: 30px;
     font-family: mrs-eaves, serif;
     font-weight: 600;
@@ -81,7 +79,6 @@ nav {
 
 #familybutton {
     height: 40px;
-    width: 100px;
     margin-left: 30px;
     margin-top:10px;
     font-family: mr-eaves-sans, sans-serif;
