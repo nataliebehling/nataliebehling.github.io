@@ -1,3 +1,5 @@
+/*General CSS coding*/
+
 body {
     background-color: #736e63;
     margin: 0;
@@ -7,16 +9,31 @@ body {
     background-color: #FDF9EF;
     width: 1024px;
     height: 768px;
-    margin: auto auto;
-    margin-top:50px;
     font-family: mr-eaves-sans, sans-serif;
     font-weight: 400;
     font-style: normal;
-    
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+        /* Wanted to learn how I could center the entire iPad size webpage in the middle of the browser window no matter the size that said window (I didn't like it smushed all the way at the top with a bunch of negative space below). Lines 13-16 are inspired by the W3 School lesson below.
+
+https://www.w3.org/Style/Examples/007/center.en.html*/
+}
+
+a {
+    color: #9B0D7F;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #DD40BE;
+    text-decoration: none;
+    font-weight: 500;
 }
 
 
-/* Nav div.nav CSS */
+/* Nav CSS */
 nav {
     height: 60px;
     display: flex;
@@ -93,7 +110,7 @@ nav {
 
 }
 
-/* Left Column graphic stuff */
+/* Left Column graphic comparison */
 
 .family {
     position: relative;
@@ -117,7 +134,7 @@ nav {
 
 .mr-content.invisible,
 .mrs-content.invisible {
-/*    visibility: hidden;*/
+    /*    visibility: hidden;*/
     opacity: 0;
     transition: opacity .45s ease-in-out;
     -moz-transition: opacity .45s ease-in-out;
@@ -126,7 +143,6 @@ nav {
     /* Helps make sure transition works in Chrome, Safari, etc.*/
 
 }
-
 
 #mrq,
 #mrsq {
@@ -166,7 +182,7 @@ nav {
     font-family: mr-eaves-sans, sans-serif;
     font-weight: 400;
     font-style: normal;
-  
+
 
 }
 
@@ -224,7 +240,7 @@ nav {
 }
 
 
-.family h3.alpha#mrone {
+#mrone {
     margin-top: 30px;
     font-family: mr-eaves-sans, sans-serif;
     font-weight: 400;
@@ -238,13 +254,13 @@ nav {
     -webkit-transition: top .45s ease-in-out;
 }
 
-.family h3.alpha.movemr#mrone{
+.alpha.movemr#mrone {
     top: 385px;
     transition: top .45s ease-in-out;
     -webkit-transition: top .45s ease-in-out;
 }
 
-.family h3.alpha#mrsone {
+#mrsone {
     font-family: mrs-eaves, serif;
     font-weight: 400;
     font-style: normal;
@@ -257,13 +273,13 @@ nav {
     -webkit-transition: top .45s ease-in-out;
 }
 
-.family h3.alpha.movemrs#mrsone{
+.alpha.movemrs#mrsone {
     top: 418px;
     transition: top .45s ease-in-out;
     -webkit-transition: top .45s ease-in-out;
 }
 
-.family h3.alpha#mrtwo {
+.alpha#mrtwo {
     font-family: mr-eaves-sans, sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -276,13 +292,13 @@ nav {
     -webkit-transition: top .45s ease-in-out;
 }
 
-.family h3.alpha.movemr#mrtwo{
+.alpha.movemr#mrtwo {
     top: 455px;
     transition: top .45s ease-in-out;
     -webkit-transition: top .45s ease-in-out;
 }
 
-.family h3.alpha#mrstwo {
+.alpha#mrstwo {
     font-family: mrs-eaves, serif;
     font-weight: 400;
     font-style: normal;
@@ -294,13 +310,13 @@ nav {
     -webkit-transition: top .45s ease-in-out;
 }
 
-.family h3.alpha.movemrs#mrstwo {
+.alpha.movemrs#mrstwo {
     top: 457px;
     transition: top .45s ease-in-out;
     -webkit-transition: top .45s ease-in-out;
 }
 
-/* Right column div.info CSS */
+/* Right column CSS */
 
 .header {
     margin-top: -20px;
@@ -415,14 +431,13 @@ font-style: italic;
 
 /* Hexadecimal swatches 
 
+Background of whole site: #736E63;
 Navigation: #2B2B2B;
 Left column w Qs: #FDF9EF;
 Right column w info: #F4EBD9;
 Red accent: #932C41;
+Links: #9B0D7F;
+Links Hover: #DD40BE;
 Website's black: #2B2B2B;
-
-
-
-
 
 */
