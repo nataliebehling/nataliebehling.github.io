@@ -62,7 +62,7 @@ nav {
 
 #mrsbutton {
     height: 40px;
-    margin-left: 30px;
+    margin-left: 40px;
     font-family: mrs-eaves, serif;
     font-weight: 600;
     font-style: normal;
@@ -153,7 +153,7 @@ nav {
 
 #mrq,
 #mrsq {
-    margin-top: 260px;
+    margin-top: 270px;
 }
 
 .compare h1#mrq {
@@ -182,9 +182,10 @@ nav {
 
 #mrpara {
     margin: 5px;
-    font-size: 12px;
-    font-weight: 100px;
-    width: 100px;
+    font-size: 13px;
+    line-height: 13.5px;
+    font-weight: 103px;
+    width: 110px;
     text-align: right;
     font-family: mr-eaves-sans, sans-serif;
     font-weight: 400;
@@ -195,8 +196,9 @@ nav {
 
 #mrspara {
     margin-top: 5px;
-    font-size: 11px;
-    width: 103px;
+    font-size: 12px;
+    line-height: 12.7px;
+    width: 117px;
     text-align: left;
     font-family: mrs-eaves, sans-serif;
     font-weight: 400;
@@ -214,7 +216,7 @@ nav {
 .mr-header-para {
     position: absolute;
     top: 100px;
-    left: 29px;
+    left: 17px;
 }
 
 .mrs-header-para h2 {
@@ -223,7 +225,7 @@ nav {
     font-family: mrs-eaves, serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .mr-header-para h2 {
@@ -232,7 +234,7 @@ nav {
     font-family: mr-eaves-sans, sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 33px;
+    font-size: 38px;
     text-align: right;
 
 }
