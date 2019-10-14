@@ -3,7 +3,7 @@
 body {
     width: 1024px;
     height: 768px;
-    background-color: azure;
+    background-color: white;
     justify-content: center;
 }
 
@@ -12,10 +12,99 @@ nav {
     display: flex;
     justify-content: space-around;
     padding: 30px;
-    background-color: antiquewhite;
+    background-color: white;
+    position: relative;
+}
+
+.sidepanel {
+    width: 400px;
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #A2AAB3;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidepanel a {
+    margin-top: 40px;
+    margin-right: 20px;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-family: tomarik-extrovert, sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: #E7C296;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidepanel .text-under {
+    color: white;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 0;
+    font-family: realist, sans-serif;
+    font-size: 14px;
+}
+
+.sidepanel a:hover {
+    color: #f1f1f1;
+}
+
+.sidepanel #learn-sidebar {
+    color: white;
+    font-family: tomarik-extrovert, sans-serif;
+    font-size: 40px;
+    position: absolute;
+    top: -20px;
+    left: 30px;
+
+}
+
+.sidepanel .closebtn {
+    position: absolute;
+    top: -30px;
+    right: 25px;
+    font-size: 40px;
+}
+
+.openbtn {
+    font-family: tomarik-extrovert, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    cursor: pointer;
+    background-color: none;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    color: aqua;
 }
 
 /*https://tympanus.net/Development/SidebarTransitions/# */
+
+#about {
+    background-color: white;
+    outline: none;
+    border: none;
+    font-family: tomarik-extrovert, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 40px;
+    position: absolute;
+    top: 70px;
+}
+
+#learn,
+#about:hover {
+    color: aqua
+}
 
 #camera-homescreen-icon {
     width: 160px;
@@ -32,7 +121,7 @@ nav a {
 
 /*INDEX.HTML*/
 
-.container{
+.container {
     justify-content: center;
 }
 
@@ -73,7 +162,7 @@ nav a {
 /*ABOUT.HTML*/
 
 .about-all {
-    margin-top:40px;
+    margin-top: 40px;
     display: flex;
     justify-content: space-around
 }
@@ -84,13 +173,13 @@ nav a {
 }
 
 #images-here1,
-#images-here2{
+#images-here2 {
     background-color: aqua;
-    padding:25px;
+    padding: 25px;
     width: 250px;
 }
 
-#images-here2{
+#images-here2 {
     background-color: aqua;
     width: 250px;
 }

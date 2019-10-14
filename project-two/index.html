@@ -6,14 +6,38 @@
     <title>Camera Simulator</title>
     <link rel="stylesheet" href="/nataliebehling.github.io/project-two/assets/styles.css">
     <link rel="stylesheet" href="https://use.typekit.net/wbb7gkn.css">
+    <link rel="stylesheet" href="https://use.typekit.net/wbb7gkn.css">
+
 </head>
 
 <body id='index-body'>
 
     <nav>
-        <button id="learn">Learn</button>
+        <section id="mySidepanel" class="sidepanel">
+            <p id ='learn-sidebar'>Learn</p>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="#">History of DSLRs</a>
+            <p class='text-under'>xxxxxxx</p>
+            <a href="#">ISO, Aperature, Shutter, oh my!</a>
+            <p class='text-under'>xxxxxxx</p>
+            <a href="#">About This Simulator</a>
+            <p class='text-under'>xxxxxxx</p>
+        </section>
+
+        <button class="openbtn" onclick="openNav()">Learn</button>
+
+        <script>
+            function openNav() {
+                document.getElementById("mySidepanel").style.width = "250px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidepanel").style.width = "0";
+            }
+
+        </script>
         <a href='index.html'><img id='camera-homescreen-icon' src='assets/camera-homescreen-icon.svg'></a>
-        <a href="about.html"><button>About</button></a>
+        <a href="about.html"><button id='about'>About</button></a>
     </nav>
     <div class='container'>
         <div class='simulator-all'>
