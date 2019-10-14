@@ -12,6 +12,29 @@
 
 <body>
 <nav>
+    <section id="mySidepanel" class="sidepanel">
+            <p id='learn-sidebar'>Learn</p>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="#">History of DSLRs</a>
+            <p class='text-under'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <a href="#">ISO, Aperature, Shutter, oh my!</a>
+            <p class='text-under'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <a href="about.html">About This Simulator</a>
+            <p class='text-under'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </section>
+
+        <button class="openbtn" onclick="openNav()" >Learn</button>
+
+        <script>
+            function openNav() {
+                document.getElementById("mySidepanel").style.width = "25%";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidepanel").style.width = "0";
+            }
+
+        </script>
     <button>Learn</button>
     <a href='index.html'><img id='camera-homescreen-icon' src='assets/camera-homescreen-icon.svg'></a>
     <a href="about.html"><button>About</button></a>
