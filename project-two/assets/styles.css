@@ -1,0 +1,96 @@
+/*ALL APPLICABLE CSS*/
+
+body {
+    width: 1024px;
+    height: 768px;
+    background-color: azure;
+    justify-content: center;
+}
+
+/*Nav Bar CSS*/
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: antiquewhite;
+}
+
+/*https://tympanus.net/Development/SidebarTransitions/# */
+
+#camera-homescreen-icon {
+    width: 160px;
+}
+
+#camera-homescreen-icon:hover {
+    background-image: url(camera-homescreen-icon-color.svg);
+}
+
+nav a {
+    display: block;
+    margin-top: 10px;
+}
+
+/*INDEX.HTML*/
+
+.container{
+    justify-content: center;
+}
+
+.simulator-all {
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 100px;
+
+}
+
+.camera-simulator {
+    position: relative;
+}
+
+#simulator-graphic {
+    background-color: #2D2D2D;
+    width: 450px;
+    height: 300px;
+}
+
+.camera-simulator {
+    display: flex;
+}
+
+.camera-controls {
+    display: flex;
+}
+
+.image-capture {
+    background-color: green;
+    height: 500px;
+    width: 300px;
+    position: relative;
+    bottom: 600px;
+    left: 670px;
+}
+
+/*ABOUT.HTML*/
+
+.about-all {
+    margin-top:40px;
+    display: flex;
+    justify-content: space-around
+}
+
+#about-info {
+    width: 300px;
+    margin-top: 100px;
+}
+
+#images-here1,
+#images-here2{
+    background-color: aqua;
+    padding:25px;
+    width: 250px;
+}
+
+#images-here2{
+    background-color: aqua;
+    width: 250px;
+}
