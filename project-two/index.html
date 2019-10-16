@@ -12,21 +12,23 @@
 
 <body id='index-body'>
 
-    
- 
+
+
     <nav>
         <section id="mySidepanel" class="sidepanel">
             <p id='learn-sidebar'>Learn</p>
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-            <a href="#">History of DSLRs</a>
-            <p class='text-under'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <a href="#">ISO, Aperature, Shutter, oh my!</a>
-            <p class='text-under'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <a href="about.html">About This Simulator</a>
-            <p class='text-under'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class='sidepanel-links'>
+                <a href="history-dslr.html">History of DSLR Cameras</a>
+                <p class='text-under'>The DSLR camera is a result of incredible innovation, committed photographers, and many camera predecessesors before. </p>
+                <a href="iso-ap-sh.html">ISO, Aperature, Shutter, oh my!</a>
+                <p class='text-under'>ISO, shutter, and aperture: three basic settings any budding photographer needs to know how to utilize and control. </p>
+                <a href="about.html">About This Simulator</a>
+                <p class='text-under'>More about Natalie’s passion for photography and why she believes a camera simulator is the ultimate photographic learning tool.</p>
+            </div>
         </section>
 
-        <button class="openbtn" onclick="openNav()" >Learn</button>
+        <button class="openbtn" onclick="openNav(),dim() ">Learn</button>
 
         <script>
             function openNav() {
@@ -44,7 +46,7 @@
     <div class='container'>
         <div class='simulator-all'>
             <h3>Welcome to Natalie's Camera Simulator!</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            <p>Intimidated by those big, bulky digital single-lens reflex (DSLR) cameras? Well, you’ve come to the right place. Learn more about the history of DSLRs, explore key settings used to taking great photograph, and practice using the camera simulator below. </p>
             <div class='camera-simulator'>
                 <h1 id="simulator-graphic">CAMERA SIMULATOR</h1>
                 <button id="image capture">image capture button</button>

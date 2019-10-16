@@ -3,33 +3,57 @@
 body {
     width: 1024px;
     height: 768px;
-    background-color: white;
+    background-color: #F0FAFF;
     justify-content: center;
+}
+
+body p {
+    font-family: freight-text-pro, serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+body h1 {
+    font-family: realist, sans-serif;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+body h2 {
+    font-family: realistnarrow, sans-serif;
+    font-size: 22px;
+    font-weight:200;
+    margin-top: 0;
+    margin-bottom: 30px;
 }
 
 /*Nav Bar CSS*/
 nav {
-    width:1024px;
+    width: 1024px;
     display: flex;
     justify-content: space-around;
     padding: 30px;
-    margin-left:-120px;
-    background-color: white;
+    margin-left: -120px;
+    background-color: #F0FAFF;
     position: relative;
 }
 
 
 .sidepanel {
-    width:0;
+    width: 0;
     position: fixed;
     z-index: 1;
     height: 100%;
     top: 0;
     left: 0;
-    background-color: black;
+    background-color: #F0FAFF;
     overflow-x: hidden;
     transition: 1s;
     padding-top: 60px;
+}
+
+.sidepanel-links{
+    margin-top:20px;
 }
 
 .sidepanel a {
@@ -40,13 +64,13 @@ nav {
     font-family: realist, sans-serif;
     font-size: 20px;
     font-weight: 900;
-    color: #E7C296;
+    color: #5A798D;
     display: block;
     transition: 0.3s;
 }
 
 .sidepanel .text-under {
-    color: white;
+    color: #000000;
     margin-left: 30px;
     margin-right: 20px;
     margin-bottom: 0;
@@ -55,23 +79,24 @@ nav {
 }
 
 .sidepanel a:hover {
-    color: #f1f1f1;
+    color: #BBD6E2;
 }
 
 .sidepanel #learn-sidebar {
-    color: white;
+    color: #49587B;
     font-family: realist, sans-serif;
     font-size: 40px;
+    font-weight:800;
     position: absolute;
-    top: -20px;
+    top: 5px;
     left: 30px;
-    
+
 
 }
 
 .sidepanel .closebtn {
     position: absolute;
-    top: -30px;
+    top: 0px;
     right: 25px;
     font-size: 40px;
 }
@@ -81,21 +106,22 @@ nav {
     font-size: 40px;
     font-weight: 900;
     cursor: pointer;
-    background-color: none;
-    color: black;
+    background-color: #F0FAFF;
+    color: #49587B;
     padding: 10px 15px;
-    margin-left:60px;
+    margin-left: 60px;
     border: none;
 }
 
 .openbtn:hover {
-    color: aqua;
+    color: #BBD6E2;
 }
 
 /*https://tympanus.net/Development/SidebarTransitions/# */
 
 #about {
-    background-color: white;
+    background-color: #F0FAFF;
+    color:#49587B;
     outline: none;
     border: none;
     font-family: realist, sans-serif;
@@ -108,7 +134,7 @@ nav {
 
 #learn,
 #about:hover {
-    color: aqua
+    color: #BBD6E2;
 }
 
 #camera-homescreen-icon {
@@ -116,7 +142,7 @@ nav {
 }
 
 #camera-homescreen-icon:hover {
-    background-image: url(assets/camera-homescreen-icon.svg);
+    background-image: url(camera-homescreen-icon.svg);
 }
 
 nav a {
@@ -134,7 +160,16 @@ nav a {
     width: 500px;
     margin-top: 100px;
     margin-left: 100px;
+}
 
+.simulator-all h3{
+    font-family: realist, sans-serif;
+    
+}
+
+.simulator-all h4{
+    font-family: realistnarrow, sans-serif;
+    font-weight:200;
 }
 
 .camera-simulator {
@@ -156,7 +191,7 @@ nav a {
 }
 
 .image-capture {
-    background-color: green;
+    background-color: cadetblue;
     height: 500px;
     width: 300px;
     position: relative;
@@ -168,13 +203,20 @@ nav a {
 
 .about-all {
     margin-top: 40px;
+    margin-left: 30px;
     display: flex;
     justify-content: space-around
 }
 
+.about-all h1{
+    font-size:30px;
+}
+
 #about-info {
     width: 300px;
-    margin-top: 100px;
+    height: 480px;
+    margin-top: 50px;
+    background-color: cadetblue
 }
 
 #images-here1,
@@ -182,11 +224,64 @@ nav a {
     background-color: aqua;
     padding: 25px;
     width: 250px;
+    height: 460px;
 }
 
 #images-here2 {
     background-color: aqua;
     width: 250px;
+}
+
+/*HISTORY DSLR HTML*/
+
+.history-dslr-all {
+    display: flex;
+    position: relative;
+}
+
+.history-dslr-info {
+    padding: 20px 40px 30px 50px;
+    width: 600px;
+}
+
+#history-pic1 {
+    background-color: darkcyan;
+    height:220px;
+    position: absolute;
+    top:20px;
+}
+
+#history-pic2 {
+    background-color: darkcyan;
+    height:220px;
+    position: absolute;
+    top:270px;
+}
+
+/*ISO SH AP HTML*/
+
+.iso-sh-ap-all {
+    display: flex;
+    position: relative;
+}
+
+.iso-sh-ap-info {
+    padding: 20px 40px 30px 50px;
+    width: 600px;
+}
+
+#iso-pic1 {
+    background-color: darkcyan;
+    height:220px;
+    position: absolute;
+    top:20px;
+}
+
+#iso-pic2 {
+    background-color: darkcyan;
+    height:220px;
+    position: absolute;
+    top:270px;
 }
 
 /*FONTS
@@ -225,7 +320,3 @@ font-weight: 700;
 
 font-style: italic;
 */
-
-
-
-
