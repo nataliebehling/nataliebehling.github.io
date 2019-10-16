@@ -9,6 +9,7 @@ body {
 
 /*Nav Bar CSS*/
 nav {
+    width:1024px;
     display: flex;
     justify-content: space-around;
     padding: 30px;
@@ -36,7 +37,7 @@ nav {
     margin-right: 5px;
     padding: 5px 8px 8px 32px;
     text-decoration: none;
-    font-family: tomarik-extrovert, sans-serif;
+    font-family: realist, sans-serif;
     font-size: 20px;
     font-weight: 900;
     color: #E7C296;
@@ -59,11 +60,12 @@ nav {
 
 .sidepanel #learn-sidebar {
     color: white;
-    font-family: tomarik-extrovert, sans-serif;
+    font-family: realist, sans-serif;
     font-size: 40px;
     position: absolute;
     top: -20px;
     left: 30px;
+    
 
 }
 
@@ -75,13 +77,14 @@ nav {
 }
 
 .openbtn {
-    font-family: tomarik-extrovert, sans-serif;
+    font-family: realist, sans-serif;
     font-size: 40px;
     font-weight: 900;
     cursor: pointer;
     background-color: none;
     color: black;
     padding: 10px 15px;
+    margin-left:60px;
     border: none;
 }
 
@@ -95,7 +98,7 @@ nav {
     background-color: white;
     outline: none;
     border: none;
-    font-family: tomarik-extrovert, sans-serif;
+    font-family: realist, sans-serif;
     font-weight: 900;
     font-style: normal;
     font-size: 40px;
@@ -113,7 +116,7 @@ nav {
 }
 
 #camera-homescreen-icon:hover {
-    background-image: url(camera-homescreen-icon-color.svg);
+    background-image: url(assets/camera-homescreen-icon.svg);
 }
 
 nav a {
@@ -185,3 +188,44 @@ nav a {
     background-color: aqua;
     width: 250px;
 }
+
+/*FONTS
+FreightText Pro Book
+
+font-family: freight-text-pro, serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+FreightText Pro Book Italic
+
+font-family: freight-text-pro, serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+FreightText Pro Bold
+
+font-family: freight-text-pro, serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+FreightText Pro Bold Italic
+
+font-family: freight-text-pro, serif;
+
+font-weight: 700;
+
+font-style: italic;
+*/
+
+
+
+
