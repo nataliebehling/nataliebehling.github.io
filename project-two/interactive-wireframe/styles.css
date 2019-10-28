@@ -4,20 +4,19 @@ body {
     font-weight: 200;
     font-style: normal;
     text-align: center;
-    margin-top: 100px;
-    position:relative;
+    margin-top:100px;
 }
 
-h1 {
+h1{ 
     color: #92312E;
     font-family: realist, sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 39px;
-
+    
 }
 
-h2 {
+h2{
     color: #5E211F;
     font-family: realistnarrow, sans-serif;
     font-weight: 600;
@@ -26,35 +25,16 @@ h2 {
 
 }
 
-a {
+a{
     background-color: antiquewhite;
     color: #5E211F;
     padding: 14px 25px;
-    margin-bottom: 10px;
+    text-align: center;
     text-decoration: none;
-    display: flex;;
-    justify-content: center;
-    width: 200px;
+    display: inline-block;
     font-family: realistnarrow, sans-serif;
 }
 
-button{
-    border:none;
-    display:block;
-    margin:auto;
-    font-size: 16px;
-    font-weight:500;
-}
-
-#project-one{
-    justify-content: center;
-}
-
-#p1-buttons{
-    display:block;
-    justify-content: center;
-}
-
-a:hover {
-    color: darksalmon
+a:hover{
+    color:darksalmon
 }

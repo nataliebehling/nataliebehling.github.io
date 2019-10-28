@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang='en' dir='ltr'>
+
+<head>
+    <meta charset="utf-8">
+    <title>Camera Simulator</title>
+    <link rel="stylesheet" href="/nataliebehling.github.io/project-two/assets/styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/wbb7gkn.css">
+    <link rel="stylesheet" href="https://use.typekit.net/wbb7gkn.css">
+
+</head>
+
+<body id='index-body'>
+
+
+<div class='container'>
+    <nav>
+        <section id="mySidepanel" class="sidepanel">
+            <p id='learn-sidebar'>Learn</p>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <div class='sidepanel-links'>
+                <a href="history-dslr.html">History of DSLR Cameras</a>
+                <p class='text-under'>The DSLR camera is a result of incredible innovation, committed photographers, and many camera predecessesors before. </p>
+                <a href="iso-ap-sh.html">ISO, Aperature, Shutter, oh my!</a>
+                <p class='text-under'>ISO, shutter, and aperture: three basic settings any budding photographer needs to know how to utilize and control. </p>
+                <a href="about.html">About This Simulator</a>
+                <p class='text-under'>More about Natalie’s passion for photography and why she believes a camera simulator is the ultimate photographic learning tool.</p>
+            </div>
+        </section>
+
+        <button class="openbtn" onclick="openNav(),dim() ">Learn</button>
+
+        <script>
+            function openNav() {
+                document.getElementById("mySidepanel").style.width = "25%";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidepanel").style.width = "0";
+            }
+
+        </script>
+        <a href='index.html'><img id='camera-homescreen-icon' src='assets/camera-homescreen-icon.svg'></a>
+        <a href="about.html"><button id='about'>About</button></a>
+    </nav>
+    <div class='container'>
+        <div class='simulator-all'>
+            <h3>Welcome to Natalie's Camera Simulator!</h3>
+            <p>Intimidated by those big, bulky digital single-lens reflex (DSLR) cameras? Well, you’ve come to the right place. Learn more about the history of DSLRs, explore key settings used to taking great photograph, and practice using the camera simulator below. </p>
+            <div class='camera-simulator'>
+                <h1 id="simulator-graphic">CAMERA SIMULATOR</h1>
+                <button id="image capture">image capture button</button>
+            </div>
+            <div class='camera-controls'>
+                <div id='iso-button'>
+                    <h4>ISO</h4>
+                    <button>Slidebar for ISO</button>
+                </div>
+                <div id='ap-button'>
+                    <h4>Aperature</h4>
+                    <button>Slidebar for Aperature</button>
+                </div>
+                <div id='sh-button'>
+                    <h4>Shutter</h4>
+                    <button>Slidebar for Shutter</button>
+                </div>
+            </div>
+            <!-- end div.camera-controls -->
+        </div>
+        <!-- end div.simulator-all -->
+        <div class="image-capture">
+            <h1>IMAGE CAPTURE</h1>
+        </div>
+    </div>
+</div>
+</body>

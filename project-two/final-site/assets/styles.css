@@ -2,9 +2,13 @@
 
 body {
     width: 1024px;
-    height: 768px;
     background-color: #F0FAFF;
     justify-content: center;
+}
+
+.container {
+    background-color: yellow;
+    padding-bottom: 50px;
 }
 
 body p {
@@ -22,19 +26,21 @@ body h1 {
 body h2 {
     font-family: realistnarrow, sans-serif;
     font-size: 22px;
-    font-weight:200;
+    font-weight: 200;
     margin-top: 0;
     margin-bottom: 30px;
+    background-color: aquamarine
 }
 
 /*Nav Bar CSS*/
 nav {
-    width: 1024px;
+    width: 1105px;
     display: flex;
     justify-content: space-around;
+    align-content: center;
     padding: 30px;
-    margin-left: -120px;
-    background-color: #F0FAFF;
+    margin-left: -140px;
+    background-color: green;
     position: relative;
 }
 
@@ -46,14 +52,14 @@ nav {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: #F0FAFF;
+    background-color: lightpink;
     overflow-x: hidden;
     transition: 1s;
     padding-top: 60px;
 }
 
-.sidepanel-links{
-    margin-top:20px;
+.sidepanel-links {
+    margin-top: 20px;
 }
 
 .sidepanel a {
@@ -64,13 +70,15 @@ nav {
     font-family: realist, sans-serif;
     font-size: 20px;
     font-weight: 900;
-    color: #5A798D;
+    color: black;
+    background-color: lightgreen;
     display: block;
     transition: 0.3s;
 }
 
 .sidepanel .text-under {
     color: #000000;
+    background-color: cornflowerblue;
     margin-left: 30px;
     margin-right: 20px;
     margin-bottom: 0;
@@ -80,15 +88,17 @@ nav {
 
 .sidepanel a:hover {
     color: #BBD6E2;
+
 }
 
 .sidepanel #learn-sidebar {
-    color: #49587B;
+    color: black;
+    background-color: darkorange;
     font-family: realist, sans-serif;
     font-size: 40px;
-    font-weight:800;
+    font-weight: 800;
     position: absolute;
-    top: 5px;
+    top: 1px;
     left: 30px;
 
 
@@ -106,7 +116,7 @@ nav {
     font-size: 40px;
     font-weight: 900;
     cursor: pointer;
-    background-color: #F0FAFF;
+    background-color: aquamarine;
     color: #49587B;
     padding: 10px 15px;
     margin-left: 60px;
@@ -120,8 +130,9 @@ nav {
 /*https://tympanus.net/Development/SidebarTransitions/# */
 
 #about {
-    background-color: #F0FAFF;
-    color:#49587B;
+    background-color: aquamarine;
+    color: #49587B;
+    height: 140px;
     outline: none;
     border: none;
     font-family: realist, sans-serif;
@@ -129,7 +140,7 @@ nav {
     font-style: normal;
     font-size: 40px;
     position: absolute;
-    top: 70px;
+    top: 30px;
 }
 
 #learn,
@@ -142,7 +153,7 @@ nav {
 }
 
 #camera-homescreen-icon:hover {
-    background-image: url(camera-homescreen-icon.svg);
+    background-image: url(camera-homescreen-icon-color.svg);
 }
 
 nav a {
@@ -162,14 +173,14 @@ nav a {
     margin-left: 100px;
 }
 
-.simulator-all h3{
+.simulator-all h3 {
     font-family: realist, sans-serif;
-    
+
 }
 
-.simulator-all h4{
+.simulator-all h4 {
     font-family: realistnarrow, sans-serif;
-    font-weight:200;
+    font-weight: 200;
 }
 
 .camera-simulator {
@@ -208,8 +219,8 @@ nav a {
     justify-content: space-around
 }
 
-.about-all h1{
-    font-size:30px;
+.about-all h1 {
+    font-size: 30px;
 }
 
 #about-info {
@@ -246,16 +257,16 @@ nav a {
 
 #history-pic1 {
     background-color: darkcyan;
-    height:220px;
+    height: 220px;
     position: absolute;
-    top:20px;
+    top: 20px;
 }
 
 #history-pic2 {
     background-color: darkcyan;
-    height:220px;
+    height: 220px;
     position: absolute;
-    top:270px;
+    top: 270px;
 }
 
 /*ISO SH AP HTML*/
@@ -272,16 +283,16 @@ nav a {
 
 #iso-pic1 {
     background-color: darkcyan;
-    height:220px;
+    height: 220px;
     position: absolute;
-    top:20px;
+    top: 20px;
 }
 
 #iso-pic2 {
     background-color: darkcyan;
-    height:220px;
+    height: 220px;
     position: absolute;
-    top:270px;
+    top: 270px;
 }
 
 /*FONTS
