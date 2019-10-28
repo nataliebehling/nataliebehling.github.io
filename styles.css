@@ -8,6 +8,9 @@ body {
     position:relative;
 }
 
+body{
+    padding-bottom: 50px;
+}
 h1 {
     color: #92312E;
     font-family: realist, sans-serif;

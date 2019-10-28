@@ -199,16 +199,30 @@ nav a {
 
 .camera-controls {
     display: flex;
+    justify-content: space-around;
+}
+
+#iso-button{
+    display:block;
 }
 
 .image-capture {
-    background-color: cadetblue;
+    
     height: 500px;
     width: 300px;
     position: relative;
     bottom: 600px;
     left: 670px;
 }
+
+#base-image{
+    width:300px;
+    position: absolute;
+    top:30px;
+    right:20px;
+}
+
+
 
 /*ABOUT.HTML*/
 
