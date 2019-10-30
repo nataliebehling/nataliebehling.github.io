@@ -130,7 +130,7 @@ nav {
 
 .mr-content,
 .mrs-content {
-    visibility: visible;
+    visibility: invisible;
     opacity: 1;
     transition: opacity .45s ease-in-out;
     -moz-transition: opacity .45s ease-in-out;
@@ -139,8 +139,8 @@ nav {
     /* Helps make sure transition works in Chrome, Safari, etc.*/
 }
 
-.mr-content.invisible,
-.mrs-content.invisible {
+.mr-content.ininvisible,
+.mrs-content.ininvisible {
     /*    visibility: hidden;*/
     opacity: 0;
     transition: opacity .45s ease-in-out;

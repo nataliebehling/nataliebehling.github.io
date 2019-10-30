@@ -222,8 +222,19 @@ nav a {
     right:20px;
 }
 
+.buttons-to-hide{
+    visibility: hidden;
+}
 
-
+.visible, {
+    /*    visibility: visible;*/
+    opacity: 1;
+    transition: opacity .45s ease-in-out;
+    -moz-transition: opacity .45s ease-in-out;
+    /* Helps make sure transition works in Mozilla */
+    -webkit-transition: opacity .45s ease-in-out;
+    /* Helps make sure transition works in Chrome, Safari, etc.*/
+}
 /*ABOUT.HTML*/
 
 .about-all {
