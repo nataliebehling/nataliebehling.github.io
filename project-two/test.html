@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang='en' dir='ltr'>
+
+<head>
+    <meta charset="utf-8">
+    <title>About this simulator</title>
+<!--
+    <link rel="stylesheet" href="/nataliebehling.github.io/project-two/final-site/assets/styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/wbb7gkn.css">
+    <link rel="stylesheet" href="https://use.typekit.net/wbb7gkn.css">
+-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- custom jquery code created to add and remove the class of visible depending on which button the user clicks. -->
+
+    <style>
+        #jordan {
+            background-color: aquamarine;
+
+        }
+
+        #natalie,
+        #zuzu,
+        #will {
+            visibility: hidden;
+            background-color: plum;
+        }
+
+        div#natalie.visible, div#zuzu.visible, div#will.visible {
+            visibility: visible;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div id='jordan'>jordan</div>
+    <div id='natalie'>natalie</div>
+    <div id='zuzu'>zuzu</div>
+    <div id='will'>will</div>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            //ID or Class name of the button goes into the first section
+            $('#jordan').click(function() {
+                //ID or Class name of the modal you want to appear son click goes into this second area#
+                $("#natalie").addClass("visible");
+            });
+            $('#natalie').click(function() {
+                //ID or Class name of the modal you want to appear son click goes into this second area#
+                $("#zuzu").addClass("visible");
+            });
+            $('#zuzu').click(function() {
+                //ID or Class name of the modal you want to appear son click goes into this second area#
+                $("#will").addClass("visible");
+            });
+        });
+
+    </script>
+
+</body>
+
+
+</html>
