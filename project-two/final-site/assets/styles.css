@@ -213,14 +213,25 @@ nav a {
 }
 
 #shutter-button{
-    display:relative;
+    position:relative;
     display:block;
 }
 
-
-
 #ap-button-iso2,
 #ap-button-iso3{
+    position:absolute;
+    top:0px;
+}
+
+#sh-button-iso1-ap1,
+#sh-button-iso2-ap1,
+#sh-button-iso3-ap1,
+#sh-button-iso1-ap2,
+#sh-button-iso1-ap3,
+#sh-button-iso2-ap2,
+#sh-button-iso2-ap3,
+#sh-button-iso3-ap2,
+#sh-button-iso3-ap3{
     position:absolute;
     top:0px;
 }
@@ -266,7 +277,7 @@ nav a {
     height: 500px;
     width: 300px;
     position: relative;
-    bottom: 800px;
+    bottom: 600px;
     left: 540px;
 }
 
