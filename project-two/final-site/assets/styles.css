@@ -163,9 +163,6 @@ nav a {
 
 /*INDEX.HTML*/
 
-.container {
-    justify-content: center;
-}
 
 .simulator-all {
     width: 500px;
@@ -206,7 +203,6 @@ nav a {
     display:flex;
 }
 
-
 #iso-button{
     display:block;
 }
@@ -216,34 +212,16 @@ nav a {
     display:block;
 }
 
-#ap-button-iso2,
-#ap-button-iso3{
-    position:absolute;
-    top:0px;
-}
-
 #shutter-button{
     display:relative;
     display:block;
 }
 
-#sh-button-iso1-ap1,
-#sh-button-iso2-ap1,
-#sh-button-iso3-ap1,
-#sh-button-iso1-ap2,
-#sh-button-iso1-ap3,
-#sh-button-iso2-ap2,
-#sh-button-iso2-ap3,
-#sh-button-iso3-ap2,
-#sh-button-iso3-ap3{
-    position: absolute;
-    top:773px;
+#ap-button-iso2,
+#ap-button-iso3{
+    position:absolute;
+    top:0px;
 }
-
-
-
-
-
 
 
 
@@ -252,8 +230,8 @@ nav a {
     height: 500px;
     width: 300px;
     position: relative;
-    bottom: 600px;
-    left: 670px;
+    bottom: 800px;
+    left: 540px;
 }
 
 #base-image{
