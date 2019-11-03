@@ -217,11 +217,47 @@ nav a {
     display:block;
 }
 
+
+
 #ap-button-iso2,
 #ap-button-iso3{
     position:absolute;
     top:0px;
 }
+
+#ic-iso1-ap1-sh1,
+#ic-iso2-ap1-sh1,
+#ic-iso3-ap1-sh1,
+#ic-iso1-ap2-sh1,
+#ic-iso1-ap1-sh2,
+#ic-iso1-ap1-sh3,
+#ic-iso2-ap2-sh1,
+#ic-iso2-ap2-sh2,
+#ic-iso2-ap2-sh3,
+#ic-iso2-ap1-sh2,
+#ic-iso2-ap3-sh2,
+#ic-iso1-ap2-sh2,
+#ic-iso3-ap2-sh2,
+#ic-iso3-ap3-sh1,
+#ic-iso3-ap3-sh2,
+#ic-iso3-ap3-sh3,
+#ic-iso1-ap3-sh3,
+#ic-iso2-ap3-sh3,
+#ic-iso2-ap3-sh1,
+#ic-iso3-ap1-sh3,
+#ic-iso3-ap2-sh3,
+#ic-iso1-ap2-sh3,
+#ic-iso3-ap1-sh2,
+#ic-iso3-ap2-sh1,
+#ic-iso1-ap3-sh2,
+#ic-iso2-ap1-sh3
+{
+    position: absolute;
+    top:500px;
+    left:400px;
+}
+
+
 
 
 
