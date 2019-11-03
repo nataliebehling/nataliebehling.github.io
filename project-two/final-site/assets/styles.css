@@ -202,9 +202,50 @@ nav a {
     justify-content: space-around;
 }
 
+.buttons-to-hide{
+    display:flex;
+}
+
+
 #iso-button{
     display:block;
 }
+
+#ap-button{
+    position:relative;
+    display:block;
+}
+
+#ap-button-iso2,
+#ap-button-iso3{
+    position:absolute;
+    top:0px;
+}
+
+#shutter-button{
+    display:relative;
+    display:block;
+}
+
+#sh-button-iso1-ap1,
+#sh-button-iso2-ap1,
+#sh-button-iso3-ap1,
+#sh-button-iso1-ap2,
+#sh-button-iso1-ap3,
+#sh-button-iso2-ap2,
+#sh-button-iso2-ap3,
+#sh-button-iso3-ap2,
+#sh-button-iso3-ap3{
+    position: absolute;
+    top:773px;
+}
+
+
+
+
+
+
+
 
 .image-capture {
     
