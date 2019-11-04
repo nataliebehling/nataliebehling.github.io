@@ -6,8 +6,8 @@ body {
 }
 
 .container {
-    width:1024px;
-    margin:0 auto;
+    width: 1024px;
+    margin: 0 auto;
     background-color: yellow;
     padding-bottom: 50px;
 }
@@ -59,8 +59,8 @@ nav {
     padding-top: 60px;
 }
 
-.sidepanel.drawer{
-    left:-25%;
+.sidepanel.drawer {
+    left: -25%;
 }
 
 .sidepanel-links {
@@ -117,7 +117,7 @@ nav {
 }
 
 .openbtn,
-#about{
+#about {
     font-family: realist, sans-serif;
     font-size: 40px;
     font-weight: 900;
@@ -131,12 +131,12 @@ nav {
 /*https://tympanus.net/Development/SidebarTransitions/# */
 
 #about {
-   height:125.91px;
+    height: 125.91px;
 }
 
 .openbtn:hover,
 #about:hover,
-#learn{
+#learn {
     color: #BBD6E2;
 }
 
@@ -157,10 +157,10 @@ nav a {
 
 .simulator-all {
     width: 500px;
-    height:75vh;
+    height: 75vh;
     margin-top: 100px;
     margin-left: 100px;
-    
+
 }
 
 .simulator-all h3 {
@@ -178,9 +178,9 @@ nav a {
 }
 
 #simulator-graphic {
-    background-color: #2D2D2D;
-    width: 450px;
-    height: 300px;
+
+    width: auto;
+    height: 320px;
 }
 
 .camera-simulator {
@@ -192,36 +192,36 @@ nav a {
 }
 
 #iso-button,
-#shutter-button div{
-    width:150px;
+#shutter-button div {
+    width: 150px;
 }
 
-#ap-button div{
-    width:140px;
+#ap-button div {
+    width: 140px;
 }
 
-.buttons-to-hide{
-    display:flex;
+.buttons-to-hide {
+    display: flex;
 }
 
-#iso-button{
-    display:block;
+#iso-button {
+    display: block;
 }
 
-#ap-button{
-    position:relative;
-    display:block;
+#ap-button {
+    position: relative;
+    display: block;
 }
 
-#shutter-button{
-    position:relative;
-    display:block;
+#shutter-button {
+    position: relative;
+    display: block;
 }
 
 #ap-button-iso2,
-#ap-button-iso3{
-    position:absolute;
-    top:0px;
+#ap-button-iso3 {
+    position: absolute;
+    top: 0px;
 }
 
 #sh-button-iso1-ap1,
@@ -232,9 +232,9 @@ nav a {
 #sh-button-iso2-ap2,
 #sh-button-iso2-ap3,
 #sh-button-iso3-ap2,
-#sh-button-iso3-ap3{
-    position:absolute;
-    top:0px;
+#sh-button-iso3-ap3 {
+    position: absolute;
+    top: 0px;
 }
 
 #ic-iso1-ap1-sh1,
@@ -264,19 +264,16 @@ nav a {
 #ic-iso3-ap1-sh2,
 #ic-iso3-ap2-sh1,
 #ic-iso1-ap3-sh2,
-#ic-iso2-ap1-sh3
-{
+#ic-iso2-ap1-sh3 {
     position: absolute;
-    top:50px;;
-    right:70px;
+    top: 360px;
+    right: -200px;
+    width: 50px;
 }
 
 
-
-
-
 .image-capture {
-    
+
     height: 500px;
     width: 300px;
     position: relative;
@@ -284,18 +281,19 @@ nav a {
     left: 540px;
 }
 
-#base-image{
-    width:300px;
+#base-image {
+    width: 300px;
     position: absolute;
-    top:30px;
-    right:20px;
+    top: 30px;
+    right: 20px;
 }
 
-.invisible{
+.invisible {
     visibility: hidden;
 }
 
-.visible{
+
+.visible {
     /*    visibility: visible;*/
     visibility: visible;
     transition: .45s ease-in-out;
@@ -304,6 +302,7 @@ nav a {
     -webkit-transition: opacity .45s ease-in-out;
     /* Helps make sure transition works in Chrome, Safari, etc.*/
 }
+
 /*ABOUT.HTML*/
 
 .about-all {
@@ -425,4 +424,3 @@ font-weight: 700;
 
 font-style: italic;
 */
-
