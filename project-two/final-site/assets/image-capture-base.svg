@@ -4,8 +4,8 @@
 	 viewBox="0 0 295.4 187.7" style="enable-background:new 0 0 295.4 187.7;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#151314;}
-	.st1{fill:#1F1D1A;stroke:#1F1D1A;stroke-width:2;stroke-miterlimit:10;}
-	.st2{fill:none;stroke:#1F1D1A;stroke-width:2;stroke-miterlimit:10;}
+	.st1{fill:#3A3732;stroke:#3A3732;stroke-width:2;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#3A3732;stroke-width:2;stroke-miterlimit:10;}
 	.st3{fill:#FFFFFF;}
 	.st4{font-family:'AinslieSans-ConBol';}
 	.st5{font-size:26.8053px;}
@@ -27,8 +27,8 @@
 <rect x="103.1" y="130.4" class="st2" width="42.3" height="36.3"/>
 <rect x="145.4" y="130.4" class="st2" width="42.3" height="36.3"/>
 <rect x="187.8" y="130.4" class="st2" width="88.9" height="36.3"/>
-<text id="XMLID_1_" transform="matrix(0.9586 0 0 1 35.1979 46.2065)" class="st3 st4 st5">M</text>
-<text id="XMLID_2_" transform="matrix(0.9586 0 0 1 84.9441 43.0601)" class="st3 st6 st7">shutter</text>
-<text id="XMLID_3_" transform="matrix(0.9586 0 0 1 150.7124 43.0599)" class="st3 st6 st7">aperature</text>
-<text id="XMLID_4_" transform="matrix(0.9586 0 0 1 236.54 43.0599)" class="st3 st6 st7">ISO</text>
+<text id="XMLID_1_" transform="matrix(0.9586 0 0 1 35.1978 46.2061)" class="st3 st4 st5">M</text>
+<text id="XMLID_2_" transform="matrix(0.9586 0 0 1 84.9443 43.0601)" class="st3 st6 st7">shutter</text>
+<text id="XMLID_3_" transform="matrix(0.9586 0 0 1 150.7129 43.0601)" class="st3 st6 st7">aperature</text>
+<text id="XMLID_4_" transform="matrix(0.9586 0 0 1 236.54 43.0601)" class="st3 st6 st7">ISO</text>
 </svg>
