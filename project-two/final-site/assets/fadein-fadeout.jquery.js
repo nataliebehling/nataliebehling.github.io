@@ -42,7 +42,6 @@ $(document).ready(function () {
         $("#ic-iso1-ap3-sh2").removeClass("visible");
         $("#ic-iso2-ap1-sh3").removeClass("visible");
         $("#ic-iso3-ap1-sh1").removeClass("visible");
-        $("#iso1-screen").addClass("white");
     });
     
     $('#iso2').click(function () {

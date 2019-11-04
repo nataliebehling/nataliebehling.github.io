@@ -189,6 +189,7 @@ nav a {
 
 .camera-controls {
     display: flex;
+    margin-left: 25px;
 }
 
 #iso-button,
@@ -206,16 +207,19 @@ nav a {
 
 #iso-button {
     display: block;
+    text-align: center;
 }
 
 #ap-button {
     position: relative;
     display: block;
+    text-align: center;
 }
 
 #shutter-button {
     position: relative;
     display: block;
+    text-align: center;
 }
 
 #ap-button-iso2,
@@ -235,6 +239,17 @@ nav a {
 #sh-button-iso3-ap3 {
     position: absolute;
     top: 0px;
+}
+
+button{
+    width:100px;
+    margin-bottom: 5px;
+    justify-content: center
+    text-align: center;
+    background-color: #;
+    color:blue;
+    border:none;
+    font-size: 14px;
 }
 
 #ic-iso1-ap1-sh1,
@@ -266,8 +281,8 @@ nav a {
 #ic-iso1-ap3-sh2,
 #ic-iso2-ap1-sh3 {
     position: absolute;
-    top: 360px;
-    right: -200px;
+    top: 380px;
+    right: -230px;
     width: 50px;
 }
 
@@ -277,8 +292,8 @@ nav a {
     height: 500px;
     width: 300px;
     position: relative;
-    bottom: 600px;
-    left: 540px;
+    bottom: 660px;
+    left: 560px;
 }
 
 #base-image {
