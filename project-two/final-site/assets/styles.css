@@ -1,12 +1,13 @@
 /*ALL APPLICABLE CSS*/
 
 body {
-    width: 1024px;
     background-color: #F0FAFF;
     justify-content: center;
 }
 
 .container {
+    width:1024px;
+    margin:0 auto;
     background-color: yellow;
     padding-bottom: 50px;
 }
@@ -34,19 +35,19 @@ body h2 {
 
 /*Nav Bar CSS*/
 nav {
-    width: 1105px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-content: center;
     padding: 30px;
-    margin-left: -140px;
     background-color: green;
     position: relative;
+    box-sizing: border-box
 }
 
 
 .sidepanel {
-    width: 0;
+    width: 25%;
     position: fixed;
     z-index: 1;
     height: 100%;
@@ -56,6 +57,10 @@ nav {
     overflow-x: hidden;
     transition: 1s;
     padding-top: 60px;
+}
+
+.sidepanel.drawer{
+    left:-25%;
 }
 
 .sidepanel-links {
@@ -111,7 +116,8 @@ nav {
     font-size: 40px;
 }
 
-.openbtn {
+.openbtn,
+#about{
     font-family: realist, sans-serif;
     font-size: 40px;
     font-weight: 900;
@@ -119,32 +125,18 @@ nav {
     background-color: aquamarine;
     color: #49587B;
     padding: 10px 15px;
-    margin-left: 60px;
     border: none;
-}
-
-.openbtn:hover {
-    color: #BBD6E2;
 }
 
 /*https://tympanus.net/Development/SidebarTransitions/# */
 
 #about {
-    background-color: aquamarine;
-    color: #49587B;
-    height: 140px;
-    outline: none;
-    border: none;
-    font-family: realist, sans-serif;
-    font-weight: 900;
-    font-style: normal;
-    font-size: 40px;
-    position: absolute;
-    top: 30px;
+   height:125.91px;
 }
 
-#learn,
-#about:hover {
+.openbtn:hover,
+#about:hover,
+#learn{
     color: #BBD6E2;
 }
 
@@ -158,7 +150,6 @@ nav {
 
 nav a {
     display: block;
-    margin-top: 10px;
 }
 
 /*INDEX.HTML*/
@@ -166,8 +157,10 @@ nav a {
 
 .simulator-all {
     width: 500px;
+    height:75vh;
     margin-top: 100px;
     margin-left: 100px;
+    
 }
 
 .simulator-all h3 {
@@ -196,7 +189,15 @@ nav a {
 
 .camera-controls {
     display: flex;
-    justify-content: space-around;
+}
+
+#iso-button,
+#shutter-button div{
+    width:150px;
+}
+
+#ap-button div{
+    width:140px;
 }
 
 .buttons-to-hide{
@@ -253,6 +254,8 @@ nav a {
 #ic-iso3-ap3-sh2,
 #ic-iso3-ap3-sh3,
 #ic-iso1-ap3-sh3,
+#ic-iso1-ap3-sh1,
+#ic-iso1-ap1-sh1,
 #ic-iso2-ap3-sh3,
 #ic-iso2-ap3-sh1,
 #ic-iso3-ap1-sh3,
@@ -264,8 +267,8 @@ nav a {
 #ic-iso2-ap1-sh3
 {
     position: absolute;
-    top:500px;
-    left:400px;
+    top:50px;;
+    right:70px;
 }
 
 
@@ -288,7 +291,7 @@ nav a {
     right:20px;
 }
 
-.buttons-to-hide{
+.invisible{
     visibility: hidden;
 }
 
@@ -422,3 +425,4 @@ font-weight: 700;
 
 font-style: italic;
 */
+

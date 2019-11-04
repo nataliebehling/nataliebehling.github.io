@@ -4,11 +4,9 @@
 <head>
     <meta charset="utf-8">
     <title>Camera Simulator</title>
-    <link rel="stylesheet" href="/nataliebehling.github.io/project-two/final-site/assets/styles.css">
+    <link rel="stylesheet" href="assets/styles.css">
     <link rel="stylesheet" href="https://use.typekit.net/wbb7gkn.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- custom jquery code created to add and remove the class of visible depending on which button the user clicks. -->
-    <script type="text/javascript" src="assets/fadein-fadeout.jquery.js"></script>
 
 </head>
 
@@ -17,9 +15,10 @@
 
     <div class='container'>
         <nav>
-            <section id="mySidepanel" class="sidepanel">
+            <section id="mySidepanel" class="sidepanel drawer">
                 <p id='learn-sidebar'>Learn</p>
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <a href="#" class="closebtn">×</a>
+                <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>-->
                 <div class='sidepanel-links'>
                     <a href="history-dslr.html">History of DSLR Cameras</a>
                     <p class='text-under'>The DSLR camera is a result of incredible innovation, committed photographers, and many camera predecessesors before. </p>
@@ -30,8 +29,9 @@
                 </div>
             </section>
 
-            <button class="openbtn" onclick="openNav(),dim() ">Learn</button>
+            <button class="openbtn">Learn</button>
 
+<!--
             <script>
                 function openNav() {
                     document.getElementById("mySidepanel").style.width = "25%";
@@ -40,8 +40,8 @@
                 function closeNav() {
                     document.getElementById("mySidepanel").style.width = "0";
                 }
-
             </script>
+-->
             <a href='index.html'><img id='camera-homescreen-icon' src='assets/camera-homescreen-icon.svg'></a>
             <a href="about.html"><button id='about'>About</button></a>
         </nav>
@@ -51,6 +51,38 @@
                 <p>Intimidated by those big, bulky digital single-lens reflex (DSLR) cameras? Well, you’ve come to the right place. Learn more about the history of DSLRs, explore key settings used to taking great photograph, and practice using the camera simulator below. </p>
                 <div class='camera-simulator'>
                     <h1 id="simulator-graphic">CAMERA SIMULATOR</h1>
+                    <div id='ic-buttons' class='invisible'>
+
+                        <button id="ic-iso1-ap1-sh1">image capture button</button>
+                        <button id="ic-iso2-ap1-sh1">image capture button</button>
+                        <button id="ic-iso3-ap1-sh1">image capture button</button>
+                        <button id="ic-iso1-ap2-sh1">image capture button</button>
+                        <button id="ic-iso1-ap3-sh1">image capture button</button>
+                        <button id="ic-iso1-ap1-sh2">image capture button</button>
+                        <button id="ic-iso1-ap1-sh3">image capture button</button>
+                        <button id="ic-iso2-ap2-sh1">image capture button</button>
+                        <button id="ic-iso2-ap2-sh2">image capture button</button>
+                        <button id="ic-iso2-ap2-sh3">image capture button</button>
+                        <button id="ic-iso2-ap1-sh2">image capture button</button>
+                        <button id="ic-iso2-ap3-sh2">image capture button</button>
+                        <button id="ic-iso1-ap2-sh2">image capture button</button>
+                        <button id="ic-iso3-ap2-sh2">image capture button</button>
+                        <button id="ic-iso3-ap3-sh1">image capture button</button>
+                        <button id="ic-iso3-ap3-sh2">image capture button</button>
+                        <button id="ic-iso3-ap3-sh3">image capture button</button>
+                        <button id="ic-iso1-ap3-sh3">image capture button</button>
+                        <button id="ic-iso2-ap3-sh3">image capture button</button>
+                        <button id='ic-iso2-ap3-sh1'>image capture button</button>
+                        <button id="ic-iso3-ap1-sh3">image capture button</button>
+                        <button id="ic-iso3-ap2-sh3">image capture button</button>
+                        <button id="ic-iso1-ap2-sh3">image capture button</button>
+                        <button id="ic-iso3-ap1-sh2">image capture button</button>
+                        <button id="ic-iso3-ap2-sh1">image capture button</button>
+                        <button id="ic-iso1-ap3-sh2">image capture button</button>
+                        <button id="ic-iso2-ap1-sh3">image capture button</button>
+
+
+                    </div>
 
                 </div>
                 <div class='camera-controls'>
@@ -60,119 +92,83 @@
                         <button id='iso2'>ISO2</button>
                         <button id='iso3'>ISO3</button>
                     </div>
-                    <div class='buttons-to-hide'>
-                        <div id='ap-button'>
-                            <div id='ap-button-iso1'>
-                                <h4>Aperature</h4>
-                                <button id='iso1-ap1'>Ap1</button>
-                                <button id=iso1-ap2>Ap2</button>
-                                <button id='iso1-ap3'>Ap3</button>
-                            </div>
-                            <div id='ap-button-iso2'>
-                                <h4>Aperature</h4>
-                                <button id='iso2-ap1'>Ap1</button>
-                                <button id=iso2-ap2>Ap2</button>
-                                <button id='iso2-ap3'>Ap3</button>
-                            </div>
-                            <div id='ap-button-iso3'>
-                                <h4>Aperature</h4>
-                                <button id='iso3-ap1'>Ap1</button>
-                                <button id=iso3-ap2>Ap2</button>
-                                <button id='iso3-ap3'>Ap3</button>
-                            </div>
+                    <!--                    <div class='buttons-to-hide'>-->
+                    <div id='ap-button' class='invisible'>
+                        <div id='ap-button-iso1'>
+                            <h4>Aperature</h4>
+                            <button id='iso1-ap1'>Ap1</button>
+                            <button id=iso1-ap2>Ap2</button>
+                            <button id='iso1-ap3'>Ap3</button>
                         </div>
-                        <div id='shutter-button'>
-                            <div id='sh-button-iso1-ap1'>
-                                <h4>Shutter</h4>
-                                <button id='iso1-ap1-shu1'>Shu1</button>
-                                <button id='iso1-ap1-shu2'>Shu2</button>
-                                <button id='iso1-ap1-shu3'>Shu3</button>
-                            </div>
-                            <div id='sh-button-iso2-ap1'>
-                                <h4>Shutter</h4>
-                                <button id='iso2-ap1-shu1'>Shu1</button>
-                                <button id='iso2-ap1-shu2'>Shu2</button>
-                                <button id='iso2-ap1-shu3'>Shu3</button>
-                            </div>
-                            <div id='sh-button-iso3-ap1'>
-                                <h4>Shutter</h4>
-                                <button id='iso3-ap1-shu1'>Shu1</button>
-                                <button id='iso3-ap1-shu2'>Shu2</button>
-                                <button id='iso3-ap1-shu3'>Shu3</button>
-                            </div>
-                            <div id='sh-button-iso1-ap2'>
-                                <h4>Shutter</h4>
-                                <button id='iso1-ap2-shu1'>Shu1</button>
-                                <button id='iso1-ap2-shu2'>Shu2</button>
-                                <button id='iso1-ap2-shu3'>Shu3</button>
-                            </div>
-                            <div id='sh-button-iso1-ap3'>
-                                <h4>Shutter</h4>
-                                <button id='iso1-ap3-shu1'>Shu1</button>
-                                <button id='iso1-ap3-shu2'>Shu2</button>
-                                <button id='iso1-ap3-shu3'>Shu3</button>
-                            </div>
-                            <div id='sh-button-iso2-ap2'>
-                                <h4>Shutter</h4>
-                                <button id='iso2-ap2-shu1'>Shu1</button>
-                                <button id='iso2-ap2-shu2'>Shu2</button>
-                                <button id='iso2-ap2-shu3'>Shu3</button>
-                            </div>
-                            <div id='sh-button-iso2-ap3'>
-                                <h4>Shutter</h4>
-                                <button id='iso2-ap3-shu1'>Shu1</button>
-                                <button id='iso2-ap3-shu2'>Shu2</button>
-                                <button id='iso2-ap3-shu3'>Shu3</button>
-                            </div>
-                            <div id='sh-button-iso3-ap2'>
-                                <h4>Shutter</h4>
-                                <button id='iso3-ap2-shu1'>Shu1</button>
-                                <button id='iso3-ap2-shu2'>Shu2</button>
-                                <button id='iso3-ap2-shu3'>Shu3</button>
-                            </div>
-                            <div id='sh-button-iso3-ap3'>
-                                <h4>Shutter</h4>
-                                <button id='iso3-ap3-shu1'>Shu1</button>
-                                <button id='iso3-ap3-shu2'>Shu2</button>
-                                <button id='iso3-ap3-shu3'>Shu3</button>
-                            </div>
+                        <div id='ap-button-iso2'>
+                            <h4>Aperature</h4>
+                            <button id='iso2-ap1'>Ap1</button>
+                            <button id=iso2-ap2>Ap2</button>
+                            <button id='iso2-ap3'>Ap3</button>
                         </div>
-
-                        <div id='ic-buttons'>
-                        
-                            <button id="ic-iso1-ap1-sh1">image capture button</button>
-                            <button id="ic-iso2-ap1-sh1">image capture button</button>
-                            <button id="ic-iso3-ap1-sh1">image capture button</button>
-                            <button id="ic-iso1-ap2-sh1">image capture button</button>
-                            <button id="ic-iso1-ap3-sh1">image capture button</button>
-                            <button id="ic-iso1-ap1-sh2">image capture button</button>
-                            <button id="ic-iso1-ap1-sh3">image capture button</button>
-                            <button id="ic-iso2-ap2-sh1">image capture button</button>
-                            <button id="ic-iso2-ap2-sh2">image capture button</button>
-                            <button id="ic-iso2-ap2-sh3">image capture button</button>
-                            <button id="ic-iso2-ap1-sh2">image capture button</button>
-                            <button id="ic-iso2-ap3-sh2">image capture button</button>
-                            <button id="ic-iso1-ap2-sh2">image capture button</button>
-                            <button id="ic-iso3-ap2-sh2">image capture button</button>
-                            <button id="ic-iso3-ap3-sh1">image capture button</button>
-                            <button id="ic-iso3-ap3-sh2">image capture button</button>
-                            <button id="ic-iso3-ap3-sh3">image capture button</button>
-                            <button id="ic-iso1-ap3-sh3">image capture button</button>
-                            <button id="ic-iso2-ap3-sh3">image capture button</button>
-                            <button id='ic-iso2-ap3-sh1'>image capture button</button>
-                            <button id="ic-iso3-ap1-sh3">image capture button</button>
-                            <button id="ic-iso3-ap2-sh3">image capture button</button>
-                            <button id="ic-iso1-ap2-sh3">image capture button</button>
-                            <button id="ic-iso3-ap1-sh2">image capture button</button>
-                            <button id="ic-iso3-ap2-sh1">image capture button</button>
-                            <button id="ic-iso1-ap3-sh2">image capture button</button>
-                            <button id="ic-iso2-ap1-sh3">image capture button</button>
-                            
-
+                        <div id='ap-button-iso3'>
+                            <h4>Aperature</h4>
+                            <button id='iso3-ap1'>Ap1</button>
+                            <button id=iso3-ap2>Ap2</button>
+                            <button id='iso3-ap3'>Ap3</button>
                         </div>
                     </div>
-
-
+                    <div id='shutter-button' class='invisible'>
+                        <div id='sh-button-iso1-ap1'>
+                            <h4>Shutter</h4>
+                            <button id='iso1-ap1-shu1'>Shu1</button>
+                            <button id='iso1-ap1-shu2'>Shu2</button>
+                            <button id='iso1-ap1-shu3'>Shu3</button>
+                        </div>
+                        <div id='sh-button-iso2-ap1'>
+                            <h4>Shutter</h4>
+                            <button id='iso2-ap1-shu1'>Shu1</button>
+                            <button id='iso2-ap1-shu2'>Shu2</button>
+                            <button id='iso2-ap1-shu3'>Shu3</button>
+                        </div>
+                        <div id='sh-button-iso3-ap1'>
+                            <h4>Shutter</h4>
+                            <button id='iso3-ap1-shu1'>Shu1</button>
+                            <button id='iso3-ap1-shu2'>Shu2</button>
+                            <button id='iso3-ap1-shu3'>Shu3</button>
+                        </div>
+                        <div id='sh-button-iso1-ap2'>
+                            <h4>Shutter</h4>
+                            <button id='iso1-ap2-shu1'>Shu1</button>
+                            <button id='iso1-ap2-shu2'>Shu2</button>
+                            <button id='iso1-ap2-shu3'>Shu3</button>
+                        </div>
+                        <div id='sh-button-iso1-ap3'>
+                            <h4>Shutter</h4>
+                            <button id='iso1-ap3-shu1'>Shu1</button>
+                            <button id='iso1-ap3-shu2'>Shu2</button>
+                            <button id='iso1-ap3-shu3'>Shu3</button>
+                        </div>
+                        <div id='sh-button-iso2-ap2'>
+                            <h4>Shutter</h4>
+                            <button id='iso2-ap2-shu1'>Shu1</button>
+                            <button id='iso2-ap2-shu2'>Shu2</button>
+                            <button id='iso2-ap2-shu3'>Shu3</button>
+                        </div>
+                        <div id='sh-button-iso2-ap3'>
+                            <h4>Shutter</h4>
+                            <button id='iso2-ap3-shu1'>Shu1</button>
+                            <button id='iso2-ap3-shu2'>Shu2</button>
+                            <button id='iso2-ap3-shu3'>Shu3</button>
+                        </div>
+                        <div id='sh-button-iso3-ap2'>
+                            <h4>Shutter</h4>
+                            <button id='iso3-ap2-shu1'>Shu1</button>
+                            <button id='iso3-ap2-shu2'>Shu2</button>
+                            <button id='iso3-ap2-shu3'>Shu3</button>
+                        </div>
+                        <div id='sh-button-iso3-ap3'>
+                            <h4>Shutter</h4>
+                            <button id='iso3-ap3-shu1'>Shu1</button>
+                            <button id='iso3-ap3-shu2'>Shu2</button>
+                            <button id='iso3-ap3-shu3'>Shu3</button>
+                        </div>
+                    </div>
                     <!-- end div.camera-controls -->
                 </div>
                 <!-- end div.simulator-all -->
@@ -181,4 +177,11 @@
                 </div>
             </div>
         </div>
-</body>
+    </div>
+    <!-- External Script section  -->
+
+    <!-- custom jquery code created to add and remove the class of visible depending on which button the user clicks. -->
+    <script type="text/javascript" src="assets/fadein-fadeout.jquery.js"></script>
+    <script src="assets/navdrawer.js" charset="utf-8"></script>
+
+</body></html>
