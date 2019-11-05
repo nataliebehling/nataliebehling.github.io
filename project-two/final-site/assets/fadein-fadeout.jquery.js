@@ -1474,11 +1474,14 @@ $(document).ready(function () {
         $("#ic-iso3-ap2-sh1").removeClass("visible");
         $("#ic-iso1-ap3-sh2").removeClass("visible");
         $("#ic-iso2-ap1-sh3").removeClass("visible");
-        $("#ic-iso3-ap1-sh1").removeClass("visible");
-        
+        $("#ic-iso3-ap1-sh1").removeClass("visible");  
         
     });
-    
- 
+    $('#ic-iso1-ap1-sh1').click(function () {
+        //ID or Class name of the modal you want to appear on click goes into this second area#
+        $("#image-iso1-ap1-sh1").removeClass("invisible")
    
+});
+    
+    
 });

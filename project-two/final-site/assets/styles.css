@@ -286,14 +286,19 @@ button{
     width: 50px;
 }
 
+.image-capture{
+    position:relative;
+}
 
-.image-capture {
+
+#image-iso1-ap1-sh1,
+#image-iso2-ap1-sh1{
 
     height: 500px;
-    width: 300px;
-    position: relative;
-    bottom: 660px;
-    left: 560px;
+    width: auto;
+    position: absolute;
+    bottom: 135px;
+    left: 550px;
 }
 
 #base-image {
@@ -311,11 +316,6 @@ button{
 .visible {
     /*    visibility: visible;*/
     visibility: visible;
-    transition: .45s ease-in-out;
-    -moz-transition: opacity .45s ease-in-out;
-    /* Helps make sure transition works in Mozilla */
-    -webkit-transition: opacity .45s ease-in-out;
-    /* Helps make sure transition works in Chrome, Safari, etc.*/
 }
 
 /*ABOUT.HTML*/

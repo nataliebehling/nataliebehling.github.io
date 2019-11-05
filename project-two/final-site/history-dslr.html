@@ -11,34 +11,40 @@
 </head>
 
 <body id='index-body'>
-<div class='container'>
-    <nav>
-        <section id="mySidepanel" class="sidepanel">
-            <p id='learn-sidebar'>Learn</p>
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-            <a href="history-dslr.html">History of DSLRs</a>
-            <p class='text-under'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <a href="iso-ap-sh.html">ISO, Aperature, Shutter, oh my!</a>
-            <p class='text-under'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <a href="about.html">About This Simulator</a>
-            <p class='text-under'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </section>
 
-        <button class="openbtn" onclick="openNav()">Learn</button>
 
-        <script>
-            function openNav() {
-                document.getElementById("mySidepanel").style.width = "25%";
-            }
+    <div class='container'>
+        <nav>
+            <section id="mySidepanel" class="sidepanel drawer">
+                <p id='learn-sidebar'>Learn</p>
+                <a href="#" class="closebtn">×</a>
+                <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>-->
+                <div class='sidepanel-links'>
+                    <a href="history-dslr.html">History of DSLR Cameras</a>
+                    <p class='text-under'>The DSLR camera is a result of incredible innovation, committed photographers, and many camera predecessesors before. </p>
+                    <a href="iso-ap-sh.html">ISO, Aperature, Shutter, oh my!</a>
+                    <p class='text-under'>ISO, shutter, and aperture: three basic settings any budding photographer needs to know how to utilize and control. </p>
+                    <a href="about.html">About This Simulator</a>
+                    <p class='text-under'>More about Natalie’s passion for photography and why she believes a camera simulator is the ultimate photographic learning tool.</p>
+                </div>
+            </section>
 
-            function closeNav() {
-                document.getElementById("mySidepanel").style.width = "0";
-            }
+            <button class="openbtn">Learn</button>
 
-        </script>
-        <a href='index.html'><img id='camera-homescreen-icon' src='assets/camera-homescreen-icon.svg'></a>
-        <a href="about.html"><button id='about'>About</button></a>
-    </nav>
+            <!--
+            <script>
+                function openNav() {
+                    document.getElementById("mySidepanel").style.width = "25%";
+                }
+
+                function closeNav() {
+                    document.getElementById("mySidepanel").style.width = "0";
+                }
+            </script>
+-->
+            <a href='index.html'><img id='camera-homescreen-icon' src='assets/camera-homescreen-icon.svg'></a>
+            <a href="about.html"><button id='about'>About</button></a>
+        </nav>
 
     <div class='history-dslr-all'>
         <div class='history-dslr-info'>
