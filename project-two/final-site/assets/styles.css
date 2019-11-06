@@ -8,7 +8,7 @@ body {
 .container {
     width: 1024px;
     margin: 0 auto;
-    background-color: yellow;
+    background-color: #F0FAFF;
     padding-bottom: 50px;
 }
 
@@ -19,13 +19,14 @@ body p {
 }
 
 body h1 {
-    font-family: realist, sans-serif;
+    font-family: ainslie-sans, sans-serif;
+    font-weight: 400;
     font-size: 40px;
-    margin-bottom: 5px;
+    font-style: normal;
 }
 
 body h2 {
-    font-family: realistnarrow, sans-serif;
+    font-family: ainslie-sans, sans-serif;
     font-size: 22px;
     font-weight: 200;
     margin-top: 0;
@@ -159,18 +160,24 @@ nav a {
     width: 500px;
     height: 75vh;
     margin-top: 100px;
-    margin-left: 100px;
+    margin-left: 75px;
 
 }
 
 .simulator-all h3 {
-    font-family: realist, sans-serif;
+    font-family: ainslie-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 
 }
 
 .simulator-all h4 {
     font-family: realistnarrow, sans-serif;
     font-weight: 200;
+}
+
+.simulator-all p {
+    margin-bottom: 40px;
 }
 
 .camera-simulator {
@@ -241,14 +248,13 @@ nav a {
     top: 0px;
 }
 
-button{
-    width:100px;
+button {
+    width: 100px;
     margin-bottom: 5px;
-    justify-content: center
-    text-align: center;
+    justify-content: center text-align: center;
     background-color: #;
-    color:blue;
-    border:none;
+    color: blue;
+    border: none;
     font-size: 14px;
 }
 
@@ -286,13 +292,13 @@ button{
     width: 50px;
 }
 
-.image-capture{
-    position:relative;
+.image-capture {
+    position: relative;
 }
 
 
 #image-iso1-ap1-sh1,
-#image-iso2-ap1-sh1{
+#image-iso2-ap1-sh1 {
 
     height: 500px;
     width: auto;
@@ -406,34 +412,108 @@ button{
 /*FONTS
 FreightText Pro Book
 
-font-family: freight-text-pro, serif;
+Ainslie Sans Norm Book
+
+font-family: ainslie-sans, sans-serif;
 
 font-weight: 400;
 
 font-style: normal;
 
 
-FreightText Pro Book Italic
+Ainslie Sans Norm Book Ital
 
-font-family: freight-text-pro, serif;
+font-family: ainslie-sans, sans-serif;
 
 font-weight: 400;
 
 font-style: italic;
 
 
-FreightText Pro Bold
+Ainslie Sans Norm Demi Ital
 
-font-family: freight-text-pro, serif;
+font-family: ainslie-sans, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+
+Ainslie Sans Norm Demi
+
+font-family: ainslie-sans, sans-serif;
 
 font-weight: 700;
 
 font-style: normal;
 
 
-FreightText Pro Bold Italic
+Ainslie Sans Cond Book Ital
 
-font-family: freight-text-pro, serif;
+font-family: ainslie-sans-condensed, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Ainslie Sans Cond Book
+
+font-family: ainslie-sans-condensed, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Ainslie Sans Cond Demi
+
+font-family: ainslie-sans-condensed, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Ainslie Sans Cond Demi Ital
+
+font-family: ainslie-sans-condensed, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+
+Ainslie Sans Ext Book Ital
+
+font-family: ainslie-sans-extended, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Ainslie Sans Ext Book
+
+font-family: ainslie-sans-extended, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Ainslie Sans Ext Demi
+
+font-family: ainslie-sans-extended, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Ainslie Sans Ext Demi Ital
+
+font-family: ainslie-sans-extended, sans-serif;
 
 font-weight: 700;
 
