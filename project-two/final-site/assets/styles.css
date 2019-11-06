@@ -14,12 +14,14 @@ body {
 
 body p {
     font-family: ainslie-sans, sans-serif;
+    color:#1B1A1B;
     font-size: 15px;
     font-weight: 400;
 }
 
 body h1 {
     font-family: ainslie-sans, sans-serif;
+    color:#1B1A1B;
     font-weight: 400;
     font-size: 40px;
     font-style: normal;
@@ -27,11 +29,29 @@ body h1 {
 
 body h2 {
     font-family: ainslie-sans, sans-serif;
+    color:#1B1A1B;
     font-size: 22px;
     font-weight: 200;
     margin-top: 0;
     margin-bottom: 30px;
     background-color: aquamarine
+}
+
+button {
+    
+    width: 100px;
+    margin-bottom: 5px;
+    justify-content: center;
+    background-color: #49587B;
+    border-radius: 15px 15px 15px 15px;
+    font-family: ainslie-sans, sans-serif;
+    color: #F0FAFF;
+    border: none;
+    font-size: 14px;
+}
+
+button:hover{
+    background-color: #BBD6E2;
 }
 
 /*Nav Bar CSS*/
@@ -41,7 +61,8 @@ nav {
     justify-content: space-around;
     align-content: center;
     padding: 30px;
-    background-color: green;
+    margin-bottom: -20px;
+    background-color: #F0FAFF;
     position: relative;
     box-sizing: border-box
 }
@@ -54,7 +75,7 @@ nav {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: lightpink;
+    background-color: #BBD6E2;
     overflow-x: hidden;
     transition: 1s;
     padding-top: 60px;
@@ -69,38 +90,41 @@ nav {
 }
 
 .sidepanel a {
-    margin-top: 40px;
+    margin-top: 50px;
     margin-right: 5px;
     padding: 5px 8px 8px 32px;
     text-decoration: none;
-    font-family: realist, sans-serif;
+    font-family: ainslie-sans, sans-serif;
     font-size: 20px;
     font-weight: 900;
-    color: black;
-    background-color: lightgreen;
+    color: #49587B;
+    background-color: #BBD6E2;
     display: block;
     transition: 0.3s;
 }
 
+.sidepanel-links{
+    margin-top: 10px;
+}
+
 .sidepanel .text-under {
     color: #000000;
-    background-color: cornflowerblue;
     margin-left: 30px;
     margin-right: 20px;
     margin-bottom: 0;
-    font-family: realist, sans-serif;
+    font-family: ainslie-sans, sans-serif;
+    font-weight:300;
     font-size: 14px;
 }
 
 .sidepanel a:hover {
-    color: #BBD6E2;
+    color: #749AB2;
 
 }
 
 .sidepanel #learn-sidebar {
-    color: black;
-    background-color: darkorange;
-    font-family: realist, sans-serif;
+    color: #3b3b3b;
+    font-family: ainslie-sans, sans-serif;
     font-size: 40px;
     font-weight: 800;
     position: absolute;
@@ -112,22 +136,28 @@ nav {
 
 .sidepanel .closebtn {
     position: absolute;
-    top: 0px;
+    top: -15px;
     right: 25px;
     font-size: 40px;
 }
 
 .openbtn,
 #about {
-    font-family: realist, sans-serif;
+    font-family: ainslie-sans, sans-serif;
     font-size: 40px;
-    font-weight: 900;
+    font-weight: 700;
     cursor: pointer;
-    background-color: aquamarine;
+    background-color: #F0FAFF;
     color: #49587B;
     padding: 10px 15px;
     border: none;
 }
+
+.openbtn:hover{
+    background-color: #F0FAFF;
+}
+
+
 
 /*https://tympanus.net/Development/SidebarTransitions/# */
 
@@ -159,21 +189,22 @@ nav a {
 .simulator-all {
     width: 500px;
     height: 75vh;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 75px;
 
 }
 
 .simulator-all h3 {
     font-family: ainslie-sans, sans-serif;
+    color:#1B1A1B;
     font-weight: 700;
     font-style: normal;
 
 }
 
 .simulator-all h4 {
-    font-family: realistnarrow, sans-serif;
-    font-weight: 200;
+    font-family: ainslie-sans, sans-serif;
+    font-weight: 400;
 }
 
 .simulator-all p {
@@ -188,6 +219,7 @@ nav a {
 
     width: auto;
     height: 320px;
+    border-radius:5px 5px 5px 5px;
 }
 
 .camera-simulator {
@@ -248,15 +280,6 @@ nav a {
     top: 0px;
 }
 
-button {
-    width: 100px;
-    margin-bottom: 5px;
-    justify-content: center text-align: center;
-    background-color: #;
-    color: blue;
-    border: none;
-    font-size: 14px;
-}
 
 #ic-iso1-ap1-sh1,
 #ic-iso2-ap1-sh1,
@@ -294,6 +317,7 @@ button {
 
 .image-capture {
     position: relative;
+    
 }
 
 
@@ -305,6 +329,7 @@ button {
     position: absolute;
     bottom: 135px;
     left: 550px;
+    border-radius: 2px 2px 2px 2px;
 }
 
 #base-image {
@@ -312,6 +337,7 @@ button {
     position: absolute;
     top: 30px;
     right: 20px;
+    
 }
 
 .invisible {

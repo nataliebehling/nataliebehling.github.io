@@ -2,6 +2,7 @@ $(document).ready(function () {
     //ID or Class name of the button goes into the first section
     $('#iso1').click(function () {
         //ID or Class name of the modal you want to appear son click goes into this second area#
+        $("iso1").addClass("button-active");
         $("#ap-button-iso1").addClass("visible");
         $("#ap-button-iso2").removeClass("visible");
         $("#ap-button-iso3").removeClass("visible");
