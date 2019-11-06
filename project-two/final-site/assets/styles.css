@@ -326,7 +326,8 @@ nav a {
 }
 
 
-#image-iso1-ap1-sh1,
+#image-iso1-ap1-sh1
+#image-iso1-ap1-sh2,
 #image-iso2-ap2-sh2,
 #image-iso2-ap1-sh1{
 
@@ -346,11 +347,9 @@ nav a {
     
 }
 
-/*
 .invisible {
     visibility: hidden;
 }
-*/
 
 
 .visible {
