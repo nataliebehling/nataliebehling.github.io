@@ -2642,11 +2642,6 @@ $(document).ready(function () {
 
     });
     
-    $('#ic-iso1-ap1-sh2').click(function () {
-        //ID or Class name of the modal you want to appear on click goes into this second area#
-        $("#image-iso1-ap1-sh2").removeClass("invisible")
-
-    });
 
     $('#ic-iso2-ap1-sh1').click(function () {
         //ID or Class name of the modal you want to appear on click goes into this second area#
@@ -2654,11 +2649,6 @@ $(document).ready(function () {
 
     });
 
-    $('#ic-iso3-ap1-sh1').click(function () {
-        //ID or Class name of the modal you want to appear on click goes into this second area#
-        $("#image-iso3-ap1-sh1").removeClass("invisible")
-
-    });
 
     $('#ic-iso2-ap2-sh2').click(function () {
         //ID or Class name of the modal you want to appear on click goes into this second area#

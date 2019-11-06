@@ -328,14 +328,13 @@ nav a {
 
 #image-iso1-ap1-sh1,
 #image-iso2-ap2-sh2,
-#image-iso2-ap1-sh1,
-#image-iso2-ap2-sh2{
+#image-iso2-ap1-sh1{
 
     height: 500px;
     width: auto;
     position: absolute;
-    bottom: 135px;
     left: 550px;
+    top:-640px;
     border-radius: 2px 2px 2px 2px;
 }
 
@@ -347,9 +346,11 @@ nav a {
     
 }
 
+/*
 .invisible {
     visibility: hidden;
 }
+*/
 
 
 .visible {
