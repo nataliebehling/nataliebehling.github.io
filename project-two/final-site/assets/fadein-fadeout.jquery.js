@@ -2648,6 +2648,36 @@ $(document).ready(function () {
         $("#image-iso2-ap1-sh1").removeClass("invisible")
 
     });
+    
+    $('#ic-iso3-ap1-sh1').click(function () {
+        //ID or Class name of the modal you want to appear on click goes into this second area#
+        $("#image-iso3-ap1-sh1").removeClass("invisible")
+
+    });
+    
+    $('#ic-iso1-ap2-sh1').click(function () {
+        //ID or Class name of the modal you want to appear on click goes into this second area#
+        $("#image-iso1-ap2-sh1").removeClass("invisible")
+
+    });
+    
+    $('#ic-iso1-ap1-sh2').click(function () {
+        //ID or Class name of the modal you want to appear on click goes into this second area#
+        $("#image-iso1-ap1-sh2").removeClass("invisible")
+
+    });
+    
+    $('#ic-iso1-ap1-sh3').click(function () {
+        //ID or Class name of the modal you want to appear on click goes into this second area#
+        $("#image-iso2-ap2-sh2").removeClass("invisible")
+
+    });
+    
+    $('#ic-iso2-ap2-sh1').click(function () {
+        //ID or Class name of the modal you want to appear on click goes into this second area#
+        $("#image-iso2-ap2-sh1").removeClass("invisible")
+
+    });
 
 
     $('#ic-iso2-ap2-sh2').click(function () {
@@ -2655,6 +2685,109 @@ $(document).ready(function () {
         $("#image-iso2-ap2-sh2").removeClass("invisible")
 
     });
+    
+    $('#ic-iso2-ap2-sh3').click(function () {
+        //ID or Class name of the modal you want to appear on click goes into this second area#
+        $("#image-iso2-ap2-sh3").removeClass("invisible")
+
+    });
+    
+    $('#ic-iso2-ap1-sh2').click(function () {
+        //ID or Class name of the modal you want to appear on click goes into this second area#
+        $("#image-iso2-ap1-sh2").removeClass("invisible")
+
+    });
+    
+    $('#ic-iso2-ap3-sh2').click(function () {
+        //ID or Class name of the modal you want to appear on click goes into this second area#
+        $("#image-iso2-ap3-sh2").removeClass("invisible")
+
+    });
+    
+    $('#ic-iso1-ap2-sh2').click(function () {
+        //ID or Class name of the modal you want to appear on click goes into this second area#
+        $("#image-iso1-ap2-sh2").removeClass("invisible")
+
+    });
+    
+    $('#ic-iso3-ap2-sh2').click(function () {
+        //ID or Class name of the modal you want to appear on click goes into this second area#
+        $("#image-iso3-ap2-sh2").removeClass("invisible")
+
+    });
+    
+    $('#ic-iso3-ap3-sh1').click(function () {
+        //ID or Class name of the modal you want to appear on click goes into this second area#
+        $("#image-iso3-ap3-sh1").removeClass("invisible")
+
+    });
+    
+     $('#ic-iso1-ap3-sh1').click(function () {
+        //ID or Class name of the modal you want to appear on click goes into this second area#
+        $("#image-iso1-ap3-sh1").removeClass("invisible")
+
+    });
+        
+    $('#ic-iso2-ap3-sh3').click(function () {
+        //ID or Class name of the modal you want to appear on click goes into this second area#
+        $("#image-iso2-ap3-sh3").removeClass("invisible")
+
+    });
+        
+    $('#ic-iso2-ap3-sh1').click(function () {
+        //ID or Class name of the modal you want to appear on click goes into this second area#
+        $("#image-iso2-ap3-sh1").removeClass("invisible")
+
+    });
+        
+    $('#ic-iso3-ap1-sh3').click(function () {
+        //ID or Class name of the modal you want to appear on click goes into this second area#
+        $("#image-iso3-ap1-sh3").removeClass("invisible")
+
+    });
+        
+    $('#ic-iso3-ap2-sh3').click(function () {
+        //ID or Class name of the modal you want to appear on click goes into this second area#
+        $("#image-iso3-ap2-sh3").removeClass("invisible")
+
+    });
+        
+    $('#ic-iso1-ap2-sh3').click(function () {
+        //ID or Class name of the modal you want to appear on click goes into this second area#
+        $("#image-iso1-ap2-sh3").removeClass("invisible")
+
+    });
+        
+    $('#ic-iso3-ap1-sh2').click(function () {
+        //ID or Class name of the modal you want to appear on click goes into this second area#
+        $("#image-iso3-ap1-sh2").removeClass("invisible")
+
+    });
+        
+    $('#ic-iso3-ap2-sh1').click(function () {
+        //ID or Class name of the modal you want to appear on click goes into this second area#
+        $("#image-iso3-ap2-sh1").removeClass("invisible")
+
+    });
+        
+    $('#ic-iso1-ap3-sh2').click(function () {
+        //ID or Class name of the modal you want to appear on click goes into this second area#
+        $("#image-iso1-ap3-sh2").removeClass("invisible")
+
+    });
+        
+    $('#ic-iso2-ap1-sh3').click(function () {
+        //ID or Class name of the modal you want to appear on click goes into this second area#
+        $("#image-iso2-ap1-sh3").removeClass("invisible")
+
+    });
+    
+    $('#ic-iso3-ap3-sh3').click(function () {
+        //ID or Class name of the modal you want to appear on click goes into this second area#
+        $("#image-iso3-ap3-sh3").removeClass("invisible")
+
+    });
+
 
 
 });

@@ -326,10 +326,35 @@ nav a {
 }
 
 
-#image-iso1-ap1-sh1
+#image-iso1-ap1-sh1,
+#image-iso2-ap1-sh1,
+#image-iso3-ap1-sh1,
+#image-iso1-ap2-sh1,
 #image-iso1-ap1-sh2,
+#image-iso1-ap1-sh3,
+#image-iso2-ap2-sh1,
 #image-iso2-ap2-sh2,
-#image-iso2-ap1-sh1{
+#image-iso2-ap2-sh3,
+#image-iso2-ap1-sh2,
+#image-iso2-ap3-sh2,
+#image-iso1-ap2-sh2,
+#image-iso3-ap2-sh2,
+#image-iso3-ap3-sh1,
+#image-iso3-ap3-sh2,
+#image-iso3-ap3-sh3,
+#image-iso1-ap3-sh3,
+#image-iso1-ap3-sh1,
+#image-iso2-ap3-sh3,
+#image-iso2-ap3-sh1,
+#image-iso3-ap1-sh3,
+#image-iso3-ap2-sh3,
+#image-iso1-ap2-sh3,
+#image-iso3-ap1-sh2,
+#image-iso3-ap2-sh1,
+#image-iso1-ap3-sh2,
+#image-iso2-ap1-sh3,
+#image-iso2-ap1-sh1
+{
 
     height: 500px;
     width: auto;
