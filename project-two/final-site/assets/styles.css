@@ -104,8 +104,9 @@ nav {
     transition: 0.3s;
 }
 
-.sidepanel-links{
-    margin-top: 10px;
+.sidepanel a:hover {
+    color: #749AB2;
+
 }
 
 .sidepanel .text-under {
@@ -116,11 +117,6 @@ nav {
     font-family: ainslie-sans, sans-serif;
     font-weight:300;
     font-size: 14px;
-}
-
-.sidepanel a:hover {
-    color: #749AB2;
-
 }
 
 .sidepanel #learn-sidebar {
@@ -159,9 +155,9 @@ nav {
     background-color: #F0FAFF;
 }
 
+/* Sidebar Sourcing/Inspiration 
 
-
-/*https://tympanus.net/Development/SidebarTransitions/# */
+https://tympanus.net/Development/SidebarTransitions/# */
 
 #about {
     height: 125.91px;
@@ -314,11 +310,13 @@ nav a {
 #ic-iso2-ap1-sh3 {
     position: absolute;
     top: 380px;
-    right: -250px;
-    width: 50px;
-    height: 50px;
-    background-color: #D5D16E;
+    right: -260px;
+    width: 70px;
+    height: 73px;
+    background-color: ;
     border-radius: 100px 100px 100px 100px;
+    background-image:url(shutter-vector.svg)
+
 }
 
 
@@ -329,7 +327,9 @@ nav a {
 
 
 #image-iso1-ap1-sh1,
-#image-iso2-ap1-sh1 {
+#image-iso2-ap2-sh2,
+#image-iso2-ap1-sh1,
+#image-iso2-ap2-sh2{
 
     height: 500px;
     width: auto;
