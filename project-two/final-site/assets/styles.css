@@ -1,27 +1,27 @@
 /*ALL APPLICABLE CSS*/
 
 body {
-    background-color: #F0FAFF;
+    background-color: #1B1A1B;
     justify-content: center;
 }
 
 .container {
     width: 1024px;
     margin: 0 auto;
-    background-color: #F0FAFF;
+    background-color: #1B1A1B;
     padding-bottom: 50px;
 }
 
 body p {
     font-family: ainslie-sans, sans-serif;
-    color:#1B1A1B;
+    color:#E6E7E8;
     font-size: 15px;
     font-weight: 400;
 }
 
 body h1 {
     font-family: ainslie-sans, sans-serif;
-    color:#1B1A1B;
+    color:#E6E7E8;
     font-weight: 400;
     font-size: 40px;
     font-style: normal;
@@ -29,7 +29,7 @@ body h1 {
 
 body h2 {
     font-family: ainslie-sans, sans-serif;
-    color:#1B1A1B;
+    color:#E6E7E8;
     font-size: 22px;
     font-weight: 200;
     margin-top: 0;
@@ -42,7 +42,7 @@ button {
     width: 100px;
     margin-bottom: 5px;
     justify-content: center;
-    background-color: #49587B;
+    background-color: #9A9A9A;
     border-radius: 15px 15px 15px 15px;
     font-family: ainslie-sans, sans-serif;
     color: #F0FAFF;
@@ -52,7 +52,7 @@ button {
 }
 
 button:hover{
-    background-color: #BBD6E2;
+    background-color: #e6e7e8;
 }
 
 /*Nav Bar CSS*/
@@ -63,9 +63,9 @@ nav {
     align-content: center;
     padding: 30px;
     margin-bottom: -20px;
-    background-color: #F0FAFF;
+    background-color: #1B1A1B;
     position: relative;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 
@@ -76,7 +76,7 @@ nav {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: #BBD6E2;
+    background-color: #3C3A36;
     overflow-x: hidden;
     transition: 1s;
     padding-top: 60px;
@@ -98,19 +98,18 @@ nav {
     font-family: ainslie-sans, sans-serif;
     font-size: 20px;
     font-weight: 900;
-    color: #49587B;
-    background-color: #BBD6E2;
+    color: #9A9A9A;
     display: block;
     transition: 0.3s;
 }
 
 .sidepanel a:hover {
-    color: #749AB2;
+    color: #e6e7e8;
 
 }
 
 .sidepanel .text-under {
-    color: #000000;
+    color: #e6e7e8;
     margin-left: 30px;
     margin-right: 20px;
     margin-bottom: 0;
@@ -120,7 +119,7 @@ nav {
 }
 
 .sidepanel #learn-sidebar {
-    color: #3b3b3b;
+    color: #e6e7e8;
     font-family: ainslie-sans, sans-serif;
     font-size: 40px;
     font-weight: 800;
@@ -144,15 +143,15 @@ nav {
     font-size: 40px;
     font-weight: 700;
     cursor: pointer;
-    background-color: #F0FAFF;
-    color: #49587B;
+    background-color: #1B1A1B;
+    color: #9A9A9A;
     padding: 10px 15px;
     border: none;
     outline: none;
 }
 
 .openbtn:hover{
-    background-color: #F0FAFF;
+    background-color: #1B1A1B;
 }
 
 /* Sidebar Sourcing/Inspiration 
@@ -166,15 +165,24 @@ https://tympanus.net/Development/SidebarTransitions/# */
 .openbtn:hover,
 #about:hover,
 #learn {
-    color: #BBD6E2;
+    color: #e6e7e8;
 }
 
 #camera-homescreen-icon {
     width: 160px;
+    z-index: 1;
+}
+
+#camera-homescren-icon-hover{
+    width: 160px;
+    height:auto;
+    position: absolute;
 }
 
 #camera-homescreen-icon:hover {
-    background-image: url(camera-homescreen-icon-color.svg);
+    opacity: 50%;
+    z-index: 99;
+   
 }
 
 nav a {
@@ -194,8 +202,8 @@ nav a {
 
 .simulator-all h3 {
     font-family: ainslie-sans, sans-serif;
-    color:#1B1A1B;
-    font-weight: 700;
+    color:#E6E7E8;
+    font-weight: 800;
     font-style: normal;
 
 }
@@ -203,6 +211,7 @@ nav a {
 .simulator-all h4 {
     font-family: ainslie-sans, sans-serif;
     font-weight: 400;
+    color:#E6E7E8;
 }
 
 .simulator-all p {
