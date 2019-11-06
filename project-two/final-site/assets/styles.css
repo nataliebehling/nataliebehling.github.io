@@ -13,7 +13,7 @@ body {
 }
 
 body p {
-    font-family: freight-text-pro, serif;
+    font-family: ainslie-sans, sans-serif;
     font-size: 15px;
     font-weight: 400;
 }
@@ -166,7 +166,7 @@ nav a {
 
 .simulator-all h3 {
     font-family: ainslie-sans, sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;
 
 }
