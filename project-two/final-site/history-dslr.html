@@ -15,7 +15,7 @@
 
     <div class='container'>
         <nav>
-            <section id="mySidepanel" class="sidepanel drawer">
+            <section id="mySidepanel" class="sidepanel">
                 <p id='learn-sidebar'>Learn</p>
                 <a href="#" class="closebtn">×</a>
                 <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>-->
@@ -29,38 +29,35 @@
                 </div>
             </section>
 
-            <button class="openbtn">Learn</button>
+            <button class="openbtn drawer">Learn</button>
 
-            <!--
-            <script>
-                function openNav() {
-                    document.getElementById("mySidepanel").style.width = "25%";
-                }
-
-                function closeNav() {
-                    document.getElementById("mySidepanel").style.width = "0";
-                }
-            </script>
--->
             <a href='index.html'><img id='camera-homescreen-icon' src='assets/camera-homescreen-icon.svg'></a>
             <a href="about.html"><button id='about'>About</button></a>
         </nav>
 
-    <div class='history-dslr-all'>
-        <div class='history-dslr-info'>
-            <h1>History of DSLR Cameras</h1>
-            <h2>Subtitle</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class='history-dslr-all'>
+            <div class='history-dslr-info'>
+                <h1>History of DSLR Cameras</h1>
+                <h2>Subtitle</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
-        <div class='history-dslr-pictures'>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class='history-dslr-pictures'>
 
-            <h1 id='history-pic1'>IMAGE HERE OLD CAMERA</h1>
-            <h1 id='history-pic2'>IMAGE HERE DSLR CAMERA</h1>
+                <h1 id='history-pic1'>IMAGE HERE OLD CAMERA</h1>
+                <h1 id='history-pic2'>IMAGE HERE DSLR CAMERA</h1>
+            </div>
         </div>
     </div>
-</div>
+    
+<!-- External Script section  -->
 
-
+    <!-- custom jquery code created to add and remove the class of visible depending on which button the user clicks. -->
+    <script type="text/javascript" src="assets/fadein-fadeout.jquery.js"></script>
+    <script src="assets/navdrawer.js" charset="utf-8"></script>
+    
 </body>
+    
+</html>
+
