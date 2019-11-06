@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/nataliebehling.github.io/project-two/final-site/assets/styles.css">
     <link rel="stylesheet" href="https://use.typekit.net/wbb7gkn.css">
     <link rel="stylesheet" href="https://use.typekit.net/wbb7gkn.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 </head>
 
@@ -15,7 +16,7 @@
 
     <div class='container'>
         <nav>
-            <section id="mySidepanel" class="sidepanel">
+            <section id="mySidepanel" class="sidepanel drawer">
                 <p id='learn-sidebar'>Learn</p>
                 <a href="#" class="closebtn">×</a>
                 <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>-->
@@ -29,11 +30,23 @@
                 </div>
             </section>
 
-            <button class="openbtn drawer">Learn</button>
+            <button class="openbtn">Learn</button>
 
+            <!--
+            <script>
+                function openNav() {
+                    document.getElementById("mySidepanel").style.width = "25%";
+                }
+
+                function closeNav() {
+                    document.getElementById("mySidepanel").style.width = "0";
+                }
+            </script>
+-->
             <a href='index.html'><img id='camera-homescreen-icon' src='assets/camera-homescreen-icon.svg'></a>
             <a href="about.html"><button id='about'>About</button></a>
         </nav>
+
 
         <div class='history-dslr-all'>
             <div class='history-dslr-info'>
