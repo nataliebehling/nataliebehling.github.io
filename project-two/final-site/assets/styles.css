@@ -15,7 +15,7 @@ body {
 body p {
     font-family: ainslie-sans, sans-serif;
     color:#E6E7E8;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 400;
 }
 
@@ -405,8 +405,7 @@ nav a {
 }
 
 #about-info {
-    width: 300px;
-    height: 480px;
+    width: 360px;
     margin-top: 0px;
     
 }
@@ -414,14 +413,13 @@ nav a {
 #left-image,
 #right-image {
     
-    padding: 27px;
-    width: 300px;
+    border-radius: 20px 20px 20px 20px;
+    margin: 27px;
+    width: 290px;
     
-}
-
-#images-here2 {
-    background-color: aqua;
-    width: 250px;
+    
+    
+    
 }
 
 /*HISTORY DSLR HTML*/
@@ -468,6 +466,8 @@ nav a {
 #sh-compare-pic{
     display:block;
     height: 270px;
+    border-radius: 20px 20px 20px 20px;
+    
     
 
 }
@@ -475,21 +475,17 @@ nav a {
 #ap-compare-pic{
     position: absolute;
     top:60px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
 }
 
 #sh-compare-pic{
     position: absolute;
-    top: 310px;
+    top: 360px;
 }
 
 
 #iso-compare-pic{
     position:absolute;
-    top:569px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    top:660px;
 }
 
 
