@@ -407,16 +407,16 @@ nav a {
 #about-info {
     width: 300px;
     height: 480px;
-    margin-top: 50px;
-    background-color: cadetblue
+    margin-top: 0px;
+    
 }
 
-#images-here1,
-#images-here2 {
-    background-color: aqua;
-    padding: 25px;
-    width: 250px;
-    height: 460px;
+#left-image,
+#right-image {
+    
+    padding: 27px;
+    width: 300px;
+    
 }
 
 #images-here2 {
@@ -468,12 +468,15 @@ nav a {
 #sh-compare-pic{
     display:block;
     height: 270px;
+    
 
 }
 
 #ap-compare-pic{
     position: absolute;
     top:60px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 #sh-compare-pic{
@@ -484,7 +487,9 @@ nav a {
 
 #iso-compare-pic{
     position:absolute;
-    top:581px;
+    top:569px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 
