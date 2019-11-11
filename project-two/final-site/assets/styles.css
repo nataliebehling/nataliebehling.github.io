@@ -434,18 +434,50 @@ nav a {
     width: 600px;
 }
 
-#history-pic1 {
-    background-color: darkcyan;
-    height: 220px;
-    position: absolute;
-    top: 20px;
+#top-pic,
+#middle-pic,
+#bottom-pic{
+    width: 300px;
+    border-radius: 20px 20px 20px 20px;
 }
 
-#history-pic2 {
-    background-color: darkcyan;
-    height: 220px;
+#top-pic-caption,
+#middle-pic-caption,
+#bottom-pic-caption{
+    font-size:13px;
+    width:300px;
+}
+
+#top-pic {
     position: absolute;
-    top: 270px;
+    top: 180px;
+}
+
+#middle-pic{
+    position: absolute;
+    top: 480px;
+}
+
+#bottom-pic{
+    position: absolute;
+    top: 780px;
+}
+
+#top-pic-caption{
+    position: absolute;
+    top:400px;
+    
+}
+
+#middle-pic-caption{
+    position: absolute;
+    top:700px;
+    
+}
+
+#bottom-pic-caption{
+    position: absolute;
+    top: 955px;
 }
 
 /*ISO SH AP HTML*/
