@@ -450,6 +450,11 @@ nav a {
 
 /*ISO SH AP HTML*/
 
+.iso-ap-sh-heading{
+    
+    width: 990px;
+}
+
 .iso-sh-ap-all {
     display:flex;
     position:relative;
