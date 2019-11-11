@@ -2793,6 +2793,12 @@ $(document).ready(function () {
         $("#image-iso3-ap3-sh2").removeClass("invisible")
 
     });
+    
+    $('#ic-iso2-ap3-sh3').click(function () {
+        //ID or Class name of the modal you want to appear on click goes into this second area#
+        $("#image-iso2-ap3-sh3").removeClass("invisible")
+
+    });
 
 
 
