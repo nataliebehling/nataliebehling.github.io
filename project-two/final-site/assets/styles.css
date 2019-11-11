@@ -453,8 +453,9 @@ nav a {
 /*ISO SH AP HTML*/
 
 .iso-sh-ap-all {
-    display: flex;
-    position: relative;
+    display:flex;
+    position:relative;
+    
 }
 
 .iso-sh-ap-info {
@@ -462,19 +463,30 @@ nav a {
     width: 600px;
 }
 
-#iso-pic1 {
-    background-color: darkcyan;
-    height: 220px;
-    position: absolute;
-    top: 20px;
+#iso-compare-pic,
+#ap-compare-pic,
+#sh-compare-pic{
+    display:block;
+    height: 270px;
+
 }
 
-#iso-pic2 {
-    background-color: darkcyan;
-    height: 220px;
+#ap-compare-pic{
     position: absolute;
-    top: 270px;
+    top:60px;
 }
+
+#sh-compare-pic{
+    position: absolute;
+    top: 310px;
+}
+
+
+#iso-compare-pic{
+    position:absolute;
+    top:581px;
+}
+
 
 /*FONTS
 FreightText Pro Book
