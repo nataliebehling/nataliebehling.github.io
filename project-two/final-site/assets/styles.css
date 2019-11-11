@@ -14,31 +14,32 @@ body {
 
 body p {
     font-family: ainslie-sans, sans-serif;
-    color:#E6E7E8;
+    color: #E6E7E8;
     font-size: 16px;
     font-weight: 400;
 }
 
 body h1 {
     font-family: ainslie-sans, sans-serif;
-    color:#E6E7E8;
-    font-weight: 400;
+    color: #a7a7a7;
+    font-weight: 600;
     font-size: 40px;
     font-style: normal;
+    margin-bottom: -10px
 }
 
 body h2 {
     font-family: ainslie-sans, sans-serif;
-    color:#E6E7E8;
+    color: #E6E7E8;
     font-size: 22px;
     font-weight: 200;
-    margin-top: 0;
+    margin-top: ;
     margin-bottom: 30px;
 
 }
 
 button {
-    
+
     width: 100px;
     margin-bottom: 5px;
     justify-content: center;
@@ -51,7 +52,7 @@ button {
     outline: none;
 }
 
-button:hover{
+button:hover {
     background-color: #e6e7e8;
 }
 
@@ -114,7 +115,7 @@ nav {
     margin-right: 20px;
     margin-bottom: 0;
     font-family: ainslie-sans, sans-serif;
-    font-weight:300;
+    font-weight: 300;
     font-size: 14px;
 }
 
@@ -150,7 +151,7 @@ nav {
     outline: none;
 }
 
-.openbtn:hover{
+.openbtn:hover {
     background-color: #1B1A1B;
 }
 
@@ -173,16 +174,16 @@ https://tympanus.net/Development/SidebarTransitions/# */
     z-index: 1;
 }
 
-#camera-homescren-icon-hover{
+#camera-homescren-icon-hover {
     width: 160px;
-    height:auto;
+    height: auto;
     position: absolute;
 }
 
 #camera-homescreen-icon:hover {
     opacity: 50%;
     z-index: 99;
-   
+
 }
 
 nav a {
@@ -194,7 +195,7 @@ nav a {
 
 .simulator-all {
     width: 500px;
-    height: 75vh;
+    height: 85vh;
     margin-top: 50px;
     margin-left: 75px;
 
@@ -202,7 +203,7 @@ nav a {
 
 .simulator-all h3 {
     font-family: ainslie-sans, sans-serif;
-    color:#E6E7E8;
+    color: #a7a7a7;
     font-weight: 800;
     font-style: normal;
 
@@ -211,7 +212,7 @@ nav a {
 .simulator-all h4 {
     font-family: ainslie-sans, sans-serif;
     font-weight: 400;
-    color:#E6E7E8;
+    color: #E6E7E8;
 }
 
 .simulator-all p {
@@ -226,8 +227,14 @@ nav a {
 
     width: auto;
     height: 320px;
-    border-radius:5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
 }
+
+#simulator-graphic-explained p{
+    font-size: 14px;
+}
+
+
 
 .camera-simulator {
     display: flex;
@@ -236,6 +243,23 @@ nav a {
 .camera-controls {
     display: flex;
     margin-left: 25px;
+    margin-top: -30px
+}
+
+#refresh {
+    width: 60px;
+    justify-content: center;
+    font-family: ainslie-sans, sans-serif;
+    color: #a7a7a7;
+    border-radius: 15px 15px 15px 15px;
+    text-decoration: none;
+    position: absolute;
+    top: -78px;
+    left: 750px
+}
+
+#refresh:hover {
+    color: #F0FAFF;
 }
 
 #iso-button,
@@ -318,20 +342,19 @@ nav a {
 #ic-iso1-ap3-sh2,
 #ic-iso2-ap1-sh3 {
     position: absolute;
-    top: 380px;
-    right: -260px;
+    top: 420px;
+    right: -220px;
     width: 70px;
     height: 73px;
     background-color: ;
     border-radius: 100px 100px 100px 100px;
-    background-image:url(shutter-vector.svg)
-
+    background-image: url(shutter-vector.svg)
 }
 
 
 .image-capture {
     position: relative;
-    
+
 }
 
 
@@ -362,23 +385,24 @@ nav a {
 #image-iso3-ap2-sh1,
 #image-iso1-ap3-sh2,
 #image-iso2-ap1-sh3,
-#image-iso2-ap1-sh1
-{
+#image-iso2-ap1-sh1 {
 
-    height: 500px;
+    height: 520px;
     width: auto;
     position: absolute;
     left: 550px;
-    top:-640px;
-    border-radius: 2px 2px 2px 2px;
+    top: -680px;
+    ;
+    border-radius: 5px 5px 5px 5px;
 }
 
 #base-image {
-    width: 300px;
+    height: 520px;
     position: absolute;
-    top: 30px;
-    right: 20px;
-    
+    top: -680px;
+    left: 550px;
+    border-radius: 5px 5px 5px 5px;
+
 }
 
 .invisible {
@@ -402,24 +426,23 @@ nav a {
 
 .about-all h1 {
     font-size: 30px;
+    margin-bottom: 20px;
 }
 
 #about-info {
     width: 360px;
     margin-top: 0px;
-    
+
 }
 
 #left-image,
 #right-image {
-    
+
     border-radius: 20px 20px 20px 20px;
     margin: 27px;
     width: 290px;
     
-    
-    
-    
+
 }
 
 /*HISTORY DSLR HTML*/
@@ -436,61 +459,77 @@ nav a {
 
 #top-pic,
 #middle-pic,
-#bottom-pic{
+#bottom-pic {
     width: 300px;
     border-radius: 20px 20px 20px 20px;
 }
 
 #top-pic-caption,
 #middle-pic-caption,
-#bottom-pic-caption{
-    font-size:13px;
-    width:300px;
+#bottom-pic-caption {
+    font-size: 13px;
+    width: 300px;
 }
 
 #top-pic {
     position: absolute;
-    top: 180px;
+    top: 60px;
 }
 
-#middle-pic{
+#middle-pic {
     position: absolute;
-    top: 480px;
+    top: 350px;
 }
 
-#bottom-pic{
+#bottom-pic {
     position: absolute;
-    top: 780px;
+    top: 640px;
 }
 
-#top-pic-caption{
+#top-pic-caption {
     position: absolute;
-    top:400px;
-    
+    top: 270px;
+
 }
 
-#middle-pic-caption{
+#middle-pic-caption {
     position: absolute;
-    top:700px;
-    
+    top: 555px;
+
 }
 
-#bottom-pic-caption{
+#bottom-pic-caption {
     position: absolute;
-    top: 955px;
+    top: 850px;
+}
+
+#history-link {
+    color: #9a9a9a
+}
+
+#history-link:hover {
+    color: #F0Faff;
+    ;
+}
+
+#history-sources p {
+    font-size: 13px;
+    margin-top: -20px;
 }
 
 /*ISO SH AP HTML*/
 
-.iso-ap-sh-heading{
-    
-    width: 990px;
+.iso-ap-sh-heading {
+
+    width: 900px;
+    margin-left: 50px;
+    margin-top: 50px;
 }
 
 .iso-sh-ap-all {
-    display:flex;
-    position:relative;
-    
+    display: flex;
+    position: relative;
+
 }
 
 .iso-sh-ap-info {
@@ -500,29 +539,41 @@ nav a {
 
 #iso-compare-pic,
 #ap-compare-pic,
-#sh-compare-pic{
-    display:block;
+#sh-compare-pic {
+    display: block;
     height: 270px;
     border-radius: 20px 20px 20px 20px;
-    
-    
+
 
 }
 
-#ap-compare-pic{
+#ap-compare-pic {
     position: absolute;
-    top:60px;
+    top: 40px;
 }
 
-#sh-compare-pic{
+#sh-compare-pic {
     position: absolute;
-    top: 360px;
+    top: 370px;
 }
 
 
-#iso-compare-pic{
-    position:absolute;
-    top:660px;
+#iso-compare-pic {
+    position: absolute;
+    top: 699px;
+}
+
+#ap-heading,
+#sh-heading,
+#iso-heading {
+    font-family: ainslie-sans, sans-serif;
+    color: #a7a7a7;
+    margin-top: 50px;
+
+}
+
+#ap-heading {
+    margin-top: -5px
 }
 
 

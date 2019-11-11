@@ -20,10 +20,13 @@
                 <a href="#" class="closebtn">×</a>
                 <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>-->
                 <div class='sidepanel-links'>
-                    <a href="history-dslr.html">History of DSLR Cameras</a>
-                    <p class='text-under'>The DSLR camera is a result of incredible innovation, committed photographers, and many camera predecessesors before. </p>
                     <a href="iso-ap-sh.html">ISO, Aperature, Shutter, oh my!</a>
                     <p class='text-under'>ISO, shutter, and aperture: three basic settings any budding photographer needs to know how to utilize and control. </p>
+
+
+                    <a href="history-dslr.html">History of DSLR Cameras</a>
+                    <p class='text-under'>The DSLR camera is a result of incredible innovation, committed photographers, and many camera predecessesors before. </p>
+
                     <a href="about.html">About This Simulator</a>
                     <p class='text-under'>More about Natalie’s passion for photography and why she believes a camera simulator is the ultimate photographic learning tool.</p>
                 </div>
@@ -42,19 +45,23 @@
                 }
             </script>
 -->
-            
+
             <a href='index.html'><img id='camera-homescreen-icon' src='assets/camera-homescreen-icon-color.svg'></a>
             <a href="about.html"><button id='about'>About</button></a>
         </nav>
 
-        <div class='container'>
+        <div class='container-sim'>
             <div class='simulator-all'>
                 <h3>Welcome to Natalie's Camera Simulator!</h3>
-                <p>Intimidated by those big, bulky digital single-lens reflex (DSLR) cameras? Well, you’ve come to the right place. Learn more about the history of DSLRs, explore key settings used to taking great photograph, and practice using the camera simulator below. </p>
+                <p>Try your luck at imitating the original photo on the right by testing different combinations of three integral camera settings: ISO, aperature and shutter. To learn more about the unique facets of each camera setting, don't forget to click the "Learn" tab. Here, you can also learn about the history of DSLR cameras and the website designer. </p>
+
+
                 <div class='camera-simulator'>
                     <img id="simulator-graphic" src="assets/screen-base.png">
 
+
                     <div id='ic-buttons' class='invisible'>
+
 
                         <button id="ic-iso1-ap1-sh1"></button>
                         <button id="ic-iso2-ap1-sh1"></button>
@@ -85,8 +92,17 @@
                         <button id="ic-iso2-ap1-sh3"></button>
 
 
+
+
+
                     </div>
 
+
+                </div>
+
+
+                <div id='simulator-graphic-explained'>
+                    <p id='simulator-graphic-caption'>* The  display above represents where the ISO, aperature, and shutter settings would be represented on a DSLR camera screen.</p>
                 </div>
                 <div class='camera-controls'>
                     <div id='iso-button'>
@@ -170,12 +186,15 @@
                             <button id='iso3-ap3-shu1'>1/100</button>
                             <button id='iso3-ap3-shu2'>1/500</button>
                             <button id='iso3-ap3-shu3'>1/1000</button>
+
                         </div>
+
                     </div>
                     <!-- end div.camera-controls -->
                 </div>
                 <!-- end div.simulator-all -->
                 <div class="image-capture">
+                    <img id='base-image' src="assets-image-capture/iso2-ap3-sh3.jpg">
                     <img id='image-iso1-ap1-sh1' class='invisible' src="assets-image-capture/iso1-ap1-sh1.jpg">
                     <img id='image-iso2-ap1-sh1' class='invisible' src="assets-image-capture/iso2-ap1-sh1.jpg">
                     <img id='image-iso3-ap1-sh1' class='invisible' src="assets-image-capture/iso3-ap1-sh1.jpg">
@@ -203,6 +222,7 @@
                     <img id='image-iso3-ap2-sh1' class='invisible' src="assets-image-capture/iso3-ap2-sh1.jpg">
                     <img id='image-iso1-ap3-sh2' class='invisible' src="assets-image-capture/iso1-ap3-sh2.jpg">
                     <img id='image-iso2-ap1-sh3' class='invisible' src="assets-image-capture/iso2-ap1-sh3.jpg">
+                    <a href='index.html' class='invisible' id='refresh'>restart</a>
                 </div>
             </div>
         </div>

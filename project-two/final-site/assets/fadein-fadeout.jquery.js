@@ -70,6 +70,7 @@ $(document).ready(function () {
         $("#image-iso1-ap3-sh2").addClass("invisible")
         $("#image-iso2-ap1-sh3").addClass("invisible")
         $("#image-iso2-ap3-sh1").addClass("invisible")
+        $("#refresh").addClass("invisible")
     });
 
     $('#iso2').click(function () {
@@ -143,6 +144,7 @@ $(document).ready(function () {
         $("#image-iso1-ap3-sh2").addClass("invisible")
         $("#image-iso2-ap1-sh3").addClass("invisible")
         $("#image-iso2-ap3-sh1").addClass("invisible")
+        $("#refresh").addClass("invisible")
     });
 
     $('#iso3').click(function () {
@@ -216,6 +218,7 @@ $(document).ready(function () {
         $("#image-iso1-ap3-sh2").addClass("invisible")
         $("#image-iso2-ap1-sh3").addClass("invisible")
         $("#image-iso2-ap3-sh1").addClass("invisible")
+        $("#refresh").addClass("invisible")
     });
 
     $('#iso1-ap1').click(function () {
@@ -286,6 +289,7 @@ $(document).ready(function () {
         $("#image-iso1-ap3-sh2").addClass("invisible")
         $("#image-iso2-ap1-sh3").addClass("invisible")
         $("#image-iso2-ap3-sh1").addClass("invisible")
+        $("#refresh").addClass("invisible")
 
 
     });
@@ -358,6 +362,7 @@ $(document).ready(function () {
         $("#image-iso1-ap3-sh2").addClass("invisible")
         $("#image-iso2-ap1-sh3").addClass("invisible")
         $("#image-iso2-ap3-sh1").addClass("invisible")
+        $("#refresh").addClass("invisible")
 
 
     });
@@ -430,6 +435,7 @@ $(document).ready(function () {
         $("#image-iso1-ap3-sh2").addClass("invisible")
         $("#image-iso2-ap1-sh3").addClass("invisible")
         $("#image-iso2-ap3-sh1").addClass("invisible")
+        $("#refresh").addClass("invisible")
 
     });
 
@@ -501,6 +507,7 @@ $(document).ready(function () {
         $("#image-iso1-ap3-sh2").addClass("invisible")
         $("#image-iso2-ap1-sh3").addClass("invisible")
         $("#image-iso2-ap3-sh1").addClass("invisible")
+        $("#refresh").addClass("invisible")
 
 
     });
@@ -573,6 +580,7 @@ $(document).ready(function () {
         $("#image-iso1-ap3-sh2").addClass("invisible")
         $("#image-iso2-ap1-sh3").addClass("invisible")
         $("#image-iso2-ap3-sh1").addClass("invisible")
+        $("#refresh").addClass("invisible")
 
 
     });
@@ -645,6 +653,7 @@ $(document).ready(function () {
         $("#image-iso1-ap3-sh2").addClass("invisible")
         $("#image-iso2-ap1-sh3").addClass("invisible")
         $("#image-iso2-ap3-sh1").addClass("invisible")
+        $("#refresh").addClass("invisible")
 
 
     });
@@ -717,6 +726,7 @@ $(document).ready(function () {
         $("#image-iso1-ap3-sh2").addClass("invisible")
         $("#image-iso2-ap1-sh3").addClass("invisible")
         $("#image-iso2-ap3-sh1").addClass("invisible")
+        $("#refresh").addClass("invisible")
 
 
     });
@@ -789,6 +799,7 @@ $(document).ready(function () {
         $("#image-iso1-ap3-sh2").addClass("invisible")
         $("#image-iso2-ap1-sh3").addClass("invisible")
         $("#image-iso2-ap3-sh1").addClass("invisible")
+        $("#refresh").addClass("invisible")
 
 
     });
@@ -861,6 +872,7 @@ $(document).ready(function () {
         $("#image-iso1-ap3-sh2").addClass("invisible")
         $("#image-iso2-ap1-sh3").addClass("invisible")
         $("#image-iso2-ap3-sh1").addClass("invisible")
+        $("#refresh").addClass("invisible")
 
 
     });
@@ -933,6 +945,7 @@ $(document).ready(function () {
         $("#image-iso1-ap3-sh2").addClass("invisible")
         $("#image-iso2-ap1-sh3").addClass("invisible")
         $("#image-iso2-ap3-sh1").addClass("invisible")
+        $("#refresh").addClass("invisible")
 
 
     });
@@ -996,6 +1009,7 @@ $(document).ready(function () {
         $("#image-iso1-ap3-sh2").addClass("invisible")
         $("#image-iso2-ap1-sh3").addClass("invisible")
         $("#image-iso2-ap3-sh1").addClass("invisible")
+        $("#refresh").removeClass("invisible")
 
 
     });
@@ -1059,6 +1073,7 @@ $(document).ready(function () {
         $("#image-iso1-ap3-sh2").addClass("invisible")
         $("#image-iso2-ap1-sh3").addClass("invisible")
         $("#image-iso2-ap3-sh1").addClass("invisible")
+        $("#refresh").removeClass("invisible")
 
 
     });
@@ -1122,6 +1137,7 @@ $(document).ready(function () {
         $("#image-iso1-ap3-sh2").addClass("invisible")
         $("#image-iso2-ap1-sh3").addClass("invisible")
         $("#image-iso2-ap3-sh1").addClass("invisible")
+        $("#refresh").removeClass("invisible")
 
 
     });
@@ -1185,6 +1201,7 @@ $(document).ready(function () {
         $("#image-iso1-ap3-sh2").addClass("invisible")
         $("#image-iso2-ap1-sh3").addClass("invisible")
         $("#image-iso2-ap3-sh1").addClass("invisible")
+        $("#refresh").removeClass("invisible")
 
 
     });
@@ -1248,6 +1265,7 @@ $(document).ready(function () {
         $("#image-iso1-ap3-sh2").addClass("invisible")
         $("#image-iso2-ap1-sh3").addClass("invisible")
         $("#image-iso2-ap3-sh1").addClass("invisible")
+        $("#refresh").removeClass("invisible")
 
 
     });
@@ -1311,6 +1329,7 @@ $(document).ready(function () {
         $("#image-iso1-ap3-sh2").addClass("invisible")
         $("#image-iso2-ap1-sh3").addClass("invisible")
         $("#image-iso2-ap3-sh1").addClass("invisible")
+        $("#refresh").removeClass("invisible")
 
 
     });
@@ -1374,6 +1393,7 @@ $(document).ready(function () {
         $("#image-iso1-ap3-sh2").addClass("invisible")
         $("#image-iso2-ap1-sh3").addClass("invisible")
         $("#image-iso2-ap3-sh1").addClass("invisible")
+        $("#refresh").removeClass("invisible")
 
 
     });
@@ -1437,6 +1457,7 @@ $(document).ready(function () {
         $("#image-iso1-ap3-sh2").addClass("invisible")
         $("#image-iso2-ap1-sh3").addClass("invisible")
         $("#image-iso2-ap3-sh1").addClass("invisible")
+        $("#refresh").removeClass("invisible")
 
 
     });
@@ -1500,6 +1521,7 @@ $(document).ready(function () {
         $("#image-iso1-ap3-sh2").addClass("invisible")
         $("#image-iso2-ap1-sh3").addClass("invisible")
         $("#image-iso2-ap3-sh1").addClass("invisible")
+        $("#refresh").removeClass("invisible")
 
 
     });
@@ -1563,6 +1585,7 @@ $(document).ready(function () {
         $("#image-iso1-ap3-sh2").addClass("invisible")
         $("#image-iso2-ap1-sh3").addClass("invisible")
         $("#image-iso2-ap3-sh1").addClass("invisible")
+        $("#refresh").removeClass("invisible")
 
 
     });
@@ -1626,6 +1649,7 @@ $(document).ready(function () {
         $("#image-iso1-ap3-sh2").addClass("invisible")
         $("#image-iso2-ap1-sh3").addClass("invisible")
         $("#image-iso2-ap3-sh1").addClass("invisible")
+        $("#refresh").removeClass("invisible")
 
 
     });
@@ -1689,6 +1713,7 @@ $(document).ready(function () {
         $("#image-iso1-ap3-sh2").addClass("invisible")
         $("#image-iso2-ap1-sh3").addClass("invisible")
         $("#image-iso2-ap3-sh1").addClass("invisible")
+        $("#refresh").removeClass("invisible")
 
 
     });
@@ -1752,6 +1777,7 @@ $(document).ready(function () {
         $("#image-iso1-ap3-sh2").addClass("invisible")
         $("#image-iso2-ap1-sh3").addClass("invisible")
         $("#image-iso2-ap3-sh1").addClass("invisible")
+        $("#refresh").removeClass("invisible")
 
 
     });
@@ -1815,6 +1841,7 @@ $(document).ready(function () {
         $("#image-iso1-ap3-sh2").addClass("invisible")
         $("#image-iso2-ap1-sh3").addClass("invisible")
         $("#image-iso2-ap3-sh1").addClass("invisible")
+        $("#refresh").removeClass("invisible")
 
 
     });
@@ -1878,6 +1905,7 @@ $(document).ready(function () {
         $("#image-iso1-ap3-sh2").addClass("invisible")
         $("#image-iso2-ap1-sh3").addClass("invisible")
         $("#image-iso2-ap3-sh1").addClass("invisible")
+        $("#refresh").removeClass("invisible")
 
 
     });
@@ -1941,6 +1969,7 @@ $(document).ready(function () {
         $("#image-iso1-ap3-sh2").addClass("invisible")
         $("#image-iso2-ap1-sh3").addClass("invisible")
         $("#image-iso2-ap3-sh1").addClass("invisible")
+        $("#refresh").removeClass("invisible")
 
 
     });
@@ -2004,6 +2033,7 @@ $(document).ready(function () {
         $("#image-iso1-ap3-sh2").addClass("invisible")
         $("#image-iso2-ap1-sh3").addClass("invisible")
         $("#image-iso2-ap3-sh1").addClass("invisible")
+        $("#refresh").removeClass("invisible")
 
 
     });
@@ -2067,6 +2097,7 @@ $(document).ready(function () {
         $("#image-iso1-ap3-sh2").addClass("invisible")
         $("#image-iso2-ap1-sh3").addClass("invisible")
         $("#image-iso2-ap3-sh1").addClass("invisible")
+        $("#refresh").removeClass("invisible")
 
 
     });
@@ -2130,6 +2161,7 @@ $(document).ready(function () {
         $("#image-iso1-ap3-sh2").addClass("invisible")
         $("#image-iso2-ap1-sh3").addClass("invisible")
         $("#image-iso2-ap3-sh1").addClass("invisible")
+        $("#refresh").removeClass("invisible")
 
 
     });
@@ -2193,6 +2225,7 @@ $(document).ready(function () {
         $("#image-iso1-ap3-sh2").addClass("invisible")
         $("#image-iso2-ap1-sh3").addClass("invisible")
         $("#image-iso2-ap3-sh1").addClass("invisible")
+        $("#refresh").removeClass("invisible")
 
 
     });
@@ -2256,6 +2289,7 @@ $(document).ready(function () {
         $("#image-iso1-ap3-sh2").addClass("invisible")
         $("#image-iso2-ap1-sh3").addClass("invisible")
         $("#image-iso2-ap3-sh1").addClass("invisible")
+        $("#refresh").removeClass("invisible")
 
 
     });
@@ -2319,6 +2353,7 @@ $(document).ready(function () {
         $("#image-iso1-ap3-sh2").addClass("invisible")
         $("#image-iso2-ap1-sh3").addClass("invisible")
         $("#image-iso2-ap3-sh1").addClass("invisible")
+        $("#refresh").removeClass("invisible")
 
 
     });
@@ -2382,6 +2417,7 @@ $(document).ready(function () {
         $("#image-iso1-ap3-sh2").addClass("invisible")
         $("#image-iso2-ap1-sh3").addClass("invisible")
         $("#image-iso2-ap3-sh1").addClass("invisible")
+        $("#refresh").removeClass("invisible")
 
 
     });
@@ -2445,6 +2481,7 @@ $(document).ready(function () {
         $("#image-iso1-ap3-sh2").addClass("invisible")
         $("#image-iso2-ap1-sh3").addClass("invisible")
         $("#image-iso2-ap3-sh1").addClass("invisible")
+        $("#refresh").removeClass("invisible")
 
 
     });
@@ -2508,6 +2545,7 @@ $(document).ready(function () {
         $("#image-iso1-ap3-sh2").addClass("invisible")
         $("#image-iso2-ap1-sh3").addClass("invisible")
         $("#image-iso2-ap3-sh1").addClass("invisible")
+        $("#refresh").removeClass("invisible")
 
 
     });
@@ -2571,6 +2609,7 @@ $(document).ready(function () {
         $("#image-iso1-ap3-sh2").addClass("invisible")
         $("#image-iso2-ap1-sh3").addClass("invisible")
         $("#image-iso2-ap3-sh1").addClass("invisible")
+        $("#refresh").removeClass("invisible")
 
 
     });
@@ -2634,6 +2673,7 @@ $(document).ready(function () {
         $("#image-iso1-ap3-sh2").addClass("invisible")
         $("#image-iso2-ap1-sh3").addClass("invisible")
         $("#image-iso2-ap3-sh1").addClass("invisible")
+        $("#refresh").removeClass("invisible")
 
     });
     $('#ic-iso1-ap1-sh1').click(function () {
