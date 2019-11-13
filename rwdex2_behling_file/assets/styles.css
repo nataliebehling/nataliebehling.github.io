@@ -1,0 +1,193 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: ainslie-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/*****************/
+/***General Info***/
+/*****************/
+
+/**Name + Statement + Contact Info + Career Interests**/
+.top-info-section {
+}
+
+.name {
+ 
+}
+
+#artist-statement {
+
+}
+
+.contact-career-interests-info {
+    display: flex;
+}
+
+#contact-info {
+
+}
+
+#career-interests-info {
+
+}
+
+/**********************************************/
+/***Education + Employment + Experience Info***/
+/**********************************************/
+
+.edu-1,
+.employ-1,
+.employ-2,
+.employ-3,
+.employ-4,
+.exper-1{
+    display:flex;
+}
+
+.intent{
+    margin-left: 30px;
+}
+
+@media only screen and (min-width:500px) and (max-width:768px) {}
+
+@media only screen and (min-width:960px) {
+    .container{
+        margin: 0 auto;
+        display: flex;
+        position: relative;
+    }
+    
+    .left-column{
+        width:300px;
+        padding:30px;
+        position:fixed;
+    }
+    
+    .contact-career-interests-info{
+        display: block;
+        justify-content: space-around;
+    }
+    
+    .right-column{
+        width:660px;
+        margin-left:500px;
+    }
+    
+
+}
+
+
+/**FONTS**
+
+Ainslie Sans Norm Book
+
+font-family: ainslie-sans, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Ainslie Sans Norm Book Ital
+
+font-family: ainslie-sans, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Ainslie Sans Norm Demi Ital
+
+font-family: ainslie-sans, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+
+Ainslie Sans Norm Demi
+
+font-family: ainslie-sans, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Ainslie Sans Cond Book Ital
+
+font-family: ainslie-sans-condensed, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Ainslie Sans Cond Book
+
+font-family: ainslie-sans-condensed, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Ainslie Sans Cond Demi
+
+font-family: ainslie-sans-condensed, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Ainslie Sans Cond Demi Ital
+
+font-family: ainslie-sans-condensed, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+
+Ainslie Sans Ext Book Ital
+
+font-family: ainslie-sans-extended, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Ainslie Sans Ext Book
+
+font-family: ainslie-sans-extended, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Ainslie Sans Ext Demi
+
+font-family: ainslie-sans-extended, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Ainslie Sans Ext Demi Ital
+
+font-family: ainslie-sans-extended, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+**/
