@@ -10,3 +10,7 @@ $(document).ready(function () {
         $("#mySidepanel").addClass("drawer"); 
     });
 });
+
+
+//HTML CODE ASSOCIATED WITH THIS// DELETE THIS
+
