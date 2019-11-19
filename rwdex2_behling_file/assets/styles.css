@@ -147,7 +147,7 @@ a {
 
     .name {
         display: block;
-        border-top: 5px solid #8CCBCE;
+        
         font-size: 35px;
 
     }
@@ -167,11 +167,13 @@ a {
     .contact-career-interests-info {
         display: block;
         justify-content: space-around;
+        border-bottom: none;
     }
 
     #career-interests-info {
         margin-left: 0;
         margin-bottom: 30px;
+    
     }
 
     .right-column {
