@@ -123,7 +123,11 @@ h6 {
 
 #chip-quote {
     font-style: italic;
+    font-weight:600;
+    color: #414141;
+    
 }
+
 
 blockquote {
     font-family: brandon-grotesque, sans-serif;
@@ -265,7 +269,12 @@ blockquote {
     #polaroid-section-7-1,
     #polaroid-section-7-2 {
 
-        margin-left: 150px;
+        margin-left: 140px;
+    }
+    
+    #polaroid-section-1-1,
+    #polaroid-section-4-1{
+        margin-left: 40px;
     }
 
 }
@@ -373,33 +382,49 @@ blockquote {
     #polaroid-section-7-1,
     #polaroid-section-7-2 {
         width: 210px;
-        margin-left: 10px;
+        margin-left: 20px;
+        transform: rotate(5deg);
 
     }
 
-
+    #polaroid-section-1-2{
+        transform: rotate(-5deg);
+    }
+    
     #polaroid-section-2-1 {
         margin-top: 60px;
     }
 
     #polaroid-section-2-2 {
         margin-top: 600px;
+        transform:  rotate(-5deg);
     }
 
     #polaroid-section-3-1 {
         margin-top: 80px;
     }
+    
+    #polaroid-section-3-2{
+        transform:  rotate(-5deg);
+    }
 
     #polaroid-section-4-1 {
         margin-top: 90px;
+        transform:  rotate(-5deg);
     }
+
 
     #polaroid-section-5-1 {
         margin-top: 190px;
     }
+    
+    #polaroid-section-6-2{
+        transform:  rotate(-5deg);
+    }
 
     #polaroid-section-7-2 {
         margin-top: -90px;
+        transform:  rotate(-5deg);
     }
 
 
@@ -412,9 +437,3 @@ blockquote {
 
 
 
-
-
-
-
-
-}
