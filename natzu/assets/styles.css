@@ -1,0 +1,1486 @@
+h1 {
+    font-family: playfair-display, serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 52px;
+    line-height: 61px;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-family: playfair-display, serif;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 63px;
+    margin-top: -30px
+}
+
+h4{
+    color: #D0655E;
+    font-style: italic;
+}
+
+h5{
+    font-family: lato, sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+p {
+    font-family: lato, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+}
+
+
+.container {
+    background-color: #F2EEDE;
+    color: black;
+    display: flex;
+    width: 10000px;
+    height: 13200px;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+
+}
+
+.container-2 {
+    display: flex;
+    width: 3800px;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+}
+
+
+.opening-column {
+    width: 500px;
+    height: 500px;
+    padding: 90px;
+    margin: 100px;
+    border-radius: 50%;
+    background-color: #D0655E;
+    color: white;
+}
+
+.opening-statement {
+    margin-top: -10px;
+    margin-left: 35px;
+    width: 470px;
+}
+
+.opening-paragraph {
+    font-size: 15px;
+    width: 400px;
+    margin-left: 20px;
+}
+
+.disclaimer-column {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin-top: 50px;
+    color: white;
+    background-color: #CE8280;
+    margin-right: 200px;
+
+}
+
+.disclaimer {
+    margin-top: 60px;
+    width: 400px;
+    margin-left: 25px;
+}
+
+.disclaimer h3 {
+    font-family: playfair-display, serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 20px;
+    width: 400px;
+    margin-left: 40px;
+}
+
+.disclaimer p {
+
+    width: 250px;
+    font-size: 14px;
+    margin-left: 35px;
+    margin-top: -10px;
+}
+
+.sources {
+    position: relative;
+    background-color: #DD8685;
+    margin-top: 130px;
+    margin-left: 240px;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+.sources h3 {
+    font-family: playfair-display, serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 40px;
+    margin-top:
+        border-radius: 50%;
+}
+
+.sourcesheading {
+    position: absolute;
+    top: 90px;
+    left: 110px;
+}
+
+.sources p {
+
+    width: 300px;
+    font-size: 13.5px;
+    margin-left: 55px;
+    margin-top: -10px;
+}
+
+.links {
+    position: absolute;
+    top: 150px;
+}
+
+.graphic {
+    position: relative;
+    margin-left: 200px;
+}
+
+#swiggle {
+    margin-left: -14655px;
+    margin-top: -790px;
+    width: 42010px;
+    height: 2490px;
+}
+
+
+img {
+    width: 5000px;
+}
+
+.zoom {
+    outline: none;
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.2);
+    /* IE 9 */
+    -webkit-transform: scale(1.2);
+    /* Safari 3-8 */
+    transform: scale(1.2);
+}
+
+.invisible{
+    visibility: hidden;
+}
+
+.visible{
+    visibility: visible;
+}
+
+ #popup-ivanatrump {
+    position: absolute;
+    padding: 20px;
+    top: 600px;
+    left: 560px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+
+#ivanatrump {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 660px;
+    left: 470px;
+    border-radius: 50%;
+    
+}
+
+#gail {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 660px;
+    left: 1200px;
+    border-radius: 50%
+}
+
+#popup-gail {
+    position: absolute;
+    padding: 20px;
+    top: 600px;
+    left: 1290px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+
+
+#barbarares {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 160px;
+    left: 2280px;
+    border-radius: 50%
+}
+
+#popup-barbarares {
+    position: absolute;
+    padding: 20px;
+    top: 100px;
+    left: 2380px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#barbarares2 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 233px;
+    left: 2325px;
+    border-radius: 50%
+}
+
+#popup-barbarares2 {
+    position: absolute;
+    padding: 20px;
+    top: 155px;
+    left: 2420px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#jodieseal {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 660px;
+    left: 2660px;
+    border-radius: 50%
+}
+
+#popup-jodieseal {
+    position: absolute;
+    padding: 20px;
+    top: 580px;
+    left: 2760px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#aliciamachado {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 482px;
+    left: 3143px;
+    border-radius: 50%
+}
+
+#popup-aliciamachado {
+    position: absolute;
+    padding: 20px;
+    top: 400px;
+    left: 3238px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#aliciamachado2 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 398px;
+    left: 3116px;
+    border-radius: 50%
+}
+
+#popup-aliciamachado2 {
+    position: absolute;
+    padding: 20px;
+    top: 300px;
+    left: 3210px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#aliciamachado3 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 313px;
+    left: 3089px;
+    border-radius: 50%
+}
+
+#popup-aliciamachado3 {
+    position: absolute;
+    padding: 20px;
+    top: 240px;
+    left: 3185px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#aliciamachado4 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 233px;
+    left: 3050px;
+    border-radius: 50%
+}
+
+#popup-aliciamachado4 {
+    position: absolute;
+    padding: 20px;
+    top: 160px;
+    left: 3145px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#aliciamachado5 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 159px;
+    left: 3005px;
+    border-radius: 50%
+}
+
+#popup-aliciamachado5 {
+    position: absolute;
+    padding: 20px;
+    top: 90px;
+    left: 3095px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#allapprentice {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 675px;
+    left: 5562px;
+    border-radius: 50%
+}
+
+#popup-allapprentice {
+    position: absolute;
+    padding: 20px;
+    top: 600px;
+    left: 5655px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#allapprentice2 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 600px;
+    left: 5612px;
+    border-radius: 50%
+}
+
+#popup-allapprentice2 {
+    position: absolute;
+    padding: 20px;
+    top: 520px;
+    left: 5705px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#kristifrank {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 515px;
+    left: 5644px;
+    border-radius: 50%
+}
+
+#popup-kristifrank {
+    position: absolute;
+    padding: 20px;
+    top: 420px;
+    left: 5735px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#rebeccaarndt {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 170px;
+    left: 5930px;
+    border-radius: 50%
+}
+
+#popup-rebeccaarndt {
+    position: absolute;
+    padding: 20px;
+    top: 90px;
+    left: 6025px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+
+#rosieodonnll {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 660px;
+    left: 6300px;
+    border-radius: 50%
+}
+
+#popup-rosieodonnll {
+    position: absolute;
+    padding: 20px;
+    top: 540px;
+    left: 6400px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+
+#rosieodonnll2 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 589px;
+    left: 6344px;
+    border-radius: 50%
+}
+
+#popup-rosieodonnll2 {
+    position: absolute;
+    padding: 20px;
+    top: 540px;
+    left: 6440px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#rosieodonnll3 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 510px;
+    left: 6375px;
+    border-radius: 50%
+}
+
+#popup-rosieodonnll3 {
+    position: absolute;
+    padding: 20px;
+    top: 420px;
+    left: 6460px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+
+#suekwiatkowski {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 430px;
+    left: 6402px;
+    border-radius: 50%
+}
+
+#popup-suekwiatkowski {
+    position: absolute;
+    padding: 20px;
+    top: 340px;
+    left: 6490px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#ivankatrump {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 350px;
+    left: 6430px;
+    border-radius: 50%
+}
+
+#popup-ivankatrump {
+    position: absolute;
+    padding: 20px;
+    top: 290px;
+    left: 6510px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#ivankatrump2 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 267px;
+    left: 6458px;
+    border-radius: 50%
+}
+
+#gloriaallred {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 171px;
+    left: 6672px;
+    border-radius: 50%
+}
+
+#popup-gloriaallred {
+    position: absolute;
+    padding: 20px;
+    top: 100px;
+    left: 6760px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#rosieodonnll4 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 250px;
+    left: 6708px;
+    border-radius: 50%
+}
+
+#popup-rosieodonnll4 {
+    position: absolute;
+    padding: 20px;
+    top: 150px;
+    left: 6790px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#allmsuniverse {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 170px;
+    left: 7398px;
+    border-radius: 50%
+}
+
+#popup-allmissuniverse {
+    position: absolute;
+    padding: 20px;
+    top: 100px;
+    left: 7490px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#popup-rosieodonnll4 {
+    position: absolute;
+    padding: 20px;
+    top: 150px;
+    left: 6790px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#elizabethbeck {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 170px;
+    left: 8125px;
+    border-radius: 50%
+}
+
+#popup-elizabethbeck {
+    position: absolute;
+    padding: 20px;
+    top: 100px;
+    left: 8220px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#rosieodonnll5 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 248px;
+    left: 8164px;
+    border-radius: 50%
+}
+
+#popup-rosieodonnll5 {
+    position: absolute;
+    padding: 20px;
+    top: 140px;
+    left: 8250px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#branderoderick {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 329px;
+    left: 8199px;
+    border-radius: 50%
+}
+
+#popup-branderoderick {
+    position: absolute;
+    padding: 20px;
+    top: 220px;
+    left: 8290px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#arianahuffington {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 665px;
+    left: 8490px;
+    border-radius: 50%
+}
+
+#popup-arianahuffington {
+    position: absolute;
+    padding: 20px;
+    top: 570px;
+    left: 8580px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#arianahuffington2 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 590px;
+    left: 8539px;
+    border-radius: 50%
+}
+
+#popup-arianahuffington2 {
+    position: absolute;
+    padding: 20px;
+    top: 500px;
+    left: 8625px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#arianahuffington3 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 505px;
+    left: 8569px;
+    border-radius: 50%
+}
+
+#popup-arianahuffington3 {
+    position: absolute;
+    padding: 20px;
+    top: 400px;
+    left: 8655px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#kristenstewartmsuniverse {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 588px;
+    left: 8536px;
+    border-radius: 50%
+}
+
+#popup-kristenstewartmsuniverse  {
+    position: absolute;
+    padding: 20px;
+    top: 500px;
+    left: 8685px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#gailcollins {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 659px;
+    left: 9227px;
+    border-radius: 50%
+}
+
+#popup-gailcollins {
+    position: absolute;
+    padding: 20px;
+    top: 560px;
+    left: 9315px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#rosieodonnll6 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 580px;
+    left: 9265px;
+    border-radius: 50%
+}
+
+#popup-rosieodonnll6 {
+    position: absolute;
+    padding: 20px;
+    top: 500px;
+    left: 9352px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#rosieodonnll7 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 498px;
+    left: 9294px;
+    border-radius: 50%
+}
+
+#popup-rosieodonnll7 {
+    position: absolute;
+    padding: 20px;
+    top: 420px;
+    left: 9379px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#carlyfiorina {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 170px;
+    left: 9589px;
+    border-radius: 50%
+}
+
+#popup-carlyfiorina {
+    position: absolute;
+    padding: 20px;
+    top: 100px;
+    left: 9679px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+
+#carlyfiorina2 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 246px;
+    left: 9629px;
+    border-radius: 50%
+}
+
+#popup-carlyfiorina2 {
+    position: absolute;
+    padding: 20px;
+    top: 150px;
+    left: 9719px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+
+#arianahuffington4 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 331px;
+    left: 9659px;
+    border-radius: 50%
+}
+
+#popup-arianahuffington4 {
+    position: absolute;
+    padding: 20px;
+    top: 220px;
+    left: 9749px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#arianahuffington5 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 412px;
+    left: 9680px;
+    border-radius: 50%
+}
+
+#popup-arianahuffington5 {
+    position: absolute;
+    padding: 20px;
+    top: 320px;
+    left: 9770px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#megynkelly {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 492px;
+    left: 9710px;
+    border-radius: 50%
+}
+
+#popup-megynkelly {
+    position: absolute;
+    padding: 20px;
+    top: 390px;
+    left: 9800px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#hillary {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 704px;
+    left: 9861px;
+    border-radius: 50%
+}
+
+#popup-hillary {
+    position: absolute;
+    padding: 20px;
+    top: 630px;
+    left: 9950px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#hillaryclinton {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 679px;
+    left: 9940px;
+    border-radius: 50%
+}
+
+#popup-hillaryclinton {
+    position: absolute;
+    padding: 20px;
+    top: 560px;
+    left: 10030px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#hillaryclinton2 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 609px;
+    left: 9980px;
+    border-radius: 50%
+}
+
+#popup-hillaryclinton2 {
+    position: absolute;
+    padding: 20px;
+    top: 520px;
+    left: 10070px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#hillaryclinton3 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 535px;
+    left: 10009px;
+    border-radius: 50%
+}
+
+#popup-hillaryclinton3 {
+    position: absolute;
+    padding: 20px;
+    top: 440px;
+    left: 10100px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#hillaryclinton4 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 459px;
+    left: 10039px;
+    border-radius: 50%
+}
+
+#popup-hillaryclinton4 {
+    position: absolute;
+    padding: 20px;
+    top: 330px;
+    left: 10130px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#hillaryclinton5 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 379px;
+    left: 10062px;
+    border-radius: 50%
+}
+
+#popup-hillaryclinton5 {
+    position: absolute;
+    padding: 20px;
+    top: 290px;
+    left: 10150px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#megynkelly2 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 301px;
+    left: 10090px;
+    border-radius: 50%
+}
+
+#popup-megynkelly2 {
+    position: absolute;
+    padding: 20px;
+    top: 200px;
+    left: 10180px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#megynkelly3 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 225px;
+    left: 10120px;
+    border-radius: 50%
+}
+
+#popup-megynkelly3 {
+    position: absolute;
+    padding: 20px;
+    top: 130px;
+    left: 10210px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#aliciamachado6 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 155px;
+    left: 10160px;
+    border-radius: 50%
+}
+
+#popup-aliciamachado6 {
+    position: absolute;
+    padding: 20px;
+    top: 40px;
+    left: 10250px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+
+#aliciahillary {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 135px;
+    left: 10240px;
+    border-radius: 50%
+}
+
+#popup-aliciahillary {
+    position: absolute;
+    padding: 20px;
+    top: 40px;
+    left: 10330px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+
+#merylhillary {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 396px;
+    left: 10410px;
+    border-radius: 50%
+}
+
+#popup-merylhillary {
+    position: absolute;
+    padding: 20px;
+    top: 300px;
+    left: 10500px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#mika {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 165px;
+    left: 10315px;
+    border-radius: 50%
+}
+
+#popup-mika {
+    position: absolute;
+    padding: 20px;
+    top:40px;
+    left: 10410px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#gillibrand {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 239px;
+    left: 10353px;
+    border-radius: 50%
+}
+
+#popup-gillibrand {
+    position: absolute;
+    padding: 20px;
+    top:80px;
+    left: 10445px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#macron {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 317px;
+    left: 10379px;
+    border-radius: 50%
+}
+
+#popup-macron {
+    position: absolute;
+    padding: 20px;
+    top:240px;
+    left: 10475px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#stormydaniels {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 667px;
+    left: 10679px;
+    border-radius: 50%
+}
+
+#popup-stormydaniels{
+    position: absolute;
+    padding: 20px;
+    top:500px;
+    left: 10775px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#waters {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 592px;
+    left: 10719px;
+    border-radius: 50%
+}
+
+#popup-waters{
+    position: absolute;
+    padding: 20px;
+    top:400px;
+    left: 10809px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#AOC {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 172px;
+    left: 11039px;
+    border-radius: 50%
+}
+
+#popup-AOC{
+    position: absolute;
+    padding: 20px;
+    top:120px;
+    left: 11132px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#pelosi {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 242px;
+    left: 11082px;
+    border-radius: 50%
+}
+
+#popup-pelosi{
+    position: absolute;
+    padding: 20px;
+    top:190px;
+    left: 11172px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#thurn {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 321px;
+    left: 11112px;
+    border-radius: 50%
+}
+
+#popup-thurn{
+    position: absolute;
+    padding: 20px;
+    top:260px;
+    left: 11200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 99;
+}
+.closing-statement {}
+
+
+
+
+
+
+
+
+/* Fonts 
+
+Playfair Display Regular
+
+font-family: playfair-display, serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Playfair Display Italic
+
+font-family: playfair-display, serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Playfair Display Bold
+
+font-family: playfair-display, serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Playfair Display Bold Italic
+
+font-family: playfair-display, serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+
+
+Lato Italic
+
+font-family: lato, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Lato Hairline
+
+font-family: lato, sans-serif;
+
+font-weight: 100;
+
+font-style: normal;
+
+
+Lato Bold Italic
+
+font-family: lato, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+
+Lato Bold
+
+font-family: lato, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Lato Hairline Italic
+
+font-family: lato, sans-serif;
+
+font-weight: 100;
+
+font-style: italic;
+
+
+Lato Light Italic
+
+font-family: lato, sans-serif;
+
+font-weight: 300;
+
+font-style: italic;
+
+
+Lato Regular
+
+font-family: lato, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Lato Light
+
+font-family: lato, sans-serif;
+
+font-weight: 300;
+
+font-style: normal;
+
+
+Lato Thin Italic
+
+font-family: lato, sans-serif;
+
+font-weight: 200;
+
+font-style: italic;
+
+
+Lato Thin
+
+font-family: lato, sans-serif;
+
+font-weight: 200;
+
+font-style: normal;
+
+
+
+
+
+
+*/

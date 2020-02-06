@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang='en' dir='ltr'>
+
+<head>
+    <meta charset="utf-8">
+    <title>Charting Donald Trump's Misogyny</title>
+    <link rel='stylesheet' href='assets/styles.css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/fae6dia.css">
+
+</head>
+
+
+<body>
+    <div class='container'>
+        <div class='container-2'>
+            <div class='opening-column'>
+                <div class='opening-statement'>
+                    <h1>Charting Donald Trump's Misogyny</h1>
+                    <h3>What <em>exactly</em> has Donald Trump said about women?</h3>
+                    <p class='opening-paragraph'>Donald Trump is the current president of the United States and one of the most controversial. Trump has a history of unregulated comments and insensitive slurs. This infographic focuses solely on comments he has made about his female colleagues, female professionals he has shared interactions with and his female relatives that are deemed as derogatory and mysogistic according to several sources.</p>
+
+                    <p class='opening-paragraph'>Scroll to the left and journey through Trump’s comments about his female colleagues within the last 30 years. The information within each year is placed in alphabetical order by the female's last name.
+                    </p>
+
+                </div>
+            </div>
+
+            <div class='disclaimer-column'>
+                <div class='disclaimer'>
+                    <h3>About this Data Set</h3>
+                    <p class='opening-paragraph'>The sources used for this visualization were Vox Media, The Week, BBC and The Telegraph. There is an extensive set of comments that have not been placed in this timeline due to time constraints and the enormity of the data set. </p>
+
+
+                </div>
+
+                <div class='sources'>
+                    <div class='sourcesheading'>
+                        <h3>Sources</h3>
+                    </div>
+                    <div class='links'>
+                        <p class>www.telegraph.co.uk/women/politics/donald-trump-sexism-tracker-every-offensive-comment-in-one-place/.</p>
+
+                        <p>apps.voxmedia.com/graphics/vox-trump-misogny-timeline/.</p>
+
+                        <p>www.theweek.com/articles/655770/61-things-donald-trump-said-about-women.</p>
+
+                        <p> www.bbc.com/news/world-us-canada-50563106. </p>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class='graphic'>
+
+
+                <img id='swiggle' src='assets/swiggle.svg'>
+
+
+                <div class='p-ivanatrump'>
+                    <input class='zoom' id='ivanatrump' type="image" src="assets/ivanatrump.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-ivanatrump' class='invisible'>
+                    <h4>Ivana Trump</h4>
+                    <p>"I would never buy Ivana any decent jewels or pictures. Why give her negotiable assets?"</p>
+
+                    <h5>- Trump during the early years of his marriage to Ivana</h5>
+                </div>
+
+
+                <div class='p-gail'>
+                    <input class='zoom' id='gail' type="image" src="assets/gailcollins.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-gail' class='invisible'>
+                    <h4>Gail Collins</h4>
+                    <p>"The Face of a Dog!"</p>
+                    <h5>- Trump's response to a column in Newsday calling him a "financially embattled thousandaire"</h5>
+                </div>
+
+
+                <div class='p-barbarares'>
+                    <input class='zoom' id='barbarares' type="image" src="assets/barbarares.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-barbarares' class='invisible'>
+                    <h4>Barbara Res</h4>
+                    <p>“You like your candy.” </p>
+                    <h5>- Trump's remark on a construction executive who'd gained weight working for him</h5>
+                </div>
+
+                <div class='p-barbarares2'>
+                    <input class='zoom' id='barbarares2' type="image" src="assets/barbarares.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-barbarares2' class='invisible'>
+                    <h4>Barbara Res</h4>
+                    <p>“Not her.”</p>
+                    <h5>- Trump sent back an employee who was supposed to take lunch orders because she wasn't pretty enough</h5>
+                </div>
+
+                <div class="p-jodieseal">
+                    <input class='zoom' id='jodieseal' type="image" src="assets/jodieseal.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-jodieseal' class='invisible'>
+                    <h4>Jodie Seal</h4>
+                    <p>“Suck your stomach in. Suck your gut in."</p>
+                    <h5>- How Trump commented on the body of a beauty pageant contestant</h5>
+                </div>
+
+                <div class='p-aliciamachado'>
+                    <input class='zoom' id='aliciamachado' type="image" src="assets/aliciamachado.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-aliciamachado' class='invisible'>
+                    <h4>Alicia Machado</h4>
+                    <p>“This is somebody who likes to eat."</p>
+                    <h5>- Mr. Trump said from inside the gym of Alicia Machado</h5>
+
+                </div>
+
+                <div class='p-aliciamachado2'>
+                    <input class='zoom' id='aliciamachado2' type="image" src="assets/aliciamachado.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-aliciamachado2' class='invisible'>
+                    <h4>Alicia Machado</h4>
+                    <p>“We've tried diet, spa, a trainer, incentives. ... Forget it, the way she's going she'd eat the whole gymnasium.”</p>
+                    <h5>- Trump on Alicia Machado when she gained weight as Miss Universe</h5>
+
+                </div>
+
+                <div class='p-aliciamachado3'>
+                    <input class='zoom' id='aliciamachado3' type="image" src="assets/aliciamachado.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-aliciamachado3' class='invisible'>
+                    <h4>Alicia Machado</h4>
+                    <p>“She gained a massive amount of weight, and it was a real problem,”</p>
+                    <h5>- Trump told Fox News</h5>
+
+                </div>
+
+                <div class='p-aliciamachado4'>
+                    <input class='zoom' id='aliciamachado4' type="image" src="assets/aliciamachado.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-aliciamachado4' class='invisible'>
+                    <h4>Alicia Machado</h4>
+                    <p>“Miss Piggy...Miss Housekeeping,”</p>
+                    <h5>- Miss Machado claimed Mr Trump also called her after she won the Miss Universe pageant</h5>
+                </div>
+
+                <div class='p-aliciamachado5'>
+                    <input class='zoom' id='aliciamachado5' type="image" src="assets/aliciamachado.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-aliciamachado5' class='invisible'>
+                    <h4>Alicia Machado</h4>
+                    <p>“Miss Eating Machine.”</p>
+                    <h5>- Ms. Machado recalled the taunts from Mr. Trump that Mrs. Clinton invoked in a debate against Trump</h5>
+                </div>
+
+                <div class='p-allapprentice'>
+                    <input class='zoom' id='allapprentice' type="image" src="assets/groupwomen.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-allapprentice' class='invisible'>
+                    <h4>Female Apprentice contestants</h4>
+                    <p>“All of the women on The Apprentice flirted with me - consciously or unconsciously. That's to be expected.”</p>
+
+                </div>
+
+                <div class='p-allapprentice2'> <input class='zoom' id='allapprentice2' type="image" src="assets/groupwomen.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-allapprentice2' class='invisible'>
+                    <h4>Female Apprentice contestants</h4>
+                    <p>“It's certainly not groundbreaking news that the early victories by the women on The Apprentice were, to a very large extent, dependent on their sex appeal.”</p>
+
+                </div>
+
+                <div class='p-kristifrank'>
+                    <input class='zoom' id='kristifrank' type="image" src="assets/kristifrank.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-kristifrank' class='invisible'>
+                    <h4>Kristi Frank</h4>
+                    <p>“You mean the one with the [gesture to indicate breasts].”</p>
+                    <h5>- How Trump referred to a contestant he was deciding whether to fire on The Apprentice</h5>
+
+                </div>
+
+                <div class='p-rebeccaarndt'>
+                    <input class='zoom' id='rebeccaarndt' type="image" src="assets/defaultwoman.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-rebeccaarndt' class='invisible'>
+                    <h4>Rebecca Arndt</h4>
+                    <p>“There is a beautiful woman behind that camera, so I only want to look at that." </p>
+                    <h5>- How Trump would talk to camera operators on The Apprentice</h5>
+
+                </div>
+
+                <div class='p-rosieodonnll'>
+                    <input class='zoom' id='rosieodonnll' type="image" src="assets/rosieodonnll.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-rosieodonnll' class='invisible'>
+                    <h4>Rosie O'Donnell</h4>
+                    <p>“Can you imagine the parents of Kelli ... when she said, ‘Mom, Dad, I just fell in love with a big, fat pig named Rosie’? Can you imagine the expression on their face?" </p>
+                    <h5>- How Trump talked about Rosie O'Donnell's relationship during their ongoing feud</h5>
+
+                </div>
+
+                <div class='p-rosieodonnll2'>
+                    <input class='zoom' id='rosieodonnll2' type="image" src="assets/rosieodonnll.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-rosieodonnll2' class='invisible'>
+                    <h4>Rosie O'Donnell</h4>
+                    <p>“Rosie’s a loser. A real loser. I look forward to taking lots of money from my nice fat little Rosie. " </p>
+                </div>
+
+                <div class='p-rosieodonnll3'>
+                    <input class='zoom' id='rosieodonnll3' type="image" src="assets/rosieodonnll.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-rosieodonnll3' class='invisible'>
+                    <h4>Rosie O'Donnell</h4>
+                    <p>“Rosie O'Donnell is disgusting — both inside and out. If you take a look at her, she's a slob. How does she even get on television? If I were running The View, I'd fire Rosie. I'd look her right in that fat, ugly face of hers and say, ‘Rosie, you're fired.’ We're all a little chubby but Rosie's just worse than most of us. But it's not the chubbiness — Rosie is a very unattractive person, both inside and out.”</p>
+                </div>
+
+                <div class='p-suekwiatkowski'>
+                    <input class='zoom' id='suekwiatkowski' type="image" src="assets/defaultwoman.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-suekwiatkowski' class='invisible'>
+                    <h4>Sue Kwiatkowski</h4>
+                    <p>“I want you to get some good looking hostesses here. People like to see good looking people when they come in." </p>
+                    <h5>- How Donald Trump hired waitresses for his golf club</h5>
+
+                </div>
+
+
+                <div class='p-ivankatrump'>
+                    <input class='zoom' id='ivankatrump' type="image" src="assets/ivankatrump.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-ivankatrump' class='invisible'>
+                    <h4>Ivanka Trump</h4>
+                    <p>“If Ivanka weren’t my daughter, perhaps I’d be dating her." </p>
+                    <h5>- Trump later said this comment was a joke</h5>
+
+                </div>
+
+
+                <div class='p-gloriaallred'>
+                    <input class='zoom' id='gloriaallred' type="image" src="assets/gloria_allred.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-gloriaallred' class='invisible'>
+                    <h4>Gloria Allred</h4>
+                    <p>“I think Gloria would be very very impressed with [my penis]." </p>
+                    <h5>- Trump on TMZ after Gloria Allred sued him on behalf of a transgender woman barred from the Miss Canada pageant. Allred had said Trump didn't have to show his genitals to prove his sex.</h5>
+
+                </div>
+
+                <div class='p-rosieodonnll4'>
+                    <input class='zoom' id='rosieodonnll4' type="image" src="assets/rosieodonnll.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-rosieodonnll4' class='invisible'>
+                    <h4>Rosie O'Donnell</h4>
+                    <p>“She came to my wedding. She ate like a pig. And — I mean, seriously, the wedding cake was — was — it was, like, missing in action." </p>
+                    <h5>- Trump to Larry King in 2007</h5>
+
+                </div>
+
+                <div class='p-allmissuniverse'>
+                    <input class='zoom' id='allmsuniverse' type="image" src="assets/groupwomen.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-allmissuniverse' class='invisible'>
+                    <h4>Miss Universe contestants</h4>
+                    <p>“Tell me, who’s the most beautiful woman here? … I don’t care if she’s sweet. Is she hot? " </p>
+
+                </div>
+
+                <div class='p-elizabethbeck'>
+                    <input class='zoom' id='elizabethbeck' type="image" src="assets/elizabethleebeck.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-elizabethbeck' class='invisible'>
+                    <h4>Elizabeth Beck</h4>
+                    <p>“You're disgusting, you're disgusting." </p>
+                    <h5>- How Trump reacted to a lawyer saying she needed to breastfeed, according to her deposition (Trump disputes her version of events)</h5>
+                </div>
+
+                <div class='p-rosieodonnll5'>
+                    <input class='zoom' id='rosieodonnll5' type="image" src="assets/rosieodonnll.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-rosieodonnll5' class='invisible'>
+                    <h4>Rosie O'Donnell</h4>
+                    <p>“I feel sorry for Rosie's new partner in love whose parents are devastated at the thought of their daughter being with @Rosie — a true loser." </p>
+                    <h5>- A tweet posted by Trump</h5>
+                </div>
+
+                <div class="p-branderoderick">
+                    <input class='zoom' id='branderoderick' type="image" src="assets/branderoderick.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-branderoderick' class='invisible'>
+                    <h4>Brande Roderick</h4>
+                    <p>“It must be a pretty picture. You dropping to your knees." </p>
+                    <h5>- Trump's response when told that a contestant was so desperate to stay on the show she'd gotten on her knees to plead</h5>
+                </div>
+
+                <div class='p-arianahuffington'>
+                    <input class='zoom' id='arianahuffington' type="image" src="assets/ariannahuffington.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-arianahuffington' class='invisible'>
+                    <h4>Ariana Huffington</h4>
+                    <p>“.
+                        @ariannahuff
+                        is unattractive both inside and out. I fully understand why her former husband left her for a man- he made a good decision." </p>
+                    <h5>- A tweet posted by Trump</h5>
+                </div>
+
+
+                <div class='p-kristenstewartmsuniverse'>
+                    <input class='zoom' id='kristenstewartmsuniverse' type="image" src="assets/groupwomen.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-kristenstewartmsuniverse' class='invisible'>
+                    <h4>Kristen Stewart and the Miss Universe contestants</h4>
+                    <p>“Robert I'm getting a lot of heat for saying you should dump Kristen — but I'm right. If you saw the Miss Universe girls you would reconsider." </p>
+                    <h5>- Trump was insistent on Twitter in 2012 that Robert Pattinson and Kristen Stewart should break up, firing off a string of tweets criticizing Stewart's looks and her infidelity</h5>
+                </div>
+
+                <div class='p-gailcollins'>
+                    <input class='zoom' id='gailcollins' type="image" src="assets/gailcollins.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-gailcollins' class='invisible'>
+                    <h4>Gail Collins</h4>
+                    <p>“There are many editorial writers that are good, some great, & some bad. But the least talented of all is frumpy Gail Collins of NYTimes." </p>
+                    <h5>- A tweet posted by Trump</h5>
+                </div>
+
+
+                <div class='p-rosieodonnll6'>
+                    <input class='zoom' id='rosieodonnll6' type="image" src="assets/rosieodonnll.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-rosieodonnll6' class='invisible'>
+                    <h4>Rosie O'Donnell</h4>
+                    <p>“Sorry, @Rosie is a mentally sick woman, a bully, a dummy and, above all, a loser. Other than that she is just wonderful!" </p>
+                    <h5>- A tweet posted by Trump</h5>
+                </div>
+
+                <div class='p-rosieodonnll7'>
+                    <input class='zoom' id='rosieodonnll7' type="image" src="assets/rosieodonnll.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-rosieodonnll7' class='invisible'>
+                    <h4>Rosie O'Donnell</h4>
+                    <p>“Rosie is crude, rude, obnoxious and dumb — other than that I like her very much!" </p>
+                    <h5>- A tweet posted by Trump</h5>
+                </div>
+
+                <div class='p-carlyfiorina'>
+                    <input class='zoom' id='carlyfiorina' type="image" src="assets/carlyfiorina.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-carlyfiorina' class='invisible'>
+                    <h4>Carly Fiorina</h4>
+                    <p>“Look at that face! Would anyone vote for that? Can you imagine that, the face of our next president?" </p>
+                    <h5>- Trump comments to a Rolling Stone reporter about Carly Fiorina's appearance on TV</h5>
+                </div>
+
+                <div class='p-carlyfiorina2'>
+                    <input class='zoom' id='carlyfiorina2' type="image" src="assets/carlyfiorina.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-carlyfiorina2' class='invisible'>
+                    <h4>Carly Fiorina</h4>
+                    <p>“Why does she keep interrupting everybody?" </p>
+                    <h5>- Trump accuses Fiorina at a Republican presidential debate</h5>
+                </div>
+
+                <div class='p-arianahuffington4'>
+                    <input class='zoom' id='arianahuffington4' type="image" src="assets/ariannahuffington.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-arianahuffington4' class='invisible'>
+                    <h4>Ariana Huffington</h4>
+                    <p>“Why is it necessary to comment on .@ariannahuff looks? Because she is a dog who wrongfully comments on me." </p>
+                    <h5>- A tweet posted by Trump</h5>
+                </div>
+
+                <div class='p-arianahuffington5'>
+                    <input class='zoom' id='arianahuffington5' type="image" src="assets/ariannahuffington.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-arianahuffington5' class='invisible'>
+                    <h4>Ariana Huffington</h4>
+                    <p>“How much money is the extremely unattractive (both inside and out) Arianna Huffington paying her poor ex-hubby for the use of his name?" </p>
+                    <h5>- A tweet posted by Trump</h5>
+                </div>
+
+                <div class='p-megynkelly'>
+                    <input class='zoom' id='megynkelly' type="image" src="assets/megynkelly.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-megynkelly' class='invisible'>
+                    <h4>Megyn Kelly</h4>
+                    <p>“You could see there was blood coming out of her eyes, blood coming out of her wherever." </p>
+                    <h5>- Trump after Megyn Kelly moderated the Republican debate</h5>
+                </div>
+
+                <div class='p-hillary'>
+                    <input class='zoom' id='hillary' type="image" src="assets/hillaryclinton.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-hillary' class='invisible'>
+                    <h4>Hillary Clinton</h4>
+                    <p>“Such a nasty woman." </p>
+                    <h5>- Trump said of Clinton on air at a presidential debate</h5>
+                </div>
+
+                <div class='p-hillaryclinton'>
+                    <input class='zoom' id='hillaryclinton' type="image" src="assets/hillaryclinton.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-hillaryclinton' class='invisible'>
+                    <h4>Hillary Clinton</h4>
+                    <p>"She doesn't have the look. She doesn't have the stamina, I said she doesn't have the stamina, and I don't believe she does have the stamina." </p>
+                    <h5>- Trump said of Clinton on air at a presidential debate</h5>
+                </div>
+
+                <div class='p-hillaryclinton2'>
+                    <input class='zoom' id='hillaryclinton2' type="image" src="assets/hillaryclinton.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-hillaryclinton2' class='invisible'>
+                    <h4>Hillary Clinton</h4>
+                    <p> "Does she look presidential, fellas? Give me a break." </p>
+                    <h5>- Trump said of Clinton in and ABC News interview</h5>
+                </div>
+
+                <div class='p-hillaryclinton3'>
+                    <input class='zoom' id='hillaryclinton3' type="image" src="assets/hillaryclinton.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-hillaryclinton3' class='invisible'>
+                    <h4>Hillary Clinton</h4>
+                    <p> "If she were a man, I don't think she'd get five percent of the vote." </p>
+                    <h5>- Trump said of Clinton at one of his presidential rallies</h5>
+                </div>
+
+                <div class='p-hillaryclinton4'>
+                    <input class='zoom' id='hillaryclinton4' type="image" src="assets/hillaryclinton.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-hillaryclinton4' class='invisible'>
+                    <h4>Hillary Clinton</h4>
+                    <p> “When Hillary says nobody likes him, nobody likes her. That’s why she lost, nobody liked her,” </p>
+                    <h5>- Trump told Fox Business Network in an interview from Switzerland, where he was attending the World Economic Forum</h5>
+                </div>
+
+                <div class='p-hillaryclinton5'>
+                    <input class='zoom' id='hillaryclinton5' type="image" src="assets/hillaryclinton.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-hillaryclinton5' class='invisible'>
+                    <h4>Hillary Clinton</h4>
+                    <p> "She's not strong enough to cope with the job." </p>
+                    <h5>- Trump told Fox Business Network in an interview from Switzerland, where he was attending the World Economic Forum</h5>
+                </div>
+
+                <div class='p-megynkelly2'>
+                    <input class='zoom' id='megynkelly2' type="image" src="assets/megynkelly.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-megynkelly2' class='invisible'>
+                    <h4>Megyn Kelly</h4>
+                    <p> "I refuse to call Megyn Kelly a bimbo, because that would not be politically correct. Instead I will only call her a lightweight reporter!" </p>
+                    <h5>- A Tweet posted by Trump</h5>
+                </div>
+
+                <div class='p-megynkelly3'>
+                    <input class='zoom' id='megynkelly3' type="image" src="assets/megynkelly.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-megynkelly3' class='invisible'>
+                    <h4>Megyn Kelly</h4>
+                    <p> "She is so average in every way, who the hell wants to woo her!" </p>
+                    <h5>- A Tweet posted by Trump</h5>
+                </div>
+
+                <div class='p-aliciamachado6'>
+                    <input class='zoom' id='aliciamachado6' type="image" src="assets/aliciamachado.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-aliciamachado6' class='invisible'>
+                    <h4>Alicia Machado</h4>
+                    <p> "She was the worst we ever had, the worst, the absolute worst, she was impossible. She gained a massive amount of weight, and it was a real problem." </p>
+                    <h5>- Tweet said of Machado in an interview in 2016 after Clinton mentioned his treatment of her in the first presidential debate</h5>
+                </div>
+
+                <div class='p-aliciahillary'>
+                    <input class='zoom' id='aliciahillary' type="image" src="assets/groupwomen.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-aliciahillary' class='invisible'>
+                    <h4>Alicia Machado and Hillary Clinton</h4>
+                    <p> "Did Crooked Hillary help disgusting (check out sex tape and past) Alicia M become a U.S. citizen so she could use her in the debate?" </p>
+                    <h5>- A tweet posted by Trump</h5>
+                </div>
+
+                <div class='p-merylhillary'>
+                    <input class='zoom' id='merylhillary' type="image" src="assets/groupwomen.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-merylhillary' class='invisible'>
+                    <h4>Meryl Streep and Hillary Clinton</h4>
+                    <p> "Meryl Streep, one of the most over-rated actresses in Hollywood, doesn't know me but attacked last night at the Golden Globes. She is a.....Hillary flunky who lost big." </p>
+                    <h5>- A tweet posted by Trump</h5>
+                </div>
+
+                <div class='p-mika'>
+                    <input class='zoom' id='mika' type="image" src="assets/MikaBrzezinski.png" alt="Submit" width="48" height="48">
+                </div>
+
+                <div id='popup-mika' class='invisible'>
+                    <h4>Mika Brzezinski</h4>
+                    <p> "I heard poorly rated @Morning_Joe speaks badly of me (don't watch anymore). Then how come low I.Q. Crazy Mika, along with Psycho Joe, came to Mar-a-Lago 3 nights in a row around New Year's Eve, and insisted on joining me. She was bleeding badly from a face-lift. I said no!" </p>
+                    <h5>- A tweet posted by Trump</h5>
+                </div>
+
+                <div class='p-gillibrand'>
+                <input class='zoom' id='gillibrand' type="image" src="assets/KirstenGillibrand.png" alt="Submit" width="48" height="48">
+            </div>
+            
+            <div id='popup-gillibrand' class='invisible'>
+                    <h4>Kirsten Gillibrand</h4>
+                    <p> "Lightweight Senator Kirsten Gillibrand, a total flunky for Chuck Schumer and someone who would come to my office “begging” for campaign contributions not so long ago (and would do anything for them), is now in the ring fighting against Trump. Very disloyal to Bill & Crooked-USED!" </p>
+                    <h5>- A tweet posted by Trump</h5>
+                </div>
+
+
+            <div class='p-macron'>
+                <input class='zoom' id='macron' type="image" src="assets/trodeux.png" alt="Submit" width="48" height="48">
+            </div>
+                
+                <div id='popup-macron' class='invisible'>
+                    <h4>Brigitte Macron</h4>
+                    <p> "You know, you're in such good shape...Beautiful." </p>
+                    <h5>- Trump said, before repeating the observation to her husband</h5>
+                </div>
+                
+                 <div class='p-stormydaniels'>
+                <input class='zoom' id='stormydaniels' type="image" src="assets/stormydaniels.png" alt="Submit" width="48" height="48">
+            </div>
+                
+                <div id='popup-stormydaniels' class='invisible'>
+                    <h4>Stormy Daniels</h4>
+                    <p> “Federal Judge throws out Stormy Danials lawsuit versus Trump. Trump is entitled to full legal fees.” @FoxNews Great, now I can go after Horseface and her 3rd rate lawyer in the Great State of Texas. She will confirm the letter she signed! She knows nothing about me, a total con! </p>
+                    <h5>- A tweet posted by Trump</h5>
+                </div>
+                
+                <div class='p-waters'>
+                <input class='zoom' id='waters' type="image" src="assets/maxinewaters.png" alt="Submit" width="48" height="48">
+            </div>
+                
+                <div id='popup-waters' class='invisible'>
+                    <h4>Maxine Waters</h4>
+                    <p> “Congresswoman Maxine Waters, an extraordinarily low IQ person, has become, together with Nancy Pelosi, the Face of the Democrat Party. She has just called for harm to supporters, of which there are many, of the Make America Great Again movement. Be careful what you wish for Max!" </p>
+                    <h5>- A tweet posted by Trump</h5>
+                </div>
+                
+                 <div class='p-AOC'>
+                <input class='zoom' id='AOC' type="image" src="assets/AOC.png" alt="Submit" width="48" height="48">
+            </div>
+                
+                <div id='popup-AOC' class='invisible'>
+                    <h4>Alexandria Ocasio-Cortez</h4>
+                    <p> “AOC is Wack Job!” </p>
+                    <h5>- A tweet posted by Trump</h5>
+                </div>
+                
+                <div class='p-pelosi'>
+                <input class='zoom' id='pelosi' type="image" src="assets/nancypelosi.png" alt="Submit" width="48" height="48">
+            </div>
+                
+                <div id='popup-pelosi' class='invisible'>
+                    <h4>Nancy Pelosi</h4>
+                    <p> “Nervous Nancy’s unhinged meltdown!” </p>
+                    <h5>- A tweet posted by Trump</h5>
+                </div>
+                
+                 <div class='p-thurn'>
+                <input class='zoom' id='thurn' type="image" src="assets/Gretathunberg.png" alt="Submit" width="48" height="48">
+            </div>
+                
+                <div id='popup-thurn' class='invisible'>
+                    <h4>Greta Thurnburg</h4>
+                    <p> "Greta must work on her Anger Management problem, then go to a good old fashioned movie with a friend!" </p>
+                    <h5>- A tweet posted by Trump</h5>
+                </div>
+
+        </div>
+
+        <div class='container3'>
+
+        </div>
+    </div>
+    <script type="text/javascript" src="assets/hover.js">
+    </script>
+
+</body></html>

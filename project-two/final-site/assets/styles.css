@@ -390,7 +390,7 @@ nav a {
     width: auto;
     position: absolute;
     left: 550px;
-    top: -680px;
+    top: -670px;
     ;
     border-radius: 5px 5px 5px 5px;
 }
@@ -398,7 +398,7 @@ nav a {
 #base-image {
     height: 520px;
     position: absolute;
-    top: -680px;
+    top: -670px;
     left: 550px;
     border-radius: 5px 5px 5px 5px;
 
