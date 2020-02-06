@@ -57,9 +57,9 @@ p {
 
 
 .opening-column {
-    width: 500px;
-    height: 500px;
-    padding: 90px;
+    width: 550px;
+    height: 550px;
+    padding: 95px;
     margin: 100px;
     border-radius: 50%;
     background-color: #D0655E;
@@ -67,15 +67,20 @@ p {
 }
 
 .opening-statement {
-    margin-top: -10px;
-    margin-left: 35px;
-    width: 470px;
+    margin-top: -25px;
+    margin-left: 65px;
+    width: 500px;
+}
+
+.opening-statement h1{
+    margin-left:-15px
 }
 
 .opening-paragraph {
     font-size: 15px;
-    width: 400px;
-    margin-left: 20px;
+    line-height: 19px;
+    width: 450px;
+    
 }
 
 .disclaimer-column {
@@ -90,7 +95,7 @@ p {
 }
 
 .disclaimer {
-    margin-top: 60px;
+    margin-top: 70px;
     width: 400px;
     margin-left: 25px;
 }
@@ -109,6 +114,7 @@ p {
 
     width: 250px;
     font-size: 14px;
+    line-height: 18px;
     margin-left: 35px;
     margin-top: -10px;
 }
@@ -116,7 +122,7 @@ p {
 .sources {
     position: relative;
     background-color: #DD8685;
-    margin-top: 130px;
+    margin-top: 140px;
     margin-left: 240px;
     width: 400px;
     height: 400px;
@@ -130,26 +136,32 @@ p {
     font-size: 25px;
     margin-left: 40px;
     margin-top:
-        border-radius: 50%;
+    
 }
 
 .sourcesheading {
     position: absolute;
-    top: 90px;
+    top: 110px;
     left: 110px;
+    margin-top: -20px;
 }
 
 .sources p {
 
-    width: 300px;
+    width: 290px;
     font-size: 13.5px;
     margin-left: 55px;
-    margin-top: -10px;
+    margin-top: 5px;
+    line-height: 16px;
+    
 }
+
+
 
 .links {
     position: absolute;
-    top: 150px;
+    top: 134px;
+    left:13px;
 }
 
 .graphic {
