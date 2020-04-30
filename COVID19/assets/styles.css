@@ -1,0 +1,346 @@
+.container {
+    margin: 0 auto;
+    display: flex;
+}
+
+.words{
+    width: 300px;
+    background-color: aqua
+}
+
+.graphic{
+    background-color: red;
+}
+
+/*Source Serif Pro Regular
+
+font-family: source-serif-pro, serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Source Serif Pro Bold
+
+font-family: source-serif-pro, serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Source Serif Pro Italic
+
+font-family: source-serif-pro, serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Source Serif Pro Bold Italic
+
+font-family: source-serif-pro, serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+Fira Sans Regular
+
+font-family: fira-sans, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Fira Sans Italic
+
+font-family: fira-sans, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Fira Sans Bold
+
+font-family: fira-sans, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Fira Sans Bold Italic
+
+font-family: fira-sans, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+
+Fira Sans Hair Italic
+
+font-family: fira-sans-2, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Fira Sans Heavy
+
+font-family: fira-sans-2, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Fira Sans Heavy Italic
+
+font-family: fira-sans-2, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+
+Fira Sans Hair
+
+font-family: fira-sans-2, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Fira Sans Compressed Bold Italic
+
+font-family: fira-sans-compressed, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+
+Fira Sans Compressed Bold
+
+font-family: fira-sans-compressed, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Fira Sans Compressed Medium
+
+font-family: fira-sans-compressed, sans-serif;
+
+font-weight: 500;
+
+font-style: normal;
+
+
+Fira Sans Compressed Regular
+
+font-family: fira-sans-compressed, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Fira Sans Compressed Italic
+
+font-family: fira-sans-compressed, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Fira Sans Compressed Hair Italic
+
+font-family: fira-sans-compressed-2, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Fira Sans Compressed Hair
+
+font-family: fira-sans-compressed-2, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Fira Sans Compressed ExtraLight Italic
+
+font-family: fira-sans-compressed-2, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+
+Fira Sans Compressed ExtraLight
+
+font-family: fira-sans-compressed-2, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Fira Sans Condensed Medium Italic
+
+font-family: fira-sans-condensed, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Fira Sans Condensed Medium
+
+font-family: fira-sans-condensed, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Fira Sans Condensed ExtraBold Italic
+
+font-family: fira-sans-condensed, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+
+Fira Sans Condensed ExtraBold
+
+font-family: fira-sans-condensed, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Fira Sans Condensed Hair
+
+font-family: fira-sans-condensed-2, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Fira Sans Condensed Hair Italic
+
+font-family: fira-sans-condensed-2, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Fira Sans Condensed ExtraLight Italic
+
+font-family: fira-sans-condensed-2, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+
+Fira Sans Condensed ExtraLight
+
+font-family: fira-sans-condensed-2, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+
+
+
+
+
+*/
+
+/*Title and Paragraph*/
+
+h1 {
+    font-family: source-serif-pro, serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+h3 {
+    font-family: fira-sans-compressed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+/*Maps*/
+
+.maps {
+    position: relative;
+}
+
+#chicago-hispanic-pop {
+    position: absolute;
+    width: 600px;
+}
+
+#chicago-black-pop {
+    position: absolute;
+    width: 600px;
+    z-index: 1;
+}
+
+#chicago-covid19 {
+    position: absolute;
+    width: 605px;
+    top: -28px;
+    left: 5px;
+    z-index: 99;
+}
+
+#chicago-black-pop.invisible,
+#chicago-hispanic-pop.invisible,
+#chicago-covid19.invisible {
+    /*    visibility: hidden;*/
+    z-index: 99;
+    opacity: 0;
+    transition: opacity .45s ease-in-out;
+    -moz-transition: opacity .45s ease-in-out;
+    /* Helps make sure transition works in Mozilla */
+    -webkit-transition: opacity .45s ease-in-out;
+    /* Helps make sure transition works in Chrome, Safari, etc.*/
+
+}
+
+
+/*Buttons*/
+.buttons {
+    position: absolute;
+    top: 190px;
+    right: 200px;
+    display: flex;
+    flex-direction: column
+}

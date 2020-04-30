@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<!-- NEED TO ADD SEMANTIC HTML LIKE SECTIONS AND ALT= TO DESCRIBE THINGS -->
+
+<head>
+    <title>The Eaves Family: A Licko Love Story</title>
+    <link rel="stylesheet" href="https://use.typekit.net/stu6myn.css">
+    <link rel='stylesheet' href='assets/styles-test.css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- custom jquery code created to add and remove the class of invisible depending on which button the user clicks. -->
+    <script type="text/javascript" src="assets/fadein-out.jquery.js"></script>
+</head>
+
+<body>
+    <div class='container'>
+        <nav>
+            <header id='nav-bar'>
+                <div id='buttons'>
+                    <button id='mrbutton'>Mr</button><button id='mrsbutton'>Mrs</button>
+                    <button id='familybutton'>Family</button>
+                </div>
+                <!-- These buttons will toggle the Q and alphabets below either on or off -->
+                <!-- Can talk to you later about it, but want to see if it's possible to make a slidebar for each that changes their opacity-->
+            </header>
+            <!-- end header#nav-bar -->
+        </nav>
+        <div class='all'>
+            <section id='comparison-graphic'>
+                <div class='family'>
+                    <div class='compare'>
+                        <div class='mr-header-para mr-content '>
+
+                            <!-- need to add classes mr-content and mrs-content, DONT FORGET A -->
+
+                            <h2>Mr</h2>
+                            <p id='mrpara'>Mr Eaves was a simple, yet sophisticated man. While consistent and controlled in thickness and shape, his iconic handlebar mustache definitely made him stand out in a crowd.</p>
+                        </div>
+                        <h1 id='mrq' class='mr-content '>Q</h1>
+                        <!--Q in Mrs Eaves typeface-->
+                        <h1 id='mrsq' class='mrs-content '>Q</h1>
+                        <!--Q in Mr Eaves typeface-->
+                        <div class='mrs-header-para mrs-content '>
+                            <h2>Mrs</h2>
+                            <p id='mrspara'>Mrs Eaves was a mystifying and magnificent matriarch. Adorned with curious contrasts and star-studded serifs, you could always find Mrs Eaves with a silky scarf around her neck. </p>
+                        </div>
+                    </div>
+                    <!-- end of div.compare -->
+
+                    <h3 class='mr-content alpha' id='mrone'>ABCDEFGHIJKLM</h3>
+                    <!-- First half of alphabet in Mrs Eaves -->
+                    <h3 class='mrs-content alpha' id='mrsone'>ABCDEFGHIJKLM</h3>
+                    <!-- First half of alphabet in Mr Eaves -->
+                    <h3 class=' mr-content alpha' id='mrtwo'>NOPQRSTUVWXYZ</h3>
+                    <!-- Second half of alphabet in Mrs Eaves -->
+                    <h3 class='mrs-content alpha' id='mrstwo'>NOPQRSTUVWXYZ</h3>
+                    <!-- Second half of alphabet in Mr Eaves -->
+                </div>
+            </section>
+            <!--ends div.family -->
+            <!-- ends section#comparison-graphic -->
+            <div class='info'>
+                <section id='history-section'>
+                    <div class='header'>
+                        <h2>The Eaves Family</h2>
+                    </div>
+                    <div class='subhead'>
+                        <h3>A Licko Love Story</h3>
+                    </div>
+                    <!-- ends div.hheader-->
+
+                    <div class='history'>
+                        <p>In 1996, Zuzana Licko of the Emigre type foundry designed Mrs Eaves (<a href='https://www.emigre.com/Fonts/Mrs-Eaves'>Her</a>). Inspired as a revival of Baskerville (and later named after John Baskerville’s servant-turned-mistress, Sarah Eaves), Mrs Eaves has become Emigre’s most popular typeface, its success often compared to that of Helvetica, Univers, and Franklin Gothic. The typeface’s subtly-contrasted strokes, low x-height, and quirky, yet whimsical serifs makes this typeface unique, yet classic.</p>
+
+                        <p>In 2009, Licko designed the “san-serif companion” to Mrs Eaves: Mr Eaves Sans (<a href='https://www.emigre.com/Fonts/Mr-Eaves-Sans-and-Modern'>Him</a>). Despite the noticeable visual differences between the two typefaces—Mr Eaves Sans most prominently lacks serifs and boasts less contrast between thicks and thins—Licko cites that both typefaces were designed with the same proportions, weight, and armatures in mind. The typeface’s clean, consistent facets excellently counteracts the more eccentric nature of Mrs Eaves.</p>
+                    </div>
+                    <!-- ends div.history -->
+                </section>
+                <!--ends section#history-section -->
+
+                <section id='about-designer'>
+                    <div class='me'>
+                            <img src=assets/website-bio-pic.jpg id='pic-of-me' alt='A portrait of the designer, Natalie Behling, smiling away.'>
+                        <div id='me-info'>
+                            <h3 id='about-the-designer'>About the Designer</h3>
+                            <p>Natalie Behling is a senior Visual Communication Design
+                                student at the University of Notre Dame. After
+                                college, she hopes to work in
+                                the non-profit sector in a communications-related role. As you might guess,
+                                she’s a sucker for a good love story.</p>
+                        </div>
+                    </div>
+                </section>
+                <!-- ends div.me -->
+                <!-- end section#about-designer-->
+
+                <section id=sources>
+                    <div class='sources'>
+                        <h4>Sources</h4>
+                        <p>“Mr Eaves Sans &amp; Modern.” Emigre Fonts, Emigre Inc.,<a href='www.emigre.com/Fonts/Mr-Eaves-Sans-and-Modern'>www.emigre.com/Fonts/Mr-Eaves-Sans-and-Modern</a>.</p>
+                        <p>“Mrs Eaves.” Emigre Fonts, Emigre Inc., <a href='www.emigre.com/Fonts/Mrs-Eaves'>www.emigre.com/Fonts/Mrs-Eaves</a>.</p>
+                    </div>
+                </section>
+                <!-- ends div.sources -->
+                <!-- ends section#sources-->
+            </div>
+            <!-- ends div.info -->
+        </div>
+        <!-- ends div.all -->
+    </div>
+    <!-- ends div.container -->
+
+</body>
+
+</html>

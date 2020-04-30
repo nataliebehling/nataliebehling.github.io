@@ -1,0 +1,450 @@
+/*General CSS coding*/
+
+body {
+    background-color: #736e63;
+    margin: 0;
+}
+
+.container {
+    background-color: #FDF9EF;
+    width: 1024px;
+    height: 768px;
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+        /* Wanted to learn how I could center the entire iPad size webpage in the middle of the browser window no matter the size that said window (I didn't like it smushed all the way at the top with a bunch of negative space below). Lines 13-16 are inspired by the W3 School lesson below.
+
+https://www.w3.org/Style/Examples/007/center.en.html*/
+}
+
+a {
+    color: #9B0D7F;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color: #DD40BE;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+/* Nav CSS */
+nav {
+    height: 60px;
+    display: flex;
+    background: #2B2B2B
+}
+
+#mrbutton {
+    height: 40px;
+    width: 100px;
+    margin-left: 30px;
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    color: #FFFEFA;
+    background-color: #3d3d3d;
+    border: none;
+    outline:none;
+    
+}
+
+#mrbutton:hover {
+    color: #AC5B6C;
+}
+
+#mrsbutton {
+    height: 40px;
+    width: 100px;
+    margin-left: 30px;
+    font-family: mrs-eaves, serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    color: #FFFEFA;
+    background-color: #3d3d3d;
+    border: none;
+    outline:none;
+}
+
+#mrsbutton:hover {
+    color: #AC5B6C;
+}
+
+#familybutton {
+    height: 40px;
+    width: 100px;
+    margin-left: 30px;
+    margin-top:10px;
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    color: #FFFEFA;
+    background-color: #3d3d3d;
+    border: none;
+    outline:none;
+}
+
+#familybutton:hover {
+    color: #AC5B6C;
+}
+
+/* Making the columns*/
+
+.info {
+    display:flex;
+    width: 330px;
+    padding: 38px;
+    padding-top: 18px;
+    padding-right: 33px;
+    padding-bottom: 28px;
+    background: #F4EBD9;
+}
+
+.family {
+    display:flex;
+    width: 657px;
+    align-content: center;
+    
+
+}
+
+/* Left Column graphic comparison */
+
+.family {
+    position: relative;
+}
+
+.compare {
+    display: flex;
+    position: relative;
+}
+
+.mr-content,
+.mrs-content {
+    visibility: invisible;
+    opacity: 1;
+    transition: opacity .45s ease-in-out;
+    -moz-transition: opacity .45s ease-in-out;
+    /* Helps make sure transition works in Mozilla */
+    -webkit-transition: opacity .45s ease-in-out;
+    /* Helps make sure transition works in Chrome, Safari, etc.*/
+}
+
+.mr-content.ininvisible,
+.mrs-content.ininvisible {
+    /*    visibility: hidden;*/
+    opacity: 0;
+    transition: opacity .45s ease-in-out;
+    -moz-transition: opacity .45s ease-in-out;
+    /* Helps make sure transition works in Mozilla */
+    -webkit-transition: opacity .45s ease-in-out;
+    /* Helps make sure transition works in Chrome, Safari, etc.*/
+
+}
+
+#mrq,
+#mrsq {
+    margin-top: 260px;
+}
+
+.compare h1#mrq {
+    color: #2B2B2B;
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 357px;
+    position: absolute;
+    top: -270px;
+    left: 170px;
+}
+
+.compare h1#mrsq {
+    color: #932C41;
+    font-family: mrs-eaves, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 357px;
+    position: absolute;
+    top: -270px;
+    left: 150px;
+
+}
+
+
+#mrpara {
+    margin: 5px;
+    font-size: 12px;
+    font-weight: 100px;
+    width: 100px;
+    text-align: right;
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+
+#mrspara {
+    margin-top: 5px;
+    font-size: 11px;
+    width: 103px;
+    text-align: left;
+    font-family: mrs-eaves, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.mrs-header-para {
+    position: absolute;
+    top: 106px;
+    left: 462px;
+    color: #932C41;
+}
+
+.mr-header-para {
+    position: absolute;
+    top: 100px;
+    left: 29px;
+}
+
+.mrs-header-para h2 {
+    margin: 5px;
+    margin: 0px;
+    font-family: mrs-eaves, serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.mr-header-para h2 {
+    margin: 5px;
+    margin-bottom: 0px;
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 33px;
+    text-align: right;
+
+}
+
+.family h3.alpha {
+    position: absolute;
+    padding-top: 0px;
+    font-size: 36px;
+    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+}
+
+
+#mrone {
+    margin-top: 30px;
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 38px;
+    letter-spacing: 4px;
+    position: absolute;
+    top: 402px;
+    left: 155px;
+    transition: top .45s ease-in-out;
+    -webkit-transition: top .45s ease-in-out;
+}
+
+.alpha.movemr#mrone {
+    top: 385px;
+    transition: top .45s ease-in-out;
+    -webkit-transition: top .45s ease-in-out;
+}
+
+#mrsone {
+    font-family: mrs-eaves, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #932C41;
+    letter-spacing: 1.2px;
+    position: absolute;
+    top: 470px;
+    left: 155px;
+    transition: top .45s ease-in-out;
+    -webkit-transition: top .45s ease-in-out;
+}
+
+.alpha.movemrs#mrsone {
+    top: 418px;
+    transition: top .45s ease-in-out;
+    -webkit-transition: top .45s ease-in-out;
+}
+
+.alpha#mrtwo {
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 38px;
+    letter-spacing: .7px;
+    position: absolute;
+    top: 507px;
+    left: 155px;
+    transition: top .45s ease-in-out;
+    -webkit-transition: top .45s ease-in-out;
+}
+
+.alpha.movemr#mrtwo {
+    top: 455px;
+    transition: top .45s ease-in-out;
+    -webkit-transition: top .45s ease-in-out;
+}
+
+.alpha#mrstwo {
+    font-family: mrs-eaves, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #932C41;
+    position: absolute;
+    top: 549px;
+    left: 155px;
+    transition: top .45s ease-in-out;
+    -webkit-transition: top .45s ease-in-out;
+}
+
+.alpha.movemrs#mrstwo {
+    top: 457px;
+    transition: top .45s ease-in-out;
+    -webkit-transition: top .45s ease-in-out;
+}
+
+/* Right column CSS */
+
+.header {
+    margin-top: -20px;
+    margin-bottom: -40px;
+    font-size: 30px;
+    font-style: italic;
+    color: #932C41;
+
+}
+
+.subhead {
+    margin-top: -30px;
+    margin-bottom: 20px;
+    font-family: mrs-eaves, serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.history {
+    font-size: 14.5px;
+    font-family: mrs-eaves, serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.me {
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 0px;
+
+}
+
+#pic-of-me {
+    width: 98px;
+    height: 98px;
+    margin-right: 8px;
+    ;
+    border: 4px solid #932C41;
+}
+
+#me-info {
+    margin-left: 10px;
+    width: 250px;
+}
+
+#me-info h3 {
+    color: #932C41;
+    margin: 0px;
+}
+
+#me-info p {
+    margin-top: 9px;
+    font-family: mrs-eaves, serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.sources h4 {
+    color: #932C41;
+    margin: 0;
+    font-size: 18.72px;
+}
+
+.sources p {
+    font-family: mrs-eaves, serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 12px;
+    margin
+}
+
+
+/* Fonts
+
+MR EAVES
+
+font-family: mr-eaves-sans, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: mr-eaves-sans, sans-serif;
+font-weight: 400;
+font-style: italic;
+
+font-family: mr-eaves-sans, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+font-family: mr-eaves-sans, sans-serif;
+font-weight: 700;
+font-style: italic;
+
+MRS EAVES
+
+font-family: mrs-eaves, serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: mrs-eaves, serif;
+font-weight: 700;
+font-style: italic;
+
+font-family: mrs-eaves, serif;
+font-weight: 700;
+font-style: normal;
+
+font-family: mrs-eaves, serif;
+font-weight: 400;
+font-style: italic;
+*/
+
+/* Hexadecimal swatches 
+
+Background of whole site: #736E63;
+Navigation: #2B2B2B;
+Left column w Qs: #FDF9EF;
+Right column w info: #F4EBD9;
+Red accent: #932C41;
+Links: #9B0D7F;
+Links Hover: #DD40BE;
+Website's black: #2B2B2B;
+
+*/

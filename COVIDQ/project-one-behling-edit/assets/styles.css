@@ -1,0 +1,604 @@
+/*Halyard Display ExtraLight
+
+font-family: halyard-display, sans-serif;
+
+font-weight: 100;
+
+font-style: normal;
+
+
+Halyard Display ExtraLight Italic
+
+font-family: halyard-display, sans-serif;
+
+font-weight: 100;
+
+font-style: italic;
+
+
+Halyard Display Light Italic
+
+font-family: halyard-display, sans-serif;
+
+font-weight: 200;
+
+font-style: italic;
+
+
+Halyard Display Light
+
+font-family: halyard-display, sans-serif;
+
+font-weight: 200;
+
+font-style: normal;
+
+
+Halyard Display Book
+
+font-family: halyard-display, sans-serif;
+
+font-weight: 300;
+
+font-style: normal;
+
+
+Halyard Display Book Italic
+
+font-family: halyard-display, sans-serif;
+
+font-weight: 300;
+
+font-style: italic;
+
+
+Halyard Display Italic
+
+font-family: halyard-display, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Halyard Display Regular
+
+font-family: halyard-display, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Halyard Display Medium Italic
+
+font-family: halyard-display, sans-serif;
+
+font-weight: 500;
+
+font-style: italic;
+
+
+Halyard Display Medium
+
+font-family: halyard-display, sans-serif;
+
+font-weight: 500;
+
+font-style: normal;
+
+
+Halyard Display SemiBold Italic
+
+font-family: halyard-display, sans-serif;
+
+font-weight: 600;
+
+font-style: italic;
+
+
+Halyard Display SemiBold
+
+font-family: halyard-display, sans-serif;
+
+font-weight: 600;
+
+font-style: normal;
+
+
+Halyard Display Bold
+
+font-family: halyard-display, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Halyard Display Bold Italic
+
+font-family: halyard-display, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+
+Halyard Display Black
+
+font-family: halyard-display, sans-serif;
+
+font-weight: 900;
+
+font-style: normal;
+
+
+Halyard Display Black Italic
+
+font-family: halyard-display, sans-serif;
+
+font-weight: 900;
+
+font-style: italic;
+
+
+Halyard Micro Regular
+
+font-family: halyard-micro, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Halyard Micro Italic
+
+font-family: halyard-micro, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Halyard Micro Medium Italic
+
+font-family: halyard-micro, sans-serif;
+
+font-weight: 500;
+
+font-style: italic;
+
+
+Halyard Micro Medium
+
+font-family: halyard-micro, sans-serif;
+
+font-weight: 500;
+
+font-style: normal;
+
+
+Halyard Micro SemiBold
+
+font-family: halyard-micro, sans-serif;
+
+font-weight: 600;
+
+font-style: normal;
+
+
+Halyard Micro SemiBold Italic
+
+font-family: halyard-micro, sans-serif;
+
+font-weight: 600;
+
+font-style: italic;
+
+
+Halyard Micro Bold Italic
+
+font-family: halyard-micro, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+
+Halyard Micro Bold
+
+font-family: halyard-micro, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Halyard Micro Black
+
+font-family: halyard-micro, sans-serif;
+
+font-weight: 900;
+
+font-style: normal;
+
+
+Halyard Micro Black Italic
+
+font-family: halyard-micro, sans-serif;
+
+font-weight: 900;
+
+font-style: italic;
+
+
+Halyard Text ExtraLight
+
+font-family: halyard-text, sans-serif;
+
+font-weight: 100;
+
+font-style: normal;
+
+
+Halyard Text ExtraLight Italic
+
+font-family: halyard-text, sans-serif;
+
+font-weight: 100;
+
+font-style: italic;
+
+
+Halyard Text Light Italic
+
+font-family: halyard-text, sans-serif;
+
+font-weight: 200;
+
+font-style: italic;
+
+
+Halyard Text Light
+
+font-family: halyard-text, sans-serif;
+
+font-weight: 200;
+
+font-style: normal;
+
+
+Halyard Text Book
+
+font-family: halyard-text, sans-serif;
+
+font-weight: 300;
+
+font-style: normal;
+
+
+Halyard Text Regular
+
+font-family: halyard-text, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Halyard Text Italic
+
+font-family: halyard-text, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Halyard Text Medium
+
+font-family: halyard-text, sans-serif;
+
+font-weight: 500;
+
+font-style: normal;
+
+
+Halyard Text Medium Italic
+
+font-family: halyard-text, sans-serif;
+
+font-weight: 500;
+
+font-style: italic;
+
+
+Halyard Text SemiBold Italic
+
+font-family: halyard-text, sans-serif;
+
+font-weight: 600;
+
+font-style: italic;
+
+
+Halyard Text SemiBold
+
+font-family: halyard-text, sans-serif;
+
+font-weight: 600;
+
+font-style: normal;
+
+
+Halyard Text Bold
+
+font-family: halyard-text, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Halyard Text Bold Italic
+
+font-family: halyard-text, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+*/
+
+.maps {
+    position: relative;
+    top: 30px;
+    right: 20px;
+    
+}
+
+#chicago-hispanic-pop {
+    position: absolute;
+    width: 660px;
+}
+
+#chicago-black-pop {
+    position: absolute;
+    width: 660px;
+    z-index: 1;
+}
+
+#chicago-covid19 {
+    position: absolute;
+    width: 660px;
+   
+    z-index: 99;
+}
+
+.buttons {
+    position: absolute;
+    flex-direction: column;
+    top: 40px;
+    left: 660px;
+    display: flex;
+/*    font-family: halyard-text, sans-serif;*/
+    color: #595959;
+
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+#covid19, 
+#black, 
+#hispanic,
+#white,
+#asian,
+#income,
+#foodstamps{
+    width: 140px;
+    height: 60px;
+    margin-bottom: 10px;
+    font-family: halyard-text, sans-serif;
+/*     font-family: 'Big Shoulders Display', cursive;*/
+    font-size:13px;;
+    font-weight: 400;
+    line-height: 15px;
+    color: #1d1d1d;
+    background-color: #c6c6c6;
+    border: none;
+    outline: none;
+    border-radius: 5px 5px 5px 5px;
+}
+ 
+#foodstamps:hover{
+    background-color: #ffffff;
+    
+}
+
+#income:hover{
+    background-color: #ffffff;
+    
+}
+
+#asian:hover{
+    background-color: #ffffff;
+    
+}
+
+#white:hover{
+    background-color: #ffffff;
+    
+}
+
+
+#hispanic:hover{
+    background-color: #ffffff;
+    
+}
+
+#black:hover{
+    background-color: #ffffff;
+    
+}
+
+#covid19:hover{
+    background-color: #ffffff;
+    
+}
+
+#covid19:focus{
+    background-color: #ffffff;
+}
+
+#black:focus{
+    background-color: #ffffff;
+}
+
+#hispanic:focus{
+    background-color: #ffffff;
+}
+
+#white:focus{
+    background-color: #ffffff;
+}
+
+#asian:focus{
+    background-color: #ffffff;
+}
+
+#income:focus{
+    background-color: #ffffff;
+}
+
+#foodstamps:focus{
+    background-color: #ffffff;
+}
+
+
+
+#chicago-black-pop.invisible,
+#chicago-hispanic-pop.invisible,
+#chicago-covid19.invisible {
+    /*    visibility: hidden;*/
+    z-index: 99;
+    opacity: 0;
+    transition: opacity .45s ease-in-out;
+    -moz-transition: opacity .45s ease-in-out;
+    /* Helps make sure transition works in Mozilla */
+    -webkit-transition: opacity .45s ease-in-out;
+    /* Helps make sure transition works in Chrome, Safari, etc.*/
+
+}
+
+
+/*General CSS coding*/
+
+body {
+    background-color: #808080;
+    margin: 0;
+}
+
+.container {
+    background-color: #ececec;
+    width: 1284px;
+    height: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+        /* Wanted to learn how I could center the entire iPad size webpage in the middle of the browser window no matter the size that said window (I didn't like it smushed all the way at the top with a bunch of negative space below). Lines 13-16 are inspired by the W3 School lesson below.
+
+https://www.w3.org/Style/Examples/007/center.en.html*/
+}
+
+
+/* Making the columns*/
+
+.info {
+    float: right;
+    width: 330px;
+    padding: 38px;
+    padding-top: 5px;
+    padding-right: 33px;
+    padding-bottom: 100%;
+    background: #f9f9f9;
+    border-top-color: #b3ddf2;
+}
+
+.family {
+    float: left;
+    width: 657px;
+    align-content: center;
+    position: absolute;
+    top: 20px;
+    left: 14px;
+
+}
+
+/* Left Column graphic comparison */
+
+.family {
+    position: relative;
+}
+
+.compare {
+    display: flex;
+    position: relative;
+}
+
+
+
+/* Right column CSS */
+
+.header h2 {
+    margin-top: 45px;
+    margin-bottom: -40px;
+    font-size: 80px;
+    line-height: 81px;
+    font-family: 'Big Shoulders Display', cursive;
+    
+
+}
+
+#chistar{
+    position: absolute;
+    width: 65px;
+    right:61px;
+    top: 139px;
+}
+
+.subhead h3 {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 22px;
+    line-height: 29px;
+    font-family: halyard-text, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.history {
+    margin-top: 0px;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: halyard-text, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.sources h4 {
+    
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.sources p {
+    font-family: halyard-text, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 12px;
+    margin
+}
