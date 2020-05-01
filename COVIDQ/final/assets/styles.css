@@ -500,10 +500,25 @@ font-style: italic;
 #chicago-asian-pop.invisible{
     /*    visibility: hidden;*/
     opacity: 0;
-    transition: opacity 2s ease-in-out;
-    -moz-transition: opacity .2s ease-in-out;
+    transition: opacity 45s ease-in-out;
+    -moz-transition: opacity .45s ease-in-out;
     /* Helps make sure transition works in Mozilla */
-    -webkit-transition: opacity 2s ease-in-out;
+    -webkit-transition: opacity .45s ease-in-out;
+    /* Helps make sure transition works in Chrome, Safari, etc.*/
+
+}
+
+#chicago-black-pop,
+#chicago-hispanic-pop,
+#chicago-covid19,
+#chicago-white-pop,
+#chicago-asian-pop{
+    /*    visibility: hidden;*/
+    opacity: 100;
+    transition: opacity .45s ease-in-out;
+    -moz-transition: opacity .45s ease-in-out;
+    /* Helps make sure transition works in Mozilla */
+    -webkit-transition: opacity .45s ease-in-out;
     /* Helps make sure transition works in Chrome, Safari, etc.*/
 
 }
