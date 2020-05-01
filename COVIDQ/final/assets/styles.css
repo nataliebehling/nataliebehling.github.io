@@ -357,11 +357,11 @@ font-style: italic;
     
 }
 
-#chicago-white-pop {
+
+#chicago-asian-pop {
     position: absolute;
     width: 660px;
 }
-
 
 #chicago-hispanic-pop {
     position: absolute;
@@ -379,6 +379,11 @@ font-style: italic;
     width: 660px;
    
     z-index: 99;
+}
+
+#chicago-white-pop {
+    position: absolute;
+    width: 660px;
 }
 
 .buttons {
@@ -486,7 +491,8 @@ font-style: italic;
 #chicago-black-pop.invisible,
 #chicago-hispanic-pop.invisible,
 #chicago-covid19.invisible,
-#chicago-white-pop.invisible{
+#chicago-white-pop.invisible,
+#chicago-asian-pop.invisible{
     /*    visibility: hidden;*/
     z-index: 99;
     opacity: 0;
