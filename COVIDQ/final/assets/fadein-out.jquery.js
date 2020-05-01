@@ -4,11 +4,22 @@ $(document).ready(function () {
     
     
     
-     $('#hispanic').click(function () {
+     $('#white').click(function () {
+        //ID or Class name of the modal you want to appear on click goes into this second area.
+        $("#chicago-black-pop").addClass("invisible");
+        $("#chicago-covid19").addClass("invisible");
+        $("#chicago-white-pop").removeClass("invisible");
+         $("#chicago-hispanic-pop").addClass("invisible");  
+         
+    });
+    
+    
+    $('#hispanic').click(function () {
         //ID or Class name of the modal you want to appear on click goes into this second area.
         $("#chicago-black-pop").addClass("invisible");
         $("#chicago-covid19").addClass("invisible");
              $("#chicago-hispanic-pop").removeClass("invisible");
+        $("#chicago-white-pop").addClass("invisible");
          
     });
     
@@ -18,6 +29,7 @@ $(document).ready(function () {
         $("#chicago-black-pop").removeClass("invisible");
         $("#chicago-covid19").addClass("invisible");
         $("#chicago-hispanic-pop").addClass("invisible");
+        $("#chicago-white-pop").addClass("invisible");
          
     });
     
@@ -26,6 +38,7 @@ $(document).ready(function () {
         $("#chicago-black-pop").addClass("invisible");
         $("#chicago-covid19").removeClass("invisible");
         $("#chicago-hispanic-pop").addClass("invisible");
+        $("#chicago-white-pop").addClass("invisible");
          
     });
 

@@ -357,6 +357,12 @@ font-style: italic;
     
 }
 
+#chicago-white-pop {
+    position: absolute;
+    width: 660px;
+}
+
+
 #chicago-hispanic-pop {
     position: absolute;
     width: 660px;
@@ -365,7 +371,7 @@ font-style: italic;
 #chicago-black-pop {
     position: absolute;
     width: 660px;
-    z-index: 1;
+    
 }
 
 #chicago-covid19 {
@@ -479,7 +485,8 @@ font-style: italic;
 
 #chicago-black-pop.invisible,
 #chicago-hispanic-pop.invisible,
-#chicago-covid19.invisible {
+#chicago-covid19.invisible,
+#chicago-white-pop.invisible{
     /*    visibility: hidden;*/
     z-index: 99;
     opacity: 0;
