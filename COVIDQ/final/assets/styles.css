@@ -354,6 +354,7 @@ font-style: italic;
     position: relative;
     top: 30px;
     right: 20px;
+     z-index: 1
     
 }
 
@@ -361,16 +362,24 @@ font-style: italic;
 #chicago-asian-pop{
     position: absolute;
     width: 660px;
+     z-index: 1
+}
+
+#chicago-white-pop {
+    position: absolute;
+    width: 660px;
 }
 
 #chicago-hispanic-pop {
     position: absolute;
     width: 660px;
+     z-index: 1
 }
 
 #chicago-black-pop {
     position: absolute;
     width: 660px;
+    z-index: 1
     
 }
 
@@ -381,10 +390,6 @@ font-style: italic;
     z-index: 99;
 }
 
-#chicago-white-pop {
-    position: absolute;
-    width: 660px;
-}
 
 .buttons {
     position: absolute;
@@ -494,12 +499,11 @@ font-style: italic;
 #chicago-white-pop.invisible,
 #chicago-asian-pop.invisible{
     /*    visibility: hidden;*/
-    z-index: 99;
     opacity: 0;
-    transition: opacity .45s ease-in-out;
-    -moz-transition: opacity .45s ease-in-out;
+    transition: opacity 2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
     /* Helps make sure transition works in Mozilla */
-    -webkit-transition: opacity .45s ease-in-out;
+    -webkit-transition: opacity 2s ease-in-out;
     /* Helps make sure transition works in Chrome, Safari, etc.*/
 
 }
