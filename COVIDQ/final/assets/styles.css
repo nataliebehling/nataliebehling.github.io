@@ -359,6 +359,20 @@ font-style: italic;
 }
 
 
+
+#chicago-foodstamps{
+    position: absolute;
+    width: 660px;
+     z-index: 1
+}
+
+#chicago-income{
+    position: absolute;
+    width: 660px;
+     z-index: 1
+}
+
+
 #chicago-asian-pop{
     position: absolute;
     width: 660px;
@@ -497,7 +511,9 @@ font-style: italic;
 #chicago-hispanic-pop.invisible,
 #chicago-covid19.invisible,
 #chicago-white-pop.invisible,
-#chicago-asian-pop.invisible{
+#chicago-asian-pop.invisible,
+#chicago-income.invisible,
+#chicago-foodstamps.invisible{
     /*    visibility: hidden;*/
     opacity: 0;
     transition: opacity 45s ease-in-out;
@@ -512,7 +528,9 @@ font-style: italic;
 #chicago-hispanic-pop,
 #chicago-covid19,
 #chicago-white-pop,
-#chicago-asian-pop{
+#chicago-asian-pop,
+#chicago-income,
+#chicago-foodstamps{
     /*    visibility: hidden;*/
     opacity: 100;
     transition: opacity .45s ease-in-out;
