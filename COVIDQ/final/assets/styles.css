@@ -354,64 +354,77 @@ font-style: italic;
     position: relative;
     top: 30px;
     right: 20px;
-     z-index: 1
-    
+    z-index: 1
 }
 
 
 
-#chicago-foodstamps{
+#chicago-foodstamps {
     position: absolute;
-    width: 660px;
-     z-index: 1
+    width: 670px;
+    z-index: 1;
+    left: -25px;
+    top: 10px;
+
 }
 
-#chicago-income{
+#chicago-income {
     position: absolute;
-    width: 660px;
-     z-index: 1
+    width: 670px;
+    z-index: 1;
+    left: -25px;
+    top: 10px;
 }
 
 
-#chicago-asian-pop{
+#chicago-asian-pop {
     position: absolute;
-    width: 660px;
-     z-index: 1
+    width: 670px;
+    z-index: 1;
+    left: -25px;
+    top: 10px;
 }
 
 #chicago-white-pop {
     position: absolute;
-    width: 660px;
+    width: 670px;
+    left: -25px;
+    top: 10px;
 }
 
 #chicago-hispanic-pop {
     position: absolute;
-    width: 660px;
-     z-index: 1
+    width: 670px;
+    z-index: 1;
+    left: -25px;
+    top: 10px;
 }
 
 #chicago-black-pop {
     position: absolute;
-    width: 660px;
-    z-index: 1
-    
+    width: 670px;
+    z-index: 1;
+    left: -25px;
+    top: 10px;
+
 }
 
 #chicago-covid19 {
     position: absolute;
-    width: 660px;
-   
+    width: 670px;
     z-index: 99;
+    left: -25px;
+    top: 10px;
 }
 
 
 .buttons {
     position: absolute;
     flex-direction: column;
-    top: 40px;
+    top: 47px;
     left: 660px;
     display: flex;
-/*    font-family: halyard-text, sans-serif;*/
+    /*    font-family: halyard-text, sans-serif;*/
     color: #595959;
 
     padding: 10px;
@@ -419,19 +432,20 @@ font-style: italic;
     outline: none;
 }
 
-#covid19, 
-#black, 
+#covid19,
+#black,
 #hispanic,
 #white,
 #asian,
 #income,
-#foodstamps{
+#foodstamps {
     width: 140px;
     height: 60px;
     margin-bottom: 10px;
     font-family: halyard-text, sans-serif;
-/*     font-family: 'Big Shoulders Display', cursive;*/
-    font-size:13px;;
+    /*     font-family: 'Big Shoulders Display', cursive;*/
+    font-size: 13px;
+    ;
     font-weight: 400;
     line-height: 15px;
     color: #1d1d1d;
@@ -440,68 +454,68 @@ font-style: italic;
     outline: none;
     border-radius: 5px 5px 5px 5px;
 }
- 
-#foodstamps:hover{
+
+#foodstamps:hover {
     background-color: #ffffff;
-    
+
 }
 
-#income:hover{
+#income:hover {
     background-color: #ffffff;
-    
+
 }
 
-#asian:hover{
+#asian:hover {
     background-color: #ffffff;
-    
+
 }
 
-#white:hover{
+#white:hover {
     background-color: #ffffff;
-    
+
 }
 
 
-#hispanic:hover{
+#hispanic:hover {
     background-color: #ffffff;
-    
+
 }
 
-#black:hover{
+#black:hover {
     background-color: #ffffff;
-    
+
 }
 
-#covid19:hover{
+#covid19:hover {
     background-color: #ffffff;
-    
+
 }
 
-#covid19:focus{
-    background-color: #ffffff;
-}
-
-#black:focus{
+#covid19:focus {
     background-color: #ffffff;
 }
 
-#hispanic:focus{
+#black:focus {
     background-color: #ffffff;
 }
 
-#white:focus{
+#hispanic:focus {
     background-color: #ffffff;
 }
 
-#asian:focus{
+#white:focus {
     background-color: #ffffff;
 }
 
-#income:focus{
+#asian:focus {
     background-color: #ffffff;
 }
 
-#foodstamps:focus{
+#income:focus {
+    background-color: #ffffff;
+}
+
+#foodstamps:focus {
     background-color: #ffffff;
 }
 
@@ -513,7 +527,12 @@ font-style: italic;
 #chicago-white-pop.invisible,
 #chicago-asian-pop.invisible,
 #chicago-income.invisible,
-#chicago-foodstamps.invisible{
+#chicago-foodstamps.invisible,
+#key-black-pop.invisible,
+#key-hispanic-pop.invisible,
+#key-white-pop.invisible,
+#key-asian-pop.invisible,
+#key-foodstamps.invisible{
     /*    visibility: hidden;*/
     opacity: 0;
     transition: opacity 45s ease-in-out;
@@ -530,7 +549,12 @@ font-style: italic;
 #chicago-white-pop,
 #chicago-asian-pop,
 #chicago-income,
-#chicago-foodstamps{
+#chicago-foodstamps,
+#key-black-pop,
+#key-hispanic-pop,
+#key-white-pop,
+#key-asian-pop,
+#key-foodstamps{
     /*    visibility: hidden;*/
     opacity: 100;
     transition: opacity .45s ease-in-out;
@@ -540,6 +564,20 @@ font-style: italic;
     /* Helps make sure transition works in Chrome, Safari, etc.*/
 
 }
+
+
+#key-black-pop,
+#key-hispanic-pop,
+#key-white-pop,
+#key-asian-pop,
+#key-foodstamps{
+    position: absolute;
+    width: 172px;
+    left: 659px;
+    top: 651px;
+}
+
+
 
 
 /*General CSS coding*/
@@ -581,7 +619,7 @@ https://www.w3.org/Style/Examples/007/center.en.html*/
     width: 657px;
     align-content: center;
     position: absolute;
-    top: 20px;
+    top: 10px;
     left: 14px;
 
 }
@@ -607,14 +645,14 @@ https://www.w3.org/Style/Examples/007/center.en.html*/
     font-size: 80px;
     line-height: 81px;
     font-family: 'Big Shoulders Display', cursive;
-    
+
 
 }
 
-#chistar{
+#chistar {
     position: absolute;
     width: 65px;
-    right:61px;
+    right: 61px;
     top: 139px;
 }
 
@@ -638,7 +676,7 @@ https://www.w3.org/Style/Examples/007/center.en.html*/
 }
 
 .sources h4 {
-    
+
     margin-top: 30px;
     margin-bottom: 15px;
     font-size: 25px;

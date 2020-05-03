@@ -14,6 +14,13 @@ $(document).ready(function () {
         $("#chicago-white-pop").addClass("invisible");
         $("#chicago-income").addClass("invisible");
         $("#chicago-foodstamps").removeClass("invisible");
+        
+        $("#key-black-pop").addClass("invisible");
+        $("#key-hispanic-pop").addClass("invisible");
+        $("#key-white-pop").addClass("invisible");
+        $("#key-asian-pop").addClass("invisible");
+        
+        $("#key-foodstamps").removeClass("invisible");
 
     });
 
@@ -26,6 +33,13 @@ $(document).ready(function () {
         $("#chicago-white-pop").addClass("invisible");
         $("#chicago-income").removeClass("invisible");
         $("#chicago-foodstamps").addClass("invisible");
+        
+        $("#key-black-pop").addClass("invisible");
+        $("#key-hispanic-pop").addClass("invisible");
+        $("#key-white-pop").addClass("invisible");
+        $("#key-asian-pop").addClass("invisible");
+        
+        $("#key-foodstamps").addClass("invisible");
 
     });
 
@@ -39,6 +53,13 @@ $(document).ready(function () {
         $("#chicago-white-pop").addClass("invisible");
         $("#chicago-income").addClass("invisible");
         $("#chicago-foodstamps").addClass("invisible");
+        
+        $("#key-black-pop").addClass("invisible");
+        $("#key-hispanic-pop").addClass("invisible");
+        $("#key-white-pop").addClass("invisible");
+        $("#key-asian-pop").removeClass("invisible");
+        
+        $("#key-foodstamps").addClass("invisible");
 
     });
 
@@ -53,6 +74,13 @@ $(document).ready(function () {
         $("#chicago-asian-pop").addClass("invisible");
         $("#chicago-income").addClass("invisible");
         $("#chicago-foodstamps").addClass("invisible");
+        
+        $("#key-black-pop").addClass("invisible");
+        $("#key-hispanic-pop").addClass("invisible");
+        $("#key-white-pop").removeClass("invisible");
+        $("#key-asian-pop").addClass("invisible");
+        
+        $("#key-foodstamps").addClass("invisible");
 
     });
 
@@ -66,6 +94,14 @@ $(document).ready(function () {
         $("#chicago-asian-pop").addClass("invisible");
         $("#chicago-income").addClass("invisible");
         $("#chicago-foodstamps").addClass("invisible");
+        
+        $("#key-black-pop").addClass("invisible");
+        $("#key-hispanic-pop").removeClass("invisible");
+        $("#key-white-pop").addClass("invisible");
+        $("#key-asian-pop").addClass("invisible");
+        
+        $("#key-foodstamps").addClass("invisible");
+        
 
     });
 
@@ -79,6 +115,13 @@ $(document).ready(function () {
         $("#chicago-asian-pop").addClass("invisible");
         $("#chicago-income").addClass("invisible");
         $("#chicago-foodstamps").addClass("invisible");
+        
+        $("#key-black-pop").removeClass("invisible");
+        $("#key-hispanic-pop").addClass("invisible");
+        $("#key-white-pop").addClass("invisible");
+        $("#key-asian-pop").addClass("invisible");
+        
+        $("#key-foodstamps").addClass("invisible");
 
     });
 
@@ -91,6 +134,13 @@ $(document).ready(function () {
         $("#chicago-asian-pop").addClass("invisible");
         $("#chicago-income").addClass("invisible");
         $("#chicago-foodstamps").addClass("invisible");
+        
+        $("#key-black-pop").addClass("invisible");
+        $("#key-hispanic-pop").addClass("invisible");
+        $("#key-white-pop").addClass("invisible");
+        $("#key-asian-pop").addClass("invisible");
+        
+        $("#key-foodstamps").addClass("invisible");
 
     });
 
