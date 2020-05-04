@@ -353,7 +353,7 @@ font-style: italic;
 .maps {
     position: relative;
     top: 30px;
-    right: 20px;
+    right: 5px;
     z-index: 1
 }
 
@@ -361,7 +361,7 @@ font-style: italic;
 
 #chicago-foodstamps {
     position: absolute;
-    width: 670px;
+    width: 680px;
     z-index: 1;
     left: -25px;
     top: 10px;
@@ -370,7 +370,7 @@ font-style: italic;
 
 #chicago-income {
     position: absolute;
-    width: 670px;
+    width: 680px;
     z-index: 1;
     left: -25px;
     top: 10px;
@@ -379,7 +379,7 @@ font-style: italic;
 
 #chicago-asian-pop {
     position: absolute;
-    width: 670px;
+    width: 680px;
     z-index: 1;
     left: -25px;
     top: 10px;
@@ -387,14 +387,14 @@ font-style: italic;
 
 #chicago-white-pop {
     position: absolute;
-    width: 670px;
+    width: 680px;
     left: -25px;
     top: 10px;
 }
 
 #chicago-hispanic-pop {
     position: absolute;
-    width: 670px;
+    width: 680px;
     z-index: 1;
     left: -25px;
     top: 10px;
@@ -402,7 +402,7 @@ font-style: italic;
 
 #chicago-black-pop {
     position: absolute;
-    width: 670px;
+    width: 680px;
     z-index: 1;
     left: -25px;
     top: 10px;
@@ -411,7 +411,7 @@ font-style: italic;
 
 #chicago-covid19 {
     position: absolute;
-    width: 670px;
+    width: 680px;
     z-index: 99;
     left: -25px;
     top: 10px;
@@ -528,10 +528,12 @@ font-style: italic;
 #chicago-asian-pop.invisible,
 #chicago-income.invisible,
 #chicago-foodstamps.invisible,
+#key-covid19.invisible,
 #key-black-pop.invisible,
 #key-hispanic-pop.invisible,
 #key-white-pop.invisible,
 #key-asian-pop.invisible,
+#key-income.invisible,
 #key-foodstamps.invisible{
     /*    visibility: hidden;*/
     opacity: 0;
@@ -550,10 +552,12 @@ font-style: italic;
 #chicago-asian-pop,
 #chicago-income,
 #chicago-foodstamps,
+#key-covid19,
 #key-black-pop,
 #key-hispanic-pop,
 #key-white-pop,
 #key-asian-pop,
+#key-income,
 #key-foodstamps{
     /*    visibility: hidden;*/
     opacity: 100;
@@ -566,15 +570,17 @@ font-style: italic;
 }
 
 
+#key-covid19,
 #key-black-pop,
 #key-hispanic-pop,
 #key-white-pop,
 #key-asian-pop,
+#key-income,
 #key-foodstamps{
     position: absolute;
     width: 172px;
-    left: 659px;
-    top: 651px;
+    left: 668px;
+    top: 660px;
 }
 
 
@@ -616,7 +622,7 @@ https://www.w3.org/Style/Examples/007/center.en.html*/
 
 .family {
     float: left;
-    width: 657px;
+    width: 677px;
     align-content: center;
     position: absolute;
     top: 10px;
