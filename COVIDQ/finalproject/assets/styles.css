@@ -445,7 +445,7 @@ font-style: italic;
     font-family: halyard-text, sans-serif;
     /*     font-family: 'Big Shoulders Display', cursive;*/
     font-size: 13px;
-    ;
+    color: #2f2f2f;
     font-weight: 400;
     line-height: 15px;
     color: #1d1d1d;
@@ -656,6 +656,7 @@ https://www.w3.org/Style/Examples/007/center.en.html*/
     font-size: 80px;
     line-height: 84px;
     font-family: 'Big Shoulders Display', cursive;
+    color: #2f2f2f;
 
 
 }
@@ -675,6 +676,8 @@ https://www.w3.org/Style/Examples/007/center.en.html*/
     font-family: halyard-text, sans-serif;
     font-weight: 200;
     font-style: normal;
+    color: #2f2f2f;
+    
 }
 
 .history {
@@ -684,6 +687,7 @@ https://www.w3.org/Style/Examples/007/center.en.html*/
     font-family: halyard-text, sans-serif;
     font-weight: 100;
     font-style: normal;
+    color: #2f2f2f;
 }
 
 .sources h4 {
@@ -692,6 +696,7 @@ https://www.w3.org/Style/Examples/007/center.en.html*/
     margin-bottom: 15px;
     font-size: 25px;
     font-family: 'Big Shoulders Display', cursive;
+    color: #2f2f2f;
 }
 
 .sources p {
@@ -699,5 +704,5 @@ https://www.w3.org/Style/Examples/007/center.en.html*/
     font-weight: 200;
     font-style: normal;
     font-size: 12px;
-    margin
+    color: #2f2f2f;
 }
