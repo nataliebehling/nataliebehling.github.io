@@ -583,6 +583,12 @@ font-style: italic;
     top: 639px;
 }
 
+#note{
+    font-size: 13px;
+    line-height: 16px;
+    font-style: italic;
+}
+
 
 
 /*General CSS coding*/
@@ -648,7 +654,7 @@ https://www.w3.org/Style/Examples/007/center.en.html*/
     margin-top: 45px;
     margin-bottom: -40px;
     font-size: 80px;
-    line-height: 81px;
+    line-height: 84px;
     font-family: 'Big Shoulders Display', cursive;
 
 
@@ -657,7 +663,7 @@ https://www.w3.org/Style/Examples/007/center.en.html*/
 #chistar {
     position: absolute;
     width: 65px;
-    right: 61px;
+    right: 65px;
     top: 139px;
 }
 
@@ -682,7 +688,7 @@ https://www.w3.org/Style/Examples/007/center.en.html*/
 
 .sources h4 {
 
-    margin-top: 30px;
+    margin-top: 42px;
     margin-bottom: 15px;
     font-size: 25px;
     font-family: 'Big Shoulders Display', cursive;
