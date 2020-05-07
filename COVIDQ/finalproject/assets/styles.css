@@ -350,6 +350,8 @@ font-style: italic;
 
 */
 
+html,body{overflow-y: scroll; }
+
 .maps {
     position: relative;
     top: 30px;
